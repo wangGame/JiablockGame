@@ -1,0 +1,876 @@
+{
+  "ID": "81d4f66e-5ea9-4455-a84a-e88b7d95da07",
+  "Version": "3.10.0.0",
+  "Name": "BsViewO",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 387,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5
+            },
+            "Position": {
+              "X": 540.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.9352,
+              "Y": 0.7396
+            },
+            "LeftMargin": 35.0,
+            "RightMargin": 35.0,
+            "TopMargin": 500.0,
+            "Tag": 399,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 505.0,
+                  "Y": 385.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.2711
+                },
+                "PreSize": {
+                  "X": 0.9307,
+                  "Y": 0.4704
+                },
+                "LeftMargin": 35.0,
+                "RightMargin": 35.0,
+                "TopMargin": 367.0,
+                "BottomMargin": 385.0,
+                "Tag": 323,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "BsViewO/1_bg.png",
+                      "Plist": "plistAll/bisaiOnePlist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 52,
+                    "Scale9OriginY": 60,
+                    "Scale9Width": 46,
+                    "Scale9Height": 30,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 13.0,
+                      "Y": 24.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0138,
+                      "Y": 0.0359
+                    },
+                    "PreSize": {
+                      "X": 0.9723,
+                      "Y": 0.9566
+                    },
+                    "LeftMargin": 13.0,
+                    "RightMargin": 13.0,
+                    "TopMargin": 5.0,
+                    "BottomMargin": 24.0,
+                    "Tag": 1318,
+                    "ActionTag": 1745858663,
+                    "Size": {
+                      "X": 914.0,
+                      "Y": 639.0
+                    },
+                    "Name": "infobgimg",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 469.0,
+                      "Y": 510.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4989,
+                      "Y": 0.7635
+                    },
+                    "PreSize": {
+                      "X": 0.2128,
+                      "Y": 0.2994
+                    },
+                    "LeftMargin": 369.0,
+                    "RightMargin": 371.0,
+                    "TopMargin": 58.0,
+                    "BottomMargin": 410.0,
+                    "Tag": 403,
+                    "Children": [
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9Width": 1,
+                        "Scale9Height": 1,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 100.0,
+                          "Y": 100.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 1.0
+                        },
+                        "Tag": 428,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "BsViewO/icon_draw.png",
+                              "Plist": "plistAll/bisaiOnePlist.plist"
+                            },
+                            "Scale9OriginX": 35,
+                            "Scale9OriginY": 27,
+                            "Scale9Width": 27,
+                            "Scale9Height": 40,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 100.0,
+                              "Y": 100.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "LeftMargin": 50.0,
+                            "RightMargin": 50.0,
+                            "TopMargin": 50.0,
+                            "BottomMargin": 50.0,
+                            "Tag": 429,
+                            "ActionTag": -295174137,
+                            "Size": {
+                              "X": 100.0,
+                              "Y": 100.0
+                            },
+                            "Name": "Image_3",
+                            "ctype": "ImageViewObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "BsViewO/frm_blue.png",
+                              "Plist": "plistAll/bisaiOnePlist.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 100.0,
+                              "Y": 100.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 1.0,
+                              "Y": 1.0
+                            },
+                            "Tag": 392,
+                            "ActionTag": 1068862280,
+                            "Size": {
+                              "X": 200.0,
+                              "Y": 200.0
+                            },
+                            "Name": "frm_blue_2",
+                            "ctype": "SpriteObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "BsViewO/shader_avatar.png",
+                              "Plist": "plistAll/bisaiOnePlist.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 100.0,
+                              "Y": 97.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.485
+                            },
+                            "PreSize": {
+                              "X": 1.13,
+                              "Y": 1.13
+                            },
+                            "LeftMargin": -13.0,
+                            "RightMargin": -13.0,
+                            "TopMargin": -10.0,
+                            "BottomMargin": -16.0,
+                            "Tag": 694,
+                            "ActionTag": -1578501356,
+                            "Size": {
+                              "X": 226.0,
+                              "Y": 226.0
+                            },
+                            "Name": "shader_avatar",
+                            "ctype": "SpriteObjectData"
+                          }
+                        ],
+                        "ActionTag": 679895147,
+                        "Size": {
+                          "X": 200.0,
+                          "Y": 200.0
+                        },
+                        "Name": "info",
+                        "ctype": "PanelObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "BsViewO/probg.png",
+                          "Plist": "plistAll/bisaiOnePlist.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 34,
+                        "Scale9OriginY": 24,
+                        "Scale9Width": 38,
+                        "Scale9Height": 26,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 100.0,
+                          "Y": -158.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": -0.79
+                        },
+                        "PreSize": {
+                          "X": 3.725,
+                          "Y": 0.37
+                        },
+                        "LeftMargin": -272.5,
+                        "RightMargin": -272.5,
+                        "TopMargin": 321.0,
+                        "BottomMargin": -195.0,
+                        "Tag": 26,
+                        "ActionTag": -1910472880,
+                        "Size": {
+                          "X": 745.0,
+                          "Y": 74.0
+                        },
+                        "Name": "probg",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "BsViewO/process.png",
+                          "Plist": "plistAll/bisaiOnePlist.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 16,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 59,
+                        "Scale9Height": 22,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": -258.0,
+                          "Y": -154.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -1.29,
+                          "Y": -0.77
+                        },
+                        "PreSize": {
+                          "X": 3.58,
+                          "Y": 0.22
+                        },
+                        "LeftMargin": -258.0,
+                        "RightMargin": -258.0,
+                        "TopMargin": 332.0,
+                        "BottomMargin": -176.0,
+                        "Tag": 404,
+                        "ActionTag": -1287910807,
+                        "Size": {
+                          "X": 716.0,
+                          "Y": 44.0
+                        },
+                        "Name": "proccess",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "LabelText": "170/250",
+                        "LabelBMFontFile_CNB": {
+                          "Type": "Normal",
+                          "Path": "newFont/Manrope-Bold_80_1.fnt",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 98.0,
+                          "Y": -60.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 73,
+                          "G": 235
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.49,
+                          "Y": -0.3
+                        },
+                        "PreSize": {
+                          "X": 1.565,
+                          "Y": 0.55
+                        },
+                        "LeftMargin": -58.5,
+                        "RightMargin": -54.5,
+                        "TopMargin": 205.0,
+                        "BottomMargin": -115.0,
+                        "Tag": 144,
+                        "ActionTag": -181711295,
+                        "Size": {
+                          "X": 313.0,
+                          "Y": 110.0
+                        },
+                        "Name": "scoreLabel",
+                        "ctype": "TextBMFontObjectData"
+                      }
+                    ],
+                    "ActionTag": -2032285813,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 200.0
+                    },
+                    "Name": "userPanel",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "BsViewO/tournament_.png",
+                      "Plist": "plistAll/bisaiOnePlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 466.0,
+                      "Y": 125.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4957,
+                      "Y": 0.1871
+                    },
+                    "PreSize": {
+                      "X": 0.8511,
+                      "Y": 0.0943
+                    },
+                    "LeftMargin": 66.0,
+                    "RightMargin": 74.0,
+                    "TopMargin": 511.5,
+                    "BottomMargin": 93.5,
+                    "Tag": 395,
+                    "ActionTag": 1055584507,
+                    "Size": {
+                      "X": 800.0,
+                      "Y": 63.0
+                    },
+                    "Name": "tournament",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -150497252,
+                "Size": {
+                  "X": 940.0,
+                  "Y": 668.0
+                },
+                "Name": "middle",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "BsViewO/Welcome to.png",
+                  "Plist": "plistAll/bisaiOnePlist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 505.0,
+                  "Y": 1284.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9042
+                },
+                "PreSize": {
+                  "X": 0.3772,
+                  "Y": 0.0387
+                },
+                "LeftMargin": 314.5,
+                "RightMargin": 314.5,
+                "TopMargin": 108.5,
+                "BottomMargin": 1256.5,
+                "Tag": 396,
+                "ActionTag": 1200746459,
+                "Size": {
+                  "X": 381.0,
+                  "Y": 55.0
+                },
+                "Name": "Welcometo",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.6
+                },
+                "Position": {
+                  "X": 506.0,
+                  "Y": 161.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.501,
+                  "Y": 0.1134
+                },
+                "PreSize": {
+                  "X": 0.6337,
+                  "Y": 0.1296
+                },
+                "LeftMargin": 186.0,
+                "RightMargin": 184.0,
+                "TopMargin": 1185.4,
+                "BottomMargin": 50.6,
+                "Tag": 397,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "BsViewO/com_btn_green.png",
+                      "Plist": "plistAll/bisaiOnePlist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 60,
+                    "Scale9OriginY": 60,
+                    "Scale9Width": 66,
+                    "Scale9Height": 66,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0109
+                    },
+                    "TopMargin": -2.0,
+                    "Tag": 398,
+                    "ActionTag": -2068542881,
+                    "Size": {
+                      "X": 640.0,
+                      "Y": 186.0
+                    },
+                    "Name": "btnBg",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "LabelText": "Play 1/2",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "newFont/Manrope-ExtraBold_68_1.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 368.0,
+                      "Y": 106.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.575,
+                      "Y": 0.5761
+                    },
+                    "PreSize": {
+                      "X": 0.4016,
+                      "Y": 0.5109
+                    },
+                    "LeftMargin": 239.5,
+                    "RightMargin": 143.5,
+                    "TopMargin": 31.0,
+                    "BottomMargin": 59.0,
+                    "Tag": 400,
+                    "ActionTag": -893255219,
+                    "Size": {
+                      "X": 257.0,
+                      "Y": 94.0
+                    },
+                    "Name": "btnLabel",
+                    "ctype": "TextBMFontObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "BsViewO/icon_draw.png",
+                      "Plist": "plistAll/bisaiOnePlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 167.0,
+                      "Y": 98.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2609,
+                      "Y": 0.5326
+                    },
+                    "PreSize": {
+                      "X": 0.1516,
+                      "Y": 0.5109
+                    },
+                    "LeftMargin": 118.5,
+                    "RightMargin": 424.5,
+                    "TopMargin": 39.0,
+                    "BottomMargin": 51.0,
+                    "Tag": 410,
+                    "ActionTag": 248288803,
+                    "Size": {
+                      "X": 97.0,
+                      "Y": 94.0
+                    },
+                    "Name": "icon_draw",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1450707210,
+                "Size": {
+                  "X": 640.0,
+                  "Y": 184.0
+                },
+                "Name": "playBtn",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "LabelText": "Paris",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "newFont/cf2/Manrope-Bold_76_1.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 505.0,
+                  "Y": 1193.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8401
+                },
+                "PreSize": {
+                  "X": 0.1782,
+                  "Y": 0.0732
+                },
+                "LeftMargin": 415.0,
+                "RightMargin": 415.0,
+                "TopMargin": 175.0,
+                "BottomMargin": 1141.0,
+                "Tag": 408,
+                "ActionTag": -936625966,
+                "Size": {
+                  "X": 180.0,
+                  "Y": 104.0
+                },
+                "Name": "cityLabel",
+                "ctype": "TextBMFontObjectData"
+              }
+            ],
+            "ActionTag": -975140636,
+            "Size": {
+              "X": 1010.0,
+              "Y": 1420.0
+            },
+            "Name": "RootView",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "newFont/cf2/Manrope-Bold_76_1.fnt",
+        "newFont/cf2/Manrope-Bold_76_1.png",
+        "newFont/Manrope-Bold_80_1.fnt",
+        "newFont/Manrope-Bold_80_1.png",
+        "newFont/Manrope-ExtraBold_68_1.fnt",
+        "newFont/Manrope-ExtraBold_68_1.png",
+        "plistAll/bisaiOnePlist.plist",
+        "plistAll/bisaiOnePlist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

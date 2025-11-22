@@ -1,0 +1,828 @@
+{
+  "ID": "77631b03-f926-43cf-8d2f-f80ff658a39f",
+  "Version": "3.10.0.0",
+  "Name": "QualifiedLost",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 258,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 2231,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "success/lanjsbg.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 543.6315,
+                  "Y": 961.2108
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5034,
+                  "Y": 0.5006
+                },
+                "PreSize": {
+                  "X": 1.3333,
+                  "Y": 1.125
+                },
+                "LeftMargin": -176.3685,
+                "RightMargin": -183.6315,
+                "TopMargin": -121.2108,
+                "BottomMargin": -118.7892,
+                "Tag": 503,
+                "ActionTag": 1083110389,
+                "Size": {
+                  "X": 1440.0,
+                  "Y": 2160.0
+                },
+                "Name": "lanjsbg_6",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 540.0,
+                  "Y": 539.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.2807
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.4302
+                },
+                "TopMargin": 555.0,
+                "BottomMargin": 539.0,
+                "Tag": 2232,
+                "Children": [
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 540.0,
+                      "Y": 795.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.9625
+                    },
+                    "PreSize": {
+                      "X": 0.1852,
+                      "Y": 0.2421
+                    },
+                    "LeftMargin": 440.0,
+                    "RightMargin": 440.0,
+                    "TopMargin": -69.0,
+                    "BottomMargin": 695.0,
+                    "Tag": 2233,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "QuarterLost/avatar1.png",
+                          "Plist": "plistAll/QuarterLost.plist"
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 100.0,
+                          "Y": 100.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.725,
+                          "Y": 0.805
+                        },
+                        "LeftMargin": 27.5,
+                        "RightMargin": 27.5,
+                        "TopMargin": 19.5,
+                        "BottomMargin": 19.5,
+                        "Tag": 2234,
+                        "ActionTag": -234989109,
+                        "Size": {
+                          "X": 145.0,
+                          "Y": 161.0
+                        },
+                        "Name": "avatar",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "QuarterLost/frm_blue.png",
+                          "Plist": "plistAll/QuarterLost.plist"
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 100.0,
+                          "Y": 100.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 1.0
+                        },
+                        "Tag": 2235,
+                        "ActionTag": -1126909192,
+                        "Size": {
+                          "X": 200.0,
+                          "Y": 200.0
+                        },
+                        "Name": "frm_blue",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "QuarterLost/shader_avatar.png",
+                          "Plist": "plistAll/QuarterLost.plist"
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 100.0,
+                          "Y": 97.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.485
+                        },
+                        "PreSize": {
+                          "X": 1.13,
+                          "Y": 1.13
+                        },
+                        "LeftMargin": -13.0,
+                        "RightMargin": -13.0,
+                        "TopMargin": -10.0,
+                        "BottomMargin": -16.0,
+                        "Tag": 919,
+                        "ActionTag": 665994911,
+                        "Size": {
+                          "X": 226.0,
+                          "Y": 226.0
+                        },
+                        "Name": "shader_avatar_1",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": 1306204488,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 200.0
+                    },
+                    "Name": "UserPanel",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 328.9377,
+                      "Y": 534.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3046,
+                      "Y": 0.6465
+                    },
+                    "PreSize": {
+                      "X": 0.387,
+                      "Y": 0.1622
+                    },
+                    "LeftMargin": 328.9377,
+                    "RightMargin": 333.0623,
+                    "TopMargin": 158.0,
+                    "BottomMargin": 534.0,
+                    "Tag": 2238,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "QuarterLost/frm_score_1.png",
+                          "Plist": "plistAll/QuarterLost.plist"
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 209.0,
+                          "Y": 67.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 1.0
+                        },
+                        "Tag": 2239,
+                        "ActionTag": -218119944,
+                        "Size": {
+                          "X": 418.0,
+                          "Y": 134.0
+                        },
+                        "Name": "frm_score_1_2",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "LabelText": "120/200",
+                        "LabelBMFontFile_CNB": {
+                          "Type": "Normal",
+                          "Path": "newFont/Manrope-Bold_92_1.fnt",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 209.0,
+                          "Y": 69.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.93,
+                          "ScaleY": 0.93
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5149
+                        },
+                        "PreSize": {
+                          "X": 0.8134,
+                          "Y": 0.9478
+                        },
+                        "LeftMargin": 39.0,
+                        "RightMargin": 39.0,
+                        "TopMargin": 1.5,
+                        "BottomMargin": 5.5,
+                        "Tag": 2240,
+                        "ActionTag": 1462704128,
+                        "Size": {
+                          "X": 340.0,
+                          "Y": 127.0
+                        },
+                        "Name": "quaLostScore",
+                        "ctype": "TextBMFontObjectData"
+                      }
+                    ],
+                    "ActionTag": 549653853,
+                    "Size": {
+                      "X": 418.0,
+                      "Y": 134.0
+                    },
+                    "Name": "scorePanel",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "QuarterLost/Almosthadit.png",
+                      "Plist": "plistAll/QuarterLost.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 540.0,
+                      "Y": 461.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5581
+                    },
+                    "PreSize": {
+                      "X": 0.4093,
+                      "Y": 0.069
+                    },
+                    "LeftMargin": 319.0,
+                    "RightMargin": 319.0,
+                    "TopMargin": 336.5,
+                    "BottomMargin": 432.5,
+                    "Tag": 2249,
+                    "ActionTag": 1099358814,
+                    "Size": {
+                      "X": 442.0,
+                      "Y": 57.0
+                    },
+                    "Name": "Congratulation",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 501024902,
+                "Size": {
+                  "X": 1080.0,
+                  "Y": 826.0
+                },
+                "Name": "contentPanel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 540.0,
+                  "Y": 350.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1823
+                },
+                "PreSize": {
+                  "X": 0.6815,
+                  "Y": 0.3833
+                },
+                "LeftMargin": 172.0,
+                "RightMargin": 172.0,
+                "TopMargin": 834.0,
+                "BottomMargin": 350.0,
+                "Tag": 563,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "QuarterLost/light2.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 368.0,
+                      "Y": 368.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 562,
+                    "ActionTag": -633429314,
+                    "Size": {
+                      "X": 736.0,
+                      "Y": 736.0
+                    },
+                    "Name": "light2_1",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "QuarterLost/emoji.png",
+                      "Plist": "plistAll/QuarterLost.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 368.0,
+                      "Y": 368.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.4416,
+                      "Y": 0.3967
+                    },
+                    "LeftMargin": 205.5,
+                    "RightMargin": 205.5,
+                    "TopMargin": 222.0,
+                    "BottomMargin": 222.0,
+                    "Tag": 2241,
+                    "ActionTag": 857734961,
+                    "Size": {
+                      "X": 325.0,
+                      "Y": 292.0
+                    },
+                    "Name": "icon_bisai_award_3_5",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1788732312,
+                "Size": {
+                  "X": 736.0,
+                  "Y": 736.0
+                },
+                "Name": "emoji",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 540.0,
+                  "Y": 362.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1885
+                },
+                "PreSize": {
+                  "X": 0.5926,
+                  "Y": 0.0969
+                },
+                "LeftMargin": 220.0,
+                "RightMargin": 220.0,
+                "TopMargin": 1465.0,
+                "BottomMargin": 269.0,
+                "Tag": 2246,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "QuarterLost/com_btn_yellow_bg.png",
+                      "Plist": "plistAll/QuarterLost.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 60,
+                    "Scale9OriginY": 60,
+                    "Scale9Width": 66,
+                    "Scale9Height": 66,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 2247,
+                    "ActionTag": -898063211,
+                    "Size": {
+                      "X": 640.0,
+                      "Y": 186.0
+                    },
+                    "Name": "Image_2",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "QuarterLost/Back.png",
+                      "Plist": "plistAll/QuarterLost.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 324.0,
+                      "Y": 99.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5063,
+                      "Y": 0.5323
+                    },
+                    "PreSize": {
+                      "X": 0.2625,
+                      "Y": 0.3441
+                    },
+                    "LeftMargin": 240.0,
+                    "RightMargin": 232.0,
+                    "TopMargin": 55.0,
+                    "BottomMargin": 67.0,
+                    "Tag": 2248,
+                    "ActionTag": 1918716122,
+                    "Size": {
+                      "X": 168.0,
+                      "Y": 64.0
+                    },
+                    "Name": "NextMatchF_20",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 985628042,
+                "Size": {
+                  "X": 640.0,
+                  "Y": 186.0
+                },
+                "Name": "collectBtn",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": 241985071,
+            "Size": {
+              "X": 1080.0,
+              "Y": 1920.0
+            },
+            "Name": "RootView",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "newFont/Manrope-Bold_92_1.fnt",
+        "newFont/Manrope-Bold_92_1.png",
+        "plistAll/QuarterLost.plist",
+        "plistAll/QuarterLost.png",
+        "QuarterLost/light2.png",
+        "success/lanjsbg.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

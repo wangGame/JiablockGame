@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>leagueresnew/All Fives.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1054,476},{251,59}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{251,59}</string>
+			</dict>
+			<key>leagueresnew/AllFivesHui.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1309,476},{238,45}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{238,45}</string>
+			</dict>
+			<key>leagueresnew/Block.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1551,476},{172,59}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{172,59}</string>
+			</dict>
+			<key>leagueresnew/BlockHui.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{866,1028},{159,45}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{159,45}</string>
+			</dict>
+			<key>leagueresnew/Draw.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{920,802},{159,59}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{159,59}</string>
+			</dict>
+			<key>leagueresnew/DrawHui.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1276,970},{146,45}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{146,45}</string>
+			</dict>
+			<key>leagueresnew/icon.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1944,476},{62,65}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{62,65}</string>
+			</dict>
+			<key>leagueresnew/icon_arrows_green.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{820,981},{42,55}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{42,55}</string>
+			</dict>
+			<key>leagueresnew/icon_arrows_red.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1955,705},{42,55}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{42,55}</string>
+			</dict>
+			<key>leagueresnew/icon_leagues_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{470,470}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{470,470}</string>
+			</dict>
+			<key>leagueresnew/icon_leagues_3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,476},{470,470}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{470,470}</string>
+			</dict>
+			<key>leagueresnew/icon_leagues_4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,950},{470,470}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{470,470}</string>
+			</dict>
+			<key>leagueresnew/icon_leagues_5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,1424},{470,470}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{470,470}</string>
+			</dict>
+			<key>leagueresnew/icon_leagues_6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1086,2},{470,470}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{470,470}</string>
+			</dict>
+			<key>leagueresnew/icon_leagues_7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1560,2},{470,470}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{470,470}</string>
+			</dict>
+			<key>leagueresnew/icon_left.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{950,2},{106,106}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{106,106}</string>
+			</dict>
+			<key>leagueresnew/icon_left_hui.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{950,112},{106,106}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{106,106}</string>
+			</dict>
+			<key>leagueresnew/icon_people.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{820,927},{72,50}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{72,50}</string>
+			</dict>
+			<key>leagueresnew/icon_return.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{820,762},{96,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{96,84}</string>
+			</dict>
+			<key>leagueresnew/icon_right.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{950,222},{106,106}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{106,106}</string>
+			</dict>
+			<key>leagueresnew/icon_right_hui.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{950,332},{106,106}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{106,106}</string>
+			</dict>
+			<key>leagueresnew/itembg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{476,476},{470,282}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{470,282}</string>
+			</dict>
+			<key>leagueresnew/Prize Pool.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2002},{222,41}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{222,41}</string>
+			</dict>
+			<key>leagueresnew/select.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1086,705},{340,190}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{340,190}</string>
+			</dict>
+			<key>leagueresnew/shader_leagues.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,1898},{1080,100}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{1080,100}</string>
+			</dict>
+			<key>leagueresnew/unselect.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1430,705},{331,184}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{331,184}</string>
+			</dict>
+			<key>leagueresnew/1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1066,899},{249,67}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{249,67}</string>
+			</dict>
+			<key>leagueresnew/com_btn_green_3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1765,705},{186,186}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{186,186}</string>
+			</dict>
+			<key>leagueresnew/Entry Fee.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1727,476},{213,47}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{213,47}</string>
+			</dict>
+			<key>leagueresnew/icon_leagues_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{476,2},{470,470}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{470,470}</string>
+			</dict>
+			<key>leagueresnew/select2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{476,762},{340,190}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{340,190}</string>
+			</dict>
+			<key>leagueresnew/select3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{476,956},{340,190}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{340,190}</string>
+			</dict>
+			<key>leagueresnew/Unlock at.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1029,1049},{363,67}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{363,67}</string>
+			</dict>
+			<key>leagueresnew/frm_bg_lgs.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{897,865},{165,159}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{165,159}</string>
+			</dict>
+			<key>leagueresnew/shader_lgs.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{950,442},{100,100}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,100}</string>
+			</dict>
+			<key>league/Finished_.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1823,974},{219,45}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{219,45}</string>
+			</dict>
+			<key>leagueresnew/icon_money.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{950,705},{93,93}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{93,93}</string>
+			</dict>
+			<key>leagueresnew/icon_money_smla.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{820,850},{73,73}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{73,73}</string>
+			</dict>
+			<key>leagueresnew/di2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{950,546},{1071,155}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{1071,155}</string>
+			</dict>
+			<key>leagueresnew/lv15.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1620,974},{199,75}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{199,75}</string>
+			</dict>
+			<key>leagueresnew/lv30.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{820,1077},{205,75}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{205,75}</string>
+			</dict>
+			<key>leagueresnew/lv45.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1620,895},{204,75}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{204,75}</string>
+			</dict>
+			<key>leagueresnew/lv60.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1066,970},{206,75}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{206,75}</string>
+			</dict>
+			<key>leagueresnew/lv75.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1828,895},{202,75}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{202,75}</string>
+			</dict>
+			<key>leagueresnew/lv90.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{476,1150},{206,75}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{206,75}</string>
+			</dict>
+			<key>leagueresnew/com_btn_grey_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1430,893},{186,186}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{186,186}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>leagueNewPlist.png</string>
+			<key>realTextureFileName</key>
+			<string>leagueNewPlist.png</string>
+			<key>size</key>
+			<string>{2048,2048}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>2048</integer>
+			<key>height</key>
+			<integer>2048</integer>
+		</dict>
+	</dict>
+</plist>

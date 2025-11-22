@@ -1,0 +1,178 @@
+{
+  "ID": "fcaa5d8b-8ddb-4d8a-a390-4310ce217f5f",
+  "Version": "3.10.0.0",
+  "Name": "GlodenGuide",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 130,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 135,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 149.0,
+                  "Y": 524.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.138,
+                  "Y": 0.2729
+                },
+                "PreSize": {
+                  "X": 0.8315,
+                  "Y": 0.2286
+                },
+                "LeftMargin": 149.0,
+                "RightMargin": 33.0,
+                "TopMargin": 957.0,
+                "BottomMargin": 524.0,
+                "Tag": 219,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "gloden/glodenLabel.png",
+                      "Plist": "guideplist/GlodenPlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 450.0,
+                      "Y": 246.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5011,
+                      "Y": 0.5604
+                    },
+                    "PreSize": {
+                      "X": 0.794,
+                      "Y": 0.5194
+                    },
+                    "LeftMargin": 93.5,
+                    "RightMargin": 91.5,
+                    "TopMargin": 79.0,
+                    "BottomMargin": 132.0,
+                    "Tag": 217,
+                    "ActionTag": -456021204,
+                    "Size": {
+                      "X": 713.0,
+                      "Y": 228.0
+                    },
+                    "Name": "glodenLabel_2",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1001553373,
+                "Size": {
+                  "X": 898.0,
+                  "Y": 439.0
+                },
+                "Name": "tipPanel",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": 1266459610,
+            "Size": {
+              "X": 1080.0,
+              "Y": 1920.0
+            },
+            "Name": "RootView",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "guideplist/GlodenPlist.plist",
+        "guideplist/GlodenPlist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>profile/avatar1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1811,879},{200,200}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>profile/btn_player_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1306,1083},{93,93}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{93,93}</string>
+			</dict>
+			<key>profile/btn_return.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1547,1109},{96,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{96,84}</string>
+			</dict>
+			<key>profile/com_btn_green2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1581,618},{447,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{447,128}</string>
+			</dict>
+			<key>profile/icon_exp_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1050,1059},{102,103}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{102,103}</string>
+			</dict>
+			<key>profile/icon_exp_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1496,893},{78,78}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{78,78}</string>
+			</dict>
+			<key>profile/Last 10 Games.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{1010,942}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{1010,942}</string>
+			</dict>
+			<key>profile/PROFILE.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1016,908},{281,65}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{281,65}</string>
+			</dict>
+			<key>profile/Statistics.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1016,2},{1010,612}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{1010,612}</string>
+			</dict>
+			<key>profile/frm_profile_green.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1156,1127},{140,58}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{140,58}</string>
+			</dict>
+			<key>profile/frm_profile_red.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1403,1083},{140,58}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{140,58}</string>
+			</dict>
+			<key>profile/bar_win_2-1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1306,618},{271,271}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{271,271}</string>
+			</dict>
+			<key>profile/bar_plan_exp1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1403,1145},{100,74}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,74}</string>
+			</dict>
+			<key>profile/bar_plan_exp2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2001,1083},{44,44}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{44,44}</string>
+			</dict>
+			<key>profile/Reset Statistics.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1050,1341},{485,59}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{485,59}</string>
+			</dict>
+			<key>profile/frm_profile_round.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1156,1059},{146,64}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{146,64}</string>
+			</dict>
+			<key>profile/shader_avatar.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1581,879},{226,226}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{226,226}</string>
+			</dict>
+			<key>profile/com_btn_red_4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1811,1083},{186,186}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{186,186}</string>
+			</dict>
+			<key>profile/com_btn_green_4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1306,893},{186,186}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{186,186}</string>
+			</dict>
+			<key>profile/fiveten.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1050,977},{182,78}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{182,78}</string>
+			</dict>
+			<key>profile/frm_tray_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1581,750},{442,125}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{442,125}</string>
+			</dict>
+			<key>profile/btn_del.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1496,975},{48,48}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{48,48}</string>
+			</dict>
+			<key>profile/btn_gold.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1016,618},{286,286}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{286,286}</string>
+			</dict>
+			<key>profile/com_btn_small_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1050,1166},{90,90}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{90,90}</string>
+			</dict>
+			<key>profile/floor_profile_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,977},{1044,456}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{1044,456}</string>
+			</dict>
+			<key>profile/frm_paper_red.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1144,1223},{612,114}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{612,114}</string>
+			</dict>
+			<key>profile/line.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2027,750},{19,76}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{19,76}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>PromPlist.png</string>
+			<key>realTextureFileName</key>
+			<string>PromPlist.png</string>
+			<key>size</key>
+			<string>{2048,2048}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>2048</integer>
+			<key>height</key>
+			<integer>2048</integer>
+		</dict>
+	</dict>
+</plist>

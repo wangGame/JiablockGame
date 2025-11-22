@@ -1,0 +1,366 @@
+{
+  "ID": "34890e2f-91cf-4a24-b501-ff3918e93e67",
+  "Version": "3.10.0.0",
+  "Name": "GameGuide1",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 626,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 728,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 91.0,
+                  "Y": 712.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0843,
+                  "Y": 0.3708
+                },
+                "PreSize": {
+                  "X": 0.8315,
+                  "Y": 0.1885
+                },
+                "LeftMargin": 91.0,
+                "RightMargin": 91.0,
+                "TopMargin": 846.0,
+                "BottomMargin": 712.0,
+                "Tag": 727,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "GameGuide1/frm_guidance_3.png",
+                      "Plist": "guideplist/GameGuide1.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 121,
+                    "Scale9OriginY": 131,
+                    "Scale9Width": 694,
+                    "Scale9Height": 100,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 767,
+                    "ActionTag": 124531361,
+                    "Size": {
+                      "X": 898.0,
+                      "Y": 362.0
+                    },
+                    "Name": "bg",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "GameGuide1/looklabel.png",
+                      "Plist": "guideplist/GameGuide1.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 448.0,
+                      "Y": 209.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4989,
+                      "Y": 0.5773
+                    },
+                    "PreSize": {
+                      "X": 0.5735,
+                      "Y": 0.3204
+                    },
+                    "LeftMargin": 190.5,
+                    "RightMargin": 192.5,
+                    "TopMargin": 95.0,
+                    "BottomMargin": 151.0,
+                    "Tag": 723,
+                    "ActionTag": -1340760886,
+                    "Size": {
+                      "X": 515.0,
+                      "Y": 116.0
+                    },
+                    "Name": "lookLabel",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 168891194,
+                "Size": {
+                  "X": 898.0,
+                  "Y": 362.0
+                },
+                "Name": "shuomingPanel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 35.0,
+                  "Y": 541.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0324,
+                  "Y": 0.2818
+                },
+                "PreSize": {
+                  "X": 0.1352,
+                  "Y": 0.076
+                },
+                "LeftMargin": 35.0,
+                "RightMargin": 899.0,
+                "TopMargin": 1233.0,
+                "BottomMargin": 541.0,
+                "Tag": 413,
+                "Children": [
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 20.0,
+                      "Y": 20.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.137,
+                      "Y": 0.137
+                    },
+                    "PreSize": {
+                      "X": 0.7397,
+                      "Y": 0.7397
+                    },
+                    "LeftMargin": 20.0,
+                    "RightMargin": 18.0,
+                    "TopMargin": 18.0,
+                    "BottomMargin": 20.0,
+                    "Tag": 415,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "GameGuide1/newWand.png",
+                          "Plist": "guideplist/GameGuide1.plist"
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 53.0,
+                          "Y": 42.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.4907,
+                          "Y": 0.3889
+                        },
+                        "PreSize": {
+                          "X": 1.537,
+                          "Y": 1.5741
+                        },
+                        "LeftMargin": -30.0,
+                        "RightMargin": -28.0,
+                        "TopMargin": -19.0,
+                        "BottomMargin": -43.0,
+                        "Tag": 416,
+                        "ActionTag": -1911120818,
+                        "Size": {
+                          "X": 166.0,
+                          "Y": 170.0
+                        },
+                        "Name": "newHint_6",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": -1212876504,
+                    "Size": {
+                      "X": 108.0,
+                      "Y": 108.0
+                    },
+                    "Name": "unlock",
+                    "ctype": "PanelObjectData"
+                  }
+                ],
+                "ActionTag": 1177965142,
+                "Size": {
+                  "X": 146.0,
+                  "Y": 146.0
+                },
+                "Name": "telescopePanel",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": 1217334744,
+            "Size": {
+              "X": 1080.0,
+              "Y": 1920.0
+            },
+            "Name": "RootView",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "guideplist/GameGuide1.plist",
+        "guideplist/GameGuide1.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

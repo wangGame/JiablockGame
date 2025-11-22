@@ -1,0 +1,10 @@
+chuanglian.png
+size:1236,1050
+filter:Linear,Linear
+bg_curtain_4
+bounds:658,286,576,762
+bg_curtain_5
+bounds:2,225,654,823
+curtain2
+bounds:2,2,221,1062
+rotate:90

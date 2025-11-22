@@ -1,0 +1,10 @@
+tx_lz.png
+size:252,160
+filter:Linear,Linear
+pma:true
+gl
+bounds:2,2,156,156
+offsets:1,1,158,158
+win_xx
+bounds:160,68,90,90
+offsets:5,5,100,100

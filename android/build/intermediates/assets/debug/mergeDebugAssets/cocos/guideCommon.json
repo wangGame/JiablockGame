@@ -1,0 +1,358 @@
+{
+  "ID": "864b444a-fc7b-47cf-9e1a-10de837835a4",
+  "Version": "3.10.0.0",
+  "Name": "guideCommon",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 454,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 461,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameRuleGuide/floor_window4.png",
+                  "Plist": "plistAll/gameRuleGuide.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 540.0,
+                  "Y": 961.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5005
+                },
+                "PreSize": {
+                  "X": 0.8981,
+                  "Y": 0.8375
+                },
+                "LeftMargin": 55.0,
+                "RightMargin": 55.0,
+                "TopMargin": 155.0,
+                "BottomMargin": 157.0,
+                "Tag": 464,
+                "ActionTag": -1247211000,
+                "Size": {
+                  "X": 970.0,
+                  "Y": 1608.0
+                },
+                "Name": "floor_window",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameRuleGuide/close.png",
+                  "Plist": "plistAll/gameRuleGuide.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 988.0,
+                  "Y": 1734.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9148,
+                  "Y": 0.9031
+                },
+                "PreSize": {
+                  "X": 0.0954,
+                  "Y": 0.0536
+                },
+                "LeftMargin": 936.5,
+                "RightMargin": 40.5,
+                "TopMargin": 134.5,
+                "BottomMargin": 1682.5,
+                "Tag": 455,
+                "ActionTag": 774625185,
+                "Size": {
+                  "X": 103.0,
+                  "Y": 103.0
+                },
+                "Name": "closeBtn",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameRuleGuide/icon_allfives.png",
+                  "Plist": "plistAll/gameRuleGuide.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 542.0,
+                  "Y": 1748.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5019,
+                  "Y": 0.9104
+                },
+                "PreSize": {
+                  "X": 0.713,
+                  "Y": 0.0719
+                },
+                "LeftMargin": 157.0,
+                "RightMargin": 153.0,
+                "TopMargin": 103.0,
+                "BottomMargin": 1679.0,
+                "Tag": 456,
+                "ActionTag": 1639014086,
+                "Size": {
+                  "X": 770.0,
+                  "Y": 138.0
+                },
+                "Name": "icon_title",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 540.0,
+                  "Y": 218.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1135
+                },
+                "PreSize": {
+                  "X": 0.763,
+                  "Y": 0.7589
+                },
+                "LeftMargin": 128.0,
+                "RightMargin": 128.0,
+                "TopMargin": 245.0,
+                "BottomMargin": 218.0,
+                "Tag": 465,
+                "ActionTag": -782790269,
+                "Size": {
+                  "X": 824.0,
+                  "Y": 1457.0
+                },
+                "Name": "contentView",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameRuleGuide/shader_jiaocheng1.png",
+                  "Plist": "plistAll/gameRuleGuide.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 540.0,
+                  "Y": 1650.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8594
+                },
+                "PreSize": {
+                  "X": 0.813,
+                  "Y": 0.0307
+                },
+                "LeftMargin": 101.0,
+                "RightMargin": 101.0,
+                "TopMargin": 240.5,
+                "BottomMargin": 1620.5,
+                "Tag": 625,
+                "ActionTag": -830460812,
+                "Size": {
+                  "X": 878.0,
+                  "Y": 59.0
+                },
+                "Name": "shader_jiaocheng1_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameRuleGuide/shader_jiaocheng2.png",
+                  "Plist": "plistAll/gameRuleGuide.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 540.0,
+                  "Y": 280.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1458
+                },
+                "PreSize": {
+                  "X": 0.813,
+                  "Y": 0.0708
+                },
+                "LeftMargin": 101.0,
+                "RightMargin": 101.0,
+                "TopMargin": 1572.0,
+                "BottomMargin": 212.0,
+                "Tag": 626,
+                "ActionTag": -391676545,
+                "Size": {
+                  "X": 878.0,
+                  "Y": 136.0
+                },
+                "Name": "shader_jiaocheng2_2",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 660173200,
+            "Size": {
+              "X": 1080.0,
+              "Y": 1920.0
+            },
+            "Name": "RootView",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "plistAll/gameRuleGuide.plist",
+        "plistAll/gameRuleGuide.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

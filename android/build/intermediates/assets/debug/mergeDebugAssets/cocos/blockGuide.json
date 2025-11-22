@@ -1,0 +1,218 @@
+{
+  "ID": "3bf510e1-2b81-403e-bd25-a5cc47f8412b",
+  "Version": "3.10.0.0",
+  "Name": "blockGuide",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 1358,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.763,
+              "Y": 1.4292
+            },
+            "RightMargin": 256.0,
+            "TopMargin": -824.0,
+            "Tag": 1410,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "blockGuide/inset_1.png",
+                  "Plist": "plistAll/blockGuidePlist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 410.9993,
+                  "Y": 2389.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4988,
+                  "Y": 0.8706
+                },
+                "PreSize": {
+                  "X": 0.8034,
+                  "Y": 0.2037
+                },
+                "LeftMargin": 79.9993,
+                "RightMargin": 82.0007,
+                "TopMargin": 55.5,
+                "BottomMargin": 2089.5,
+                "Tag": 1416,
+                "ActionTag": -672983309,
+                "Size": {
+                  "X": 662.0,
+                  "Y": 599.0
+                },
+                "Name": "inset_1_18",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "blockGuide/inset_3.png",
+                  "Plist": "plistAll/blockGuidePlist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 411.9978,
+                  "Y": 973.9764
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.3549
+                },
+                "PreSize": {
+                  "X": 0.9175,
+                  "Y": 0.3298
+                },
+                "LeftMargin": 33.9978,
+                "RightMargin": 34.0022,
+                "TopMargin": 1317.5237,
+                "BottomMargin": 521.4764,
+                "Tag": 1417,
+                "ActionTag": 65286943,
+                "Size": {
+                  "X": 756.0,
+                  "Y": 905.0
+                },
+                "Name": "inset_3_19",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "blockGuide/inset_4.png",
+                  "Plist": "plistAll/blockGuidePlist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 408.9985,
+                  "Y": 1760.9672
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4964,
+                  "Y": 0.6418
+                },
+                "PreSize": {
+                  "X": 0.9296,
+                  "Y": 0.2114
+                },
+                "LeftMargin": 25.9985,
+                "RightMargin": 32.0015,
+                "TopMargin": 693.0327,
+                "BottomMargin": 1470.9672,
+                "Tag": 1418,
+                "ActionTag": 975408764,
+                "Size": {
+                  "X": 766.0,
+                  "Y": 580.0
+                },
+                "Name": "inset_4_20",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 527992351,
+            "Size": {
+              "X": 824.0,
+              "Y": 2744.0
+            },
+            "Name": "contentView",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "plistAll/blockGuidePlist.plist",
+        "plistAll/blockGuidePlist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

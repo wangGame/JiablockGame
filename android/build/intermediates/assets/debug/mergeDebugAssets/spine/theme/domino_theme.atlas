@@ -1,0 +1,17 @@
+domino_theme.png
+size:1871,136
+filter:Linear,Linear
+Backgrounds_b
+bounds:1350,64,378,70
+offsets:1,2,381,74
+Backgrounds_h
+bounds:1350,2,367,60
+Tiles_b
+bounds:1719,5,149,57
+offsets:2,1,153,59
+Tiles_h
+bounds:1730,89,139,45
+btn_shop_yellow
+bounds:898,11,450,123
+frm_green_select
+bounds:2,10,894,124

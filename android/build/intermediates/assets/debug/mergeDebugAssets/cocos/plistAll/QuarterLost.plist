@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>QuarterLost/avatar1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1864,463},{145,161}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{145,161}</string>
+			</dict>
+			<key>QuarterLost/avatar2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1864,289},{170,170}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{170,170}</string>
+			</dict>
+			<key>QuarterLost/btn.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{473,2},{639,183}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{639,183}</string>
+			</dict>
+			<key>QuarterLost/Claim.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1394,457},{172,55}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{172,55}</string>
+			</dict>
+			<key>QuarterLost/conla.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1260,630},{723,132}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{723,132}</string>
+			</dict>
+			<key>QuarterLost/frm_blue.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,469},{200,200}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>QuarterLost/frm_red.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{206,469},{200,200}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{200,200}</string>
+			</dict>
+			<key>QuarterLost/Good luck next time_.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1260,577},{541,49}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{541,49}</string>
+			</dict>
+			<key>QuarterLost/Home.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1188,503},{174,52}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{174,52}</string>
+			</dict>
+			<key>QuarterLost/icon_bisai_award_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{467,325}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{467,325}</string>
+			</dict>
+			<key>QuarterLost/icon_bisai_award_3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1442,289},{228,164}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{228,164}</string>
+			</dict>
+			<key>QuarterLost/icon_trophy2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1116,2},{322,303}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{322,303}</string>
+			</dict>
+			<key>QuarterLost/Tap to skip.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{410,619},{320,60}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{320,60}</string>
+			</dict>
+			<key>QuarterLost/VS.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1032,189},{66,43}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{66,43}</string>
+			</dict>
+			<key>QuarterLost/You did not qualify_.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{751,568},{505,61}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{505,61}</string>
+			</dict>
+			<key>QuarterLost/You qualified_.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{410,485},{363,61}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{363,61}</string>
+			</dict>
+			<key>QuarterLost/Your Rewards.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,673},{304,36}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{304,36}</string>
+			</dict>
+			<key>QuarterLost/Ytment.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1442,2},{503,119}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{503,119}</string>
+			</dict>
+			<key>QuarterLost/com_btn_green.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1674,289},{186,186}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{186,186}</string>
+			</dict>
+			<key>QuarterLost/btn_player_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{802,419},{129,132}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{129,132}</string>
+			</dict>
+			<key>QuarterLost/CollectF.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{935,499},{249,65}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{249,65}</string>
+			</dict>
+			<key>QuarterLost/com_btn_yellow_bg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1032,309},{186,186}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{186,186}</string>
+			</dict>
+			<key>QuarterLost/DoubleF.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1222,378},{211,53}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{211,53}</string>
+			</dict>
+			<key>QuarterLost/Almosthadit.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1366,516},{442,57}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{442,57}</string>
+			</dict>
+			<key>QuarterLost/Back.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1222,435},{168,64}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{168,64}</string>
+			</dict>
+			<key>QuarterLost/bar_js_paper.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{694,766},{1019,4}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{1019,4}</string>
+			</dict>
+			<key>QuarterLost/Claims.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1222,309},{199,65}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{199,65}</string>
+			</dict>
+			<key>QuarterLost/Collectdouble.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{410,550},{337,65}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{337,65}</string>
+			</dict>
+			<key>QuarterLost/emoji.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{473,189},{325,292}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{325,292}</string>
+			</dict>
+			<key>QuarterLost/frm_score_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,331},{418,134}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{418,134}</string>
+			</dict>
+			<key>QuarterLost/Next Battle Unlocked_.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,761},{688,57}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{688,57}</string>
+			</dict>
+			<key>QuarterLost/Seenexttime.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1442,212},{598,73}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{598,73}</string>
+			</dict>
+			<key>QuarterLost/You Rewards.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{734,633},{304,36}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{304,36}</string>
+			</dict>
+			<key>QuarterLost/Yotourna.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{310,683},{781,74}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{781,74}</string>
+			</dict>
+			<key>QuarterLost/shader_avatar.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{802,189},{226,226}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{226,226}</string>
+			</dict>
+			<key>QuarterLost/congratulation1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1442,125},{565,83}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{565,83}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>QuarterLost.png</string>
+			<key>realTextureFileName</key>
+			<string>QuarterLost.png</string>
+			<key>size</key>
+			<string>{2048,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>2048</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

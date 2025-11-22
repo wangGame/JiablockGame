@@ -1,0 +1,4 @@
+"Use your double tile early.",
+"The side with the lowest total pips wins.",
+"Every pip combination in 7 copies - use this!",
+"Maintain diverse pip counts."

@@ -1,0 +1,218 @@
+{
+  "ID": "6f4cc350-11d5-442f-a58a-15d5c368636e",
+  "Version": "3.10.0.0",
+  "Name": "AllFiveGuide",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 1339,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.763,
+              "Y": 1.2807
+            },
+            "RightMargin": 256.0,
+            "TopMargin": -539.0,
+            "Tag": 1353,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "allfivethree/inset3.png",
+                  "Plist": "plistAll/allfiveGuidePlist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 413.0,
+                  "Y": 797.9476
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5012,
+                  "Y": 0.3245
+                },
+                "PreSize": {
+                  "X": 0.9515,
+                  "Y": 0.3806
+                },
+                "LeftMargin": 21.0,
+                "RightMargin": 19.0,
+                "TopMargin": 1193.0524,
+                "BottomMargin": 329.9476,
+                "Tag": 1354,
+                "ActionTag": 1272449215,
+                "Size": {
+                  "X": 784.0,
+                  "Y": 936.0
+                },
+                "Name": "tipfive1_3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "allfivethree/inset_2.png",
+                  "Plist": "plistAll/allfiveGuidePlist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 413.9995,
+                  "Y": 1770.9257
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5024,
+                  "Y": 0.7202
+                },
+                "PreSize": {
+                  "X": 0.9417,
+                  "Y": 0.3741
+                },
+                "LeftMargin": 25.9995,
+                "RightMargin": 22.0005,
+                "TopMargin": 228.0742,
+                "BottomMargin": 1310.9257,
+                "Tag": 1355,
+                "ActionTag": 1416754898,
+                "Size": {
+                  "X": 776.0,
+                  "Y": 920.0
+                },
+                "Name": "tipfive2_4",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "allfivethree/inset_1.png",
+                  "Plist": "plistAll/allfiveGuidePlist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 413.0,
+                  "Y": 2424.8369
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5012,
+                  "Y": 0.9861
+                },
+                "PreSize": {
+                  "X": 0.733,
+                  "Y": 0.1183
+                },
+                "LeftMargin": 111.0,
+                "RightMargin": 109.0,
+                "TopMargin": -111.3369,
+                "BottomMargin": 2279.3369,
+                "Tag": 1357,
+                "ActionTag": -207064562,
+                "Size": {
+                  "X": 604.0,
+                  "Y": 291.0
+                },
+                "Name": "tipfive4_6",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -969224332,
+            "Size": {
+              "X": 824.0,
+              "Y": 2459.0
+            },
+            "Name": "contentView",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "plistAll/allfiveGuidePlist.plist",
+        "plistAll/allfiveGuidePlist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

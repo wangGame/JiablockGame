@@ -1,0 +1,1100 @@
+{
+  "ID": "5ebe49c9-1ea8-44fc-a55d-6f7acfb6ea46",
+  "Version": "3.10.0.0",
+  "Name": "LeagueGuide1",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 890,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5
+            },
+            "Position": {
+              "X": 540.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 753,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 894.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.4656
+                },
+                "PreSize": {
+                  "X": 0.9981,
+                  "Y": 0.1063
+                },
+                "RightMargin": 2.0,
+                "TopMargin": 822.0,
+                "BottomMargin": 894.0,
+                "Tag": 787,
+                "Children": [
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 32.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0297,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.3284,
+                      "Y": 1.0
+                    },
+                    "LeftMargin": 32.0,
+                    "RightMargin": 692.0,
+                    "Tag": 788,
+                    "Children": [
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9Width": 1,
+                        "Scale9Height": 1,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5
+                        },
+                        "Position": {
+                          "X": 178.0,
+                          "Y": 3.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5028,
+                          "Y": 0.0147
+                        },
+                        "PreSize": {
+                          "X": 0.9605,
+                          "Y": 1.0
+                        },
+                        "LeftMargin": 8.0,
+                        "RightMargin": 6.0,
+                        "TopMargin": -3.0,
+                        "BottomMargin": 3.0,
+                        "Tag": 789,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "leagueresnew/select.png",
+                              "Plist": "plistAll/leagueNewPlist.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {
+                              "ScaleY": 0.3
+                            },
+                            "Position": {
+                              "X": 0.0,
+                              "Y": 61.2
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.3
+                            },
+                            "PreSize": {
+                              "X": 1.0,
+                              "Y": 0.9314
+                            },
+                            "TopMargin": 9.8,
+                            "BottomMargin": 4.2,
+                            "Tag": 790,
+                            "ActionTag": 572934226,
+                            "Size": {
+                              "X": 340.0,
+                              "Y": 190.0
+                            },
+                            "Name": "itemSelect",
+                            "ctype": "SpriteObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "leagueresnew/Draw.png",
+                              "Plist": "plistAll/leagueNewPlist.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 170.0,
+                              "Y": 127.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.6225
+                            },
+                            "PreSize": {
+                              "X": 0.4676,
+                              "Y": 0.2892
+                            },
+                            "LeftMargin": 90.5,
+                            "RightMargin": 90.5,
+                            "TopMargin": 47.5,
+                            "BottomMargin": 97.5,
+                            "Tag": 791,
+                            "ActionTag": -1037724807,
+                            "Size": {
+                              "X": 159.0,
+                              "Y": 59.0
+                            },
+                            "Name": "itemw",
+                            "ctype": "SpriteObjectData"
+                          }
+                        ],
+                        "ActionTag": 1332491323,
+                        "Size": {
+                          "X": 340.0,
+                          "Y": 204.0
+                        },
+                        "Name": "select",
+                        "ctype": "PanelObjectData"
+                      },
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9Width": 1,
+                        "Scale9Height": 1,
+                        "TouchEnable": true,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 14.0,
+                          "Y": -7.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0395,
+                          "Y": -0.0343
+                        },
+                        "PreSize": {
+                          "X": 0.935,
+                          "Y": 0.902
+                        },
+                        "LeftMargin": 14.0,
+                        "RightMargin": 9.0,
+                        "TopMargin": 27.0,
+                        "BottomMargin": -7.0,
+                        "Tag": 792,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "leagueresnew/unselect.png",
+                              "Plist": "plistAll/leagueNewPlist.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {},
+                            "Position": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 1.0,
+                              "Y": 1.0
+                            },
+                            "Tag": 793,
+                            "ActionTag": -1854317051,
+                            "Size": {
+                              "X": 331.0,
+                              "Y": 184.0
+                            },
+                            "Name": "itemSelect",
+                            "ctype": "SpriteObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "leagueresnew/DrawHui.png",
+                              "Plist": "plistAll/leagueNewPlist.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 164.0,
+                              "Y": 129.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.4955,
+                              "Y": 0.7011
+                            },
+                            "PreSize": {
+                              "X": 0.4411,
+                              "Y": 0.2446
+                            },
+                            "LeftMargin": 91.0,
+                            "RightMargin": 94.0,
+                            "TopMargin": 32.5,
+                            "BottomMargin": 106.5,
+                            "Tag": 794,
+                            "ActionTag": -1765173646,
+                            "Size": {
+                              "X": 146.0,
+                              "Y": 45.0
+                            },
+                            "Name": "itemw",
+                            "ctype": "SpriteObjectData"
+                          }
+                        ],
+                        "ActionTag": 2059412092,
+                        "Size": {
+                          "X": 331.0,
+                          "Y": 184.0
+                        },
+                        "Name": "unselect",
+                        "ctype": "PanelObjectData"
+                      }
+                    ],
+                    "ActionTag": -1595820740,
+                    "Size": {
+                      "X": 354.0,
+                      "Y": 204.0
+                    },
+                    "Name": "item1",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 361.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3349,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.3284,
+                      "Y": 1.0
+                    },
+                    "LeftMargin": 361.0,
+                    "RightMargin": 363.0,
+                    "Tag": 795,
+                    "Children": [
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9Width": 1,
+                        "Scale9Height": 1,
+                        "TouchEnable": true,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 9.0,
+                          "Y": 7.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0254,
+                          "Y": 0.0343
+                        },
+                        "PreSize": {
+                          "X": 0.9605,
+                          "Y": 0.9314
+                        },
+                        "LeftMargin": 9.0,
+                        "RightMargin": 5.0,
+                        "TopMargin": 7.0,
+                        "BottomMargin": 7.0,
+                        "Tag": 796,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "leagueresnew/select3.png",
+                              "Plist": "plistAll/leagueNewPlist.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {},
+                            "Position": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 1.0,
+                              "Y": 1.0
+                            },
+                            "Tag": 797,
+                            "ActionTag": -899865667,
+                            "Size": {
+                              "X": 340.0,
+                              "Y": 190.0
+                            },
+                            "Name": "itemSelect",
+                            "ctype": "SpriteObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "leagueresnew/Block.png",
+                              "Plist": "plistAll/leagueNewPlist.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 169.0,
+                              "Y": 123.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.4971,
+                              "Y": 0.6474
+                            },
+                            "PreSize": {
+                              "X": 0.5059,
+                              "Y": 0.3105
+                            },
+                            "LeftMargin": 83.0,
+                            "RightMargin": 85.0,
+                            "TopMargin": 37.5,
+                            "BottomMargin": 93.5,
+                            "Tag": 798,
+                            "ActionTag": -1973017896,
+                            "Size": {
+                              "X": 172.0,
+                              "Y": 59.0
+                            },
+                            "Name": "itemw",
+                            "ctype": "SpriteObjectData"
+                          }
+                        ],
+                        "ActionTag": 962717537,
+                        "Size": {
+                          "X": 340.0,
+                          "Y": 190.0
+                        },
+                        "Name": "select",
+                        "ctype": "PanelObjectData"
+                      },
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9Width": 1,
+                        "Scale9Height": 1,
+                        "TouchEnable": true,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 14.0,
+                          "Y": -7.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0395,
+                          "Y": -0.0343
+                        },
+                        "PreSize": {
+                          "X": 0.935,
+                          "Y": 0.902
+                        },
+                        "LeftMargin": 14.0,
+                        "RightMargin": 9.0,
+                        "TopMargin": 27.0,
+                        "BottomMargin": -7.0,
+                        "Tag": 799,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "leagueresnew/unselect.png",
+                              "Plist": "plistAll/leagueNewPlist.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {},
+                            "Position": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 1.0,
+                              "Y": 1.0
+                            },
+                            "Tag": 800,
+                            "ActionTag": 555931940,
+                            "Size": {
+                              "X": 331.0,
+                              "Y": 184.0
+                            },
+                            "Name": "itemSelect",
+                            "ctype": "SpriteObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "leagueresnew/BlockHui.png",
+                              "Plist": "plistAll/leagueNewPlist.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 165.0,
+                              "Y": 129.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.4985,
+                              "Y": 0.7011
+                            },
+                            "PreSize": {
+                              "X": 0.4804,
+                              "Y": 0.2446
+                            },
+                            "LeftMargin": 85.5,
+                            "RightMargin": 86.5,
+                            "TopMargin": 32.5,
+                            "BottomMargin": 106.5,
+                            "Tag": 801,
+                            "ActionTag": -248774313,
+                            "Size": {
+                              "X": 159.0,
+                              "Y": 45.0
+                            },
+                            "Name": "itemw",
+                            "ctype": "SpriteObjectData"
+                          }
+                        ],
+                        "ActionTag": 193058538,
+                        "Size": {
+                          "X": 331.0,
+                          "Y": 184.0
+                        },
+                        "Name": "unselect",
+                        "ctype": "PanelObjectData"
+                      }
+                    ],
+                    "ActionTag": -2090668889,
+                    "Size": {
+                      "X": 354.0,
+                      "Y": 204.0
+                    },
+                    "Name": "item2",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 694.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6438,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.3284,
+                      "Y": 1.0
+                    },
+                    "LeftMargin": 694.0,
+                    "RightMargin": 30.0,
+                    "Tag": 802,
+                    "Children": [
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9Width": 1,
+                        "Scale9Height": 1,
+                        "TouchEnable": true,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 6.0,
+                          "Y": 7.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0169,
+                          "Y": 0.0343
+                        },
+                        "PreSize": {
+                          "X": 0.9605,
+                          "Y": 0.9314
+                        },
+                        "LeftMargin": 6.0,
+                        "RightMargin": 8.0,
+                        "TopMargin": 7.0,
+                        "BottomMargin": 7.0,
+                        "Tag": 803,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "leagueresnew/select2.png",
+                              "Plist": "plistAll/leagueNewPlist.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {},
+                            "Position": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 1.0,
+                              "Y": 1.0
+                            },
+                            "Tag": 804,
+                            "ActionTag": -602547269,
+                            "Size": {
+                              "X": 340.0,
+                              "Y": 190.0
+                            },
+                            "Name": "itemSelect",
+                            "ctype": "SpriteObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "leagueresnew/All Fives.png",
+                              "Plist": "plistAll/leagueNewPlist.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 170.0,
+                              "Y": 124.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.6526
+                            },
+                            "PreSize": {
+                              "X": 0.7382,
+                              "Y": 0.3105
+                            },
+                            "LeftMargin": 44.5,
+                            "RightMargin": 44.5,
+                            "TopMargin": 36.5,
+                            "BottomMargin": 94.5,
+                            "Tag": 805,
+                            "ActionTag": 719834266,
+                            "Size": {
+                              "X": 251.0,
+                              "Y": 59.0
+                            },
+                            "Name": "itemw",
+                            "ctype": "SpriteObjectData"
+                          }
+                        ],
+                        "ActionTag": -618292379,
+                        "Size": {
+                          "X": 340.0,
+                          "Y": 190.0
+                        },
+                        "Name": "select",
+                        "ctype": "PanelObjectData"
+                      },
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9Width": 1,
+                        "Scale9Height": 1,
+                        "TouchEnable": true,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 12.0,
+                          "Y": -7.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0339,
+                          "Y": -0.0343
+                        },
+                        "PreSize": {
+                          "X": 0.935,
+                          "Y": 0.902
+                        },
+                        "LeftMargin": 12.0,
+                        "RightMargin": 11.0,
+                        "TopMargin": 27.0,
+                        "BottomMargin": -7.0,
+                        "Tag": 806,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "leagueresnew/unselect.png",
+                              "Plist": "plistAll/leagueNewPlist.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {},
+                            "Position": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 1.0,
+                              "Y": 1.0
+                            },
+                            "Tag": 807,
+                            "ActionTag": -1569562831,
+                            "Size": {
+                              "X": 331.0,
+                              "Y": 184.0
+                            },
+                            "Name": "itemSelect",
+                            "ctype": "SpriteObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "leagueresnew/AllFivesHui.png",
+                              "Plist": "plistAll/leagueNewPlist.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 164.0,
+                              "Y": 129.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.4955,
+                              "Y": 0.7011
+                            },
+                            "PreSize": {
+                              "X": 0.719,
+                              "Y": 0.2446
+                            },
+                            "LeftMargin": 45.0,
+                            "RightMargin": 48.0,
+                            "TopMargin": 32.5,
+                            "BottomMargin": 106.5,
+                            "Tag": 808,
+                            "ActionTag": 1988191284,
+                            "Size": {
+                              "X": 238.0,
+                              "Y": 45.0
+                            },
+                            "Name": "itemw",
+                            "ctype": "SpriteObjectData"
+                          }
+                        ],
+                        "ActionTag": -1222766718,
+                        "Size": {
+                          "X": 331.0,
+                          "Y": 184.0
+                        },
+                        "Name": "unselect",
+                        "ctype": "PanelObjectData"
+                      }
+                    ],
+                    "ActionTag": 1607923295,
+                    "Size": {
+                      "X": 354.0,
+                      "Y": 204.0
+                    },
+                    "Name": "item3",
+                    "ctype": "PanelObjectData"
+                  }
+                ],
+                "ActionTag": 1855881224,
+                "Size": {
+                  "X": 1078.0,
+                  "Y": 204.0
+                },
+                "Name": "SelectPanel",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -846147338,
+            "Size": {
+              "X": 1080.0,
+              "Y": 1920.0
+            },
+            "Name": "RootView",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "plistAll/leagueNewPlist.plist",
+        "plistAll/leagueNewPlist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

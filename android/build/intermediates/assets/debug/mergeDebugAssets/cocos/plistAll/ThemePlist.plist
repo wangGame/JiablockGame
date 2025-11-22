@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>theme/frm_theme_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1446,2},{350,526}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{350,526}</string>
+			</dict>
+			<key>theme/frm_theme_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,442},{324,500}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{324,500}</string>
+			</dict>
+			<key>theme/icon_lock.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1800,192},{108,132}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{108,132}</string>
+			</dict>
+			<key>theme/iconcoin.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1912,288},{73,73}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{73,73}</string>
+			</dict>
+			<key>tipsTile/labelTip.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{466,1592},{607,63}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{607,63}</string>
+			</dict>
+			<key>tipsTile/pro.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1314,442},{64,44}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{64,44}</string>
+			</dict>
+			<key>tipsTile/probg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1800,328},{60,56}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{60,56}</string>
+			</dict>
+			<key>tipsTile/Tap to skip.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1800,428},{207,66}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{207,66}</string>
+			</dict>
+			<key>tipsTile/com_btn_yellow_bg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1800,2},{186,186}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{186,186}</string>
+			</dict>
+			<key>theme/Selected_bg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{330,442},{324,500}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{324,500}</string>
+			</dict>
+			<key>theme/Owne.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1785,546},{165,44}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{165,44}</string>
+			</dict>
+			<key>theme/Selected.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1800,498},{207,44}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{207,44}</string>
+			</dict>
+			<key>theme/floor_green_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{1440,436}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{1440,436}</string>
+			</dict>
+			<key>theme/domino_theme1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{658,442},{324,500}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{324,500}</string>
+			</dict>
+			<key>tipsTile/icon_money.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1912,192},{92,92}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{92,92}</string>
+			</dict>
+			<key>theme/domino_theme2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{986,442},{324,500}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{324,500}</string>
+			</dict>
+			<key>theme/domino_theme3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1314,532},{324,500}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{324,500}</string>
+			</dict>
+			<key>theme/domino_theme4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1642,594},{324,500}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{324,500}</string>
+			</dict>
+			<key>theme/domino_theme5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,946},{324,500}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{324,500}</string>
+			</dict>
+			<key>theme/domino_theme6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{330,946},{324,500}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{324,500}</string>
+			</dict>
+			<key>theme/domino_theme7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{658,946},{324,500}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{324,500}</string>
+			</dict>
+			<key>theme/domino_theme8.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{986,946},{324,500}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{324,500}</string>
+			</dict>
+			<key>theme/domino_theme9.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1314,1036},{324,500}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{324,500}</string>
+			</dict>
+			<key>theme/domino_theme10.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1642,1098},{324,500}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{324,500}</string>
+			</dict>
+			<key>mainspine/domino_theme/Backgrounds_b.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{900,1450},{381,74}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{381,74}</string>
+			</dict>
+			<key>mainspine/domino_theme/Backgrounds_h.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{900,1528},{367,60}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{367,60}</string>
+			</dict>
+			<key>mainspine/domino_theme/btn_shop_yellow.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,1578},{460,132}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{460,132}</string>
+			</dict>
+			<key>mainspine/domino_theme/frm_green_select.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,1450},{894,124}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{894,124}</string>
+			</dict>
+			<key>mainspine/domino_theme/Tiles_b.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1864,365},{153,59}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{153,59}</string>
+			</dict>
+			<key>mainspine/domino_theme/Tiles_h.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1642,532},{139,45}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{139,45}</string>
+			</dict>
+			<key>tipsTile/Tap to continue.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1077,1592},{448,70}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{448,70}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>ThemePlist.png</string>
+			<key>realTextureFileName</key>
+			<string>ThemePlist.png</string>
+			<key>size</key>
+			<string>{2048,2048}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>2048</integer>
+			<key>height</key>
+			<integer>2048</integer>
+		</dict>
+	</dict>
+</plist>

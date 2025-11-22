@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.tony.classic.board.dominoes.android-mergeDebugResources-47:/values-v23/values-v23.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Doodle\\.gradle\\caches\\transforms-4\\f69f3350dc982ae525190c27f8a0972c\\transformed\\work-runtime-2.7.0\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,121",
+                        "endColumns": "65,62",
+                        "endOffsets": "116,179"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Doodle\\.gradle\\caches\\transforms-4\\7dc4c58f4d46a0eace51bc4174ab5a90\\transformed\\appcompat-1.0.2\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1277,2079,2206,2311,2426,2533",
+                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
+                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
+                        "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,21,34,35,36,37,38",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "184,319,454,529,616,1260,1916,2043,2148,2263,2370",
+                        "endLines": "4,5,6,7,20,33,34,35,36,37,38",
+                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
+                        "endOffsets": "314,449,524,611,1255,1911,2038,2143,2258,2365,2478"
+                    }
+                }
+            ]
+        }
+    ]
+}

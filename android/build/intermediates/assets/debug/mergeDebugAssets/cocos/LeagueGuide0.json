@@ -1,0 +1,180 @@
+{
+  "ID": "d6d0c04e-a7b5-4ae4-b0ce-afb4baec74bb",
+  "Version": "3.10.0.0",
+  "Name": "LeagueGuide0",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 1002,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 1006,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.19,
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 204.62,
+                  "Y": 1295.0001
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1895,
+                  "Y": 0.6745
+                },
+                "PreSize": {
+                  "X": 0.8315,
+                  "Y": 0.2286
+                },
+                "LeftMargin": 34.0,
+                "RightMargin": 148.0,
+                "TopMargin": 624.9999,
+                "BottomMargin": 856.0001,
+                "Tag": 91,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "LeagueGuide/fristTimes.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 450.0,
+                      "Y": 206.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5011,
+                      "Y": 0.4692
+                    },
+                    "PreSize": {
+                      "X": 0.5568,
+                      "Y": 0.2642
+                    },
+                    "LeftMargin": 200.0,
+                    "RightMargin": 198.0,
+                    "TopMargin": 175.0,
+                    "BottomMargin": 148.0,
+                    "Tag": 89,
+                    "ActionTag": -1246636847,
+                    "Size": {
+                      "X": 500.0,
+                      "Y": 116.0
+                    },
+                    "Name": "fristTimes_1",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1263621306,
+                "Size": {
+                  "X": 898.0,
+                  "Y": 439.0
+                },
+                "Name": "tipGroup",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -1076766975,
+            "Size": {
+              "X": 1080.0,
+              "Y": 1920.0
+            },
+            "Name": "RootView",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "LeagueGuide/fristTimes.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

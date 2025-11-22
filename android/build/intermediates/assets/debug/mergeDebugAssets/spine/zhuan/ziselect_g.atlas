@@ -1,0 +1,17 @@
+ziselect_g.png
+size:954,321
+filter:Linear,Linear
+ziselect
+bounds:432,3,316,427
+offsets:8,4,333,434
+rotate:90
+ziselect1
+bounds:2,2,317,428
+offsets:7,4,333,434
+rotate:90
+ziselglow_00
+bounds:861,87,51,232
+offsets:5,8,60,248
+ziselglow_1_00
+bounds:914,94,38,225
+offsets:5,4,48,232

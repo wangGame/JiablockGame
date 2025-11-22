@@ -1,0 +1,946 @@
+r
+- Delay -
+active: true
+lowMin: 0.0
+lowMax: 0.0
+- Duration - 
+lowMin: 100.0
+lowMax: 100.0
+- Count - 
+min: 0
+max: 7
+- Emission - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 7.0
+highMax: 7.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Life - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 1800.0
+highMax: 2500.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Life Offset - 
+active: false
+- X Offset - 
+active: false
+- Y Offset - 
+active: false
+- Spawn Shape - 
+shape: square
+- Spawn Width - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 1300.0
+highMax: 1300.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Spawn Height - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 100.0
+highMax: 100.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- X Scale - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 33.0
+highMax: 28.0
+relative: false
+scalingCount: 3
+scaling0: 1.0
+scaling1: 1.0
+scaling2: 0.58181816
+timelineCount: 3
+timeline0: 0.0
+timeline1: 0.89726025
+timeline2: 1.0
+- Y Scale - 
+active: true
+lowMin: 0.0
+lowMax: 0.0
+highMin: 35.0
+highMax: 30.0
+relative: false
+scalingCount: 7
+scaling0: 0.0
+scaling1: 1.0
+scaling2: 0.018181818
+scaling3: 1.0
+scaling4: 0.0
+scaling5: 1.0
+scaling6: 0.0
+timelineCount: 7
+timeline0: 0.0
+timeline1: 0.1849315
+timeline2: 0.38356164
+timeline3: 0.5068493
+timeline4: 0.7191781
+timeline5: 0.8356164
+timeline6: 1.0
+- Velocity - 
+active: true
+lowMin: 0.0
+lowMax: 0.0
+highMin: 30.0
+highMax: 80.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Angle - 
+active: true
+lowMin: 0.0
+lowMax: 0.0
+highMin: 90.0
+highMax: 90.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Rotation - 
+active: true
+lowMin: 0.0
+lowMax: 0.0
+highMin: -720.0
+highMax: 720.0
+relative: false
+scalingCount: 2
+scaling0: 1.0
+scaling1: 0.27272728
+timelineCount: 2
+timeline0: 0.0
+timeline1: 1.0
+- Wind - 
+active: true
+lowMin: 0.0
+lowMax: 0.0
+highMin: -30.0
+highMax: 20.0
+relative: false
+scalingCount: 5
+scaling0: 1.0
+scaling1: 0.0
+scaling2: 1.0
+scaling3: 0.0
+scaling4: 1.0
+timelineCount: 5
+timeline0: 0.0
+timeline1: 0.25342464
+timeline2: 0.47945204
+timeline3: 0.739726
+timeline4: 1.0
+- Gravity - 
+active: true
+lowMin: 0.0
+lowMax: 0.0
+highMin: -180.0
+highMax: -250.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Tint - 
+colorsCount: 3
+colors0: 1.0
+colors1: 1.0
+colors2: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Transparency - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 1.0
+highMax: 1.0
+relative: false
+scalingCount: 4
+scaling0: 0.0
+scaling1: 1.0
+scaling2: 1.0
+scaling3: 0.0
+timelineCount: 4
+timeline0: 0.0
+timeline1: 0.08219178
+timeline2: 0.8767123
+timeline3: 1.0
+- Options - 
+attached: false
+continuous: true
+aligned: true
+additive: false
+behind: false
+premultipliedAlpha: false
+spriteMode: random
+- Image Paths -
+ribboncai6.png
+ribboncai7.png
+ribboncai8.png
+ribboncai9.png
+
+
+r
+- Delay -
+active: true
+lowMin: 0.0
+lowMax: 0.0
+- Duration - 
+lowMin: 100.0
+lowMax: 100.0
+- Count - 
+min: 0
+max: 5
+- Emission - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 5.0
+highMax: 5.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Life - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 4000.0
+highMax: 2000.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Life Offset - 
+active: false
+- X Offset - 
+active: false
+- Y Offset - 
+active: false
+- Spawn Shape - 
+shape: square
+- Spawn Width - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 1300.0
+highMax: 1300.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Spawn Height - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 300.0
+highMax: 300.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- X Scale - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 45.0
+highMax: 30.0
+relative: false
+scalingCount: 2
+scaling0: 1.0
+scaling1: 1.0
+timelineCount: 2
+timeline0: 0.0
+timeline1: 1.0
+- Y Scale - 
+active: true
+lowMin: 0.0
+lowMax: 0.0
+highMin: 45.0
+highMax: 30.0
+relative: false
+scalingCount: 5
+scaling0: 0.0
+scaling1: 0.94545454
+scaling2: 0.0
+scaling3: 1.0
+scaling4: 0.0
+timelineCount: 5
+timeline0: 0.0
+timeline1: 0.1780822
+timeline2: 0.4520548
+timeline3: 0.6917808
+timeline4: 0.98630136
+- Velocity - 
+active: true
+lowMin: 0.0
+lowMax: 0.0
+highMin: 30.0
+highMax: 80.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Angle - 
+active: true
+lowMin: 0.0
+lowMax: 0.0
+highMin: 90.0
+highMax: 90.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Rotation - 
+active: true
+lowMin: 0.0
+lowMax: 0.0
+highMin: -720.0
+highMax: 720.0
+relative: false
+scalingCount: 2
+scaling0: 1.0
+scaling1: 0.0
+timelineCount: 2
+timeline0: 0.0
+timeline1: 1.0
+- Wind - 
+active: true
+lowMin: 0.0
+lowMax: 0.0
+highMin: -20.0
+highMax: 70.0
+relative: false
+scalingCount: 5
+scaling0: 1.0
+scaling1: 0.0
+scaling2: 1.0
+scaling3: 0.0
+scaling4: 1.0
+timelineCount: 5
+timeline0: 0.0
+timeline1: 0.25342464
+timeline2: 0.47945204
+timeline3: 0.739726
+timeline4: 1.0
+- Gravity - 
+active: true
+lowMin: 0.0
+lowMax: 0.0
+highMin: -400.0
+highMax: -250.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Tint - 
+colorsCount: 3
+colors0: 1.0
+colors1: 1.0
+colors2: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Transparency - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 1.0
+highMax: 1.0
+relative: false
+scalingCount: 4
+scaling0: 0.0
+scaling1: 1.0
+scaling2: 1.0
+scaling3: 0.0
+timelineCount: 4
+timeline0: 0.0
+timeline1: 0.08219178
+timeline2: 0.8767123
+timeline3: 1.0
+- Options - 
+attached: false
+continuous: true
+aligned: true
+additive: false
+behind: false
+premultipliedAlpha: false
+spriteMode: random
+- Image Paths -
+ribboncai.png
+ribboncai1.png
+ribboncai2.png
+ribboncai3.png
+ribboncai4.png
+ribboncai5.png
+
+
+r
+- Delay -
+active: true
+lowMin: 0.0
+lowMax: 0.0
+- Duration - 
+lowMin: 100.0
+lowMax: 100.0
+- Count - 
+min: 0
+max: 5
+- Emission - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 3.0
+highMax: 3.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Life - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 5000.0
+highMax: 4000.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Life Offset - 
+active: false
+- X Offset - 
+active: false
+- Y Offset - 
+active: false
+- Spawn Shape - 
+shape: square
+- Spawn Width - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 1200.0
+highMax: 1200.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Spawn Height - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 200.0
+highMax: 200.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- X Scale - 
+lowMin: 5.0
+lowMax: 5.0
+highMin: 50.0
+highMax: 28.0
+relative: false
+scalingCount: 2
+scaling0: 1.0
+scaling1: 1.0
+timelineCount: 2
+timeline0: 0.0
+timeline1: 1.0
+- Y Scale - 
+active: false
+- Velocity - 
+active: true
+lowMin: 0.0
+lowMax: 0.0
+highMin: 25.0
+highMax: 50.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Angle - 
+active: true
+lowMin: 0.0
+lowMax: 0.0
+highMin: 90.0
+highMax: 90.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Rotation - 
+active: true
+lowMin: 0.0
+lowMax: 0.0
+highMin: -720.0
+highMax: 720.0
+relative: false
+scalingCount: 2
+scaling0: 1.0
+scaling1: 0.0
+timelineCount: 2
+timeline0: 0.0
+timeline1: 1.0
+- Wind - 
+active: true
+lowMin: 0.0
+lowMax: 0.0
+highMin: -100.0
+highMax: 70.0
+relative: false
+scalingCount: 5
+scaling0: 1.0
+scaling1: 0.0
+scaling2: 1.0
+scaling3: 0.0
+scaling4: 1.0
+timelineCount: 5
+timeline0: 0.0
+timeline1: 0.25342464
+timeline2: 0.47945204
+timeline3: 0.739726
+timeline4: 1.0
+- Gravity - 
+active: true
+lowMin: 0.0
+lowMax: 0.0
+highMin: -300.0
+highMax: -300.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Tint - 
+colorsCount: 3
+colors0: 1.0
+colors1: 1.0
+colors2: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Transparency - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 1.0
+highMax: 1.0
+relative: false
+scalingCount: 4
+scaling0: 0.0
+scaling1: 1.0
+scaling2: 1.0
+scaling3: 0.0
+timelineCount: 4
+timeline0: 0.0
+timeline1: 0.08219178
+timeline2: 0.70547944
+timeline3: 1.0
+- Options - 
+attached: false
+continuous: true
+aligned: true
+additive: false
+behind: false
+premultipliedAlpha: false
+spriteMode: random
+- Image Paths -
+ribboncai.png
+ribboncai1.png
+ribboncai2.png
+ribboncai3.png
+ribboncai4.png
+ribboncai5.png
+
+
+r
+- Delay -
+active: true
+lowMin: 0.0
+lowMax: 0.0
+- Duration - 
+lowMin: 100.0
+lowMax: 100.0
+- Count - 
+min: 0
+max: 3
+- Emission - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 4.0
+highMax: 4.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Life - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 8000.0
+highMax: 5000.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Life Offset - 
+active: false
+- X Offset - 
+active: false
+- Y Offset - 
+active: false
+- Spawn Shape - 
+shape: square
+- Spawn Width - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 1300.0
+highMax: 1300.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Spawn Height - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 300.0
+highMax: 300.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- X Scale - 
+lowMin: 5.0
+lowMax: 5.0
+highMin: 45.0
+highMax: 30.0
+relative: false
+scalingCount: 2
+scaling0: 1.0
+scaling1: 1.0
+timelineCount: 2
+timeline0: 0.0
+timeline1: 1.0
+- Y Scale - 
+active: false
+- Velocity - 
+active: true
+lowMin: 0.0
+lowMax: 0.0
+highMin: 20.0
+highMax: 10.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Angle - 
+active: true
+lowMin: 0.0
+lowMax: 0.0
+highMin: 90.0
+highMax: 90.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Rotation - 
+active: true
+lowMin: 0.0
+lowMax: 0.0
+highMin: -720.0
+highMax: 720.0
+relative: false
+scalingCount: 2
+scaling0: 1.0
+scaling1: 0.0
+timelineCount: 2
+timeline0: 0.0
+timeline1: 1.0
+- Wind - 
+active: true
+lowMin: 0.0
+lowMax: 0.0
+highMin: -10.0
+highMax: 10.0
+relative: false
+scalingCount: 5
+scaling0: 1.0
+scaling1: 0.0
+scaling2: 1.0
+scaling3: 0.0
+scaling4: 1.0
+timelineCount: 5
+timeline0: 0.0
+timeline1: 0.25342464
+timeline2: 0.47945204
+timeline3: 0.739726
+timeline4: 1.0
+- Gravity - 
+active: true
+lowMin: 0.0
+lowMax: 0.0
+highMin: -300.0
+highMax: -200.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Tint - 
+colorsCount: 3
+colors0: 1.0
+colors1: 1.0
+colors2: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Transparency - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 1.0
+highMax: 1.0
+relative: false
+scalingCount: 4
+scaling0: 0.0
+scaling1: 1.0
+scaling2: 1.0
+scaling3: 0.0
+timelineCount: 4
+timeline0: 0.0
+timeline1: 0.08219178
+timeline2: 0.7191781
+timeline3: 1.0
+- Options - 
+attached: false
+continuous: true
+aligned: true
+additive: false
+behind: false
+premultipliedAlpha: false
+spriteMode: random
+- Image Paths -
+ribboncai.png
+ribboncai1.png
+ribboncai2.png
+ribboncai3.png
+ribboncai4.png
+ribboncai5.png
+
+
+r
+- Delay -
+active: true
+lowMin: 0.0
+lowMax: 0.0
+- Duration - 
+lowMin: 100.0
+lowMax: 100.0
+- Count - 
+min: 0
+max: 3
+- Emission - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 3.0
+highMax: 3.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Life - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 1500.0
+highMax: 3000.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Life Offset - 
+active: false
+- X Offset - 
+active: false
+- Y Offset - 
+active: false
+- Spawn Shape - 
+shape: square
+- Spawn Width - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 1300.0
+highMax: 1300.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Spawn Height - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 200.0
+highMax: 200.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- X Scale - 
+lowMin: 5.0
+lowMax: 5.0
+highMin: 45.0
+highMax: 28.0
+relative: false
+scalingCount: 3
+scaling0: 1.0
+scaling1: 1.0
+scaling2: 0.54545456
+timelineCount: 3
+timeline0: 0.0
+timeline1: 0.8082192
+timeline2: 1.0
+- Y Scale - 
+active: true
+lowMin: 0.0
+lowMax: 0.0
+highMin: 45.0
+highMax: 28.0
+relative: false
+scalingCount: 5
+scaling0: 0.0
+scaling1: 1.0
+scaling2: 0.0
+scaling3: 1.0
+scaling4: 0.0
+timelineCount: 5
+timeline0: 0.0
+timeline1: 0.23287672
+timeline2: 0.48630136
+timeline3: 0.70547944
+timeline4: 1.0
+- Velocity - 
+active: true
+lowMin: 0.0
+lowMax: 0.0
+highMin: 10.0
+highMax: 5.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Angle - 
+active: true
+lowMin: 0.0
+lowMax: 0.0
+highMin: 90.0
+highMax: 90.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Rotation - 
+active: true
+lowMin: 0.0
+lowMax: 0.0
+highMin: -500.0
+highMax: 500.0
+relative: false
+scalingCount: 2
+scaling0: 0.0
+scaling1: 1.0
+timelineCount: 2
+timeline0: 0.0
+timeline1: 1.0
+- Wind - 
+active: true
+lowMin: 0.0
+lowMax: 0.0
+highMin: -5.0
+highMax: 20.0
+relative: false
+scalingCount: 5
+scaling0: 1.0
+scaling1: 0.0
+scaling2: 1.0
+scaling3: 0.0
+scaling4: 1.0
+timelineCount: 5
+timeline0: 0.0
+timeline1: 0.25342464
+timeline2: 0.47945204
+timeline3: 0.739726
+timeline4: 1.0
+- Gravity - 
+active: true
+lowMin: 0.0
+lowMax: 0.0
+highMin: -300.0
+highMax: -200.0
+relative: false
+scalingCount: 1
+scaling0: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Tint - 
+colorsCount: 3
+colors0: 1.0
+colors1: 1.0
+colors2: 1.0
+timelineCount: 1
+timeline0: 0.0
+- Transparency - 
+lowMin: 0.0
+lowMax: 0.0
+highMin: 1.0
+highMax: 1.0
+relative: false
+scalingCount: 4
+scaling0: 0.0
+scaling1: 1.0
+scaling2: 1.0
+scaling3: 0.0
+timelineCount: 4
+timeline0: 0.0
+timeline1: 0.08219178
+timeline2: 0.8356164
+timeline3: 1.0
+- Options - 
+attached: false
+continuous: true
+aligned: true
+additive: false
+behind: false
+premultipliedAlpha: false
+spriteMode: random
+- Image Paths -
+ribboncai3.png
+ribboncai.png
+ribboncai1.png
+ribboncai2.png
+ribboncai4.png
+ribboncai5.png
+

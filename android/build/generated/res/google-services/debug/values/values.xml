@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">278654596493</string>
+    <string name="google_api_key" translatable="false">AIzaSyDx9S7xGIuV1oK8D1a5zZst8KGbuAhHUGI</string>
+    <string name="google_app_id" translatable="false">1:278654596493:android:82d3878a9d84b8f1aa79c4</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDx9S7xGIuV1oK8D1a5zZst8KGbuAhHUGI</string>
+    <string name="google_storage_bucket" translatable="false">domino-19403.firebasestorage.app</string>
+    <string name="project_id" translatable="false">domino-19403</string>
+</resources>

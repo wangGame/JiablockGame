@@ -1,0 +1,449 @@
+{
+  "ID": "ccc4c083-cc43-4b56-9734-056103c5540c",
+  "Version": "3.10.0.0",
+  "Name": "Perssion",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 22,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 56.0,
+              "Y": 738.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0519,
+              "Y": 0.3844
+            },
+            "PreSize": {
+              "X": 0.8981,
+              "Y": 0.4047
+            },
+            "LeftMargin": 56.0,
+            "RightMargin": 54.0,
+            "TopMargin": 405.0,
+            "BottomMargin": 738.0,
+            "Tag": 28,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "perssion/bg.png",
+                  "Plist": "plistAll/Permission.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 29,
+                "ActionTag": -1736149866,
+                "Size": {
+                  "X": 970.0,
+                  "Y": 777.0
+                },
+                "Name": "floor_window",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "exitTipGroup/close.png",
+                  "Plist": "plistAll/WindowPlist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 931.0,
+                  "Y": 725.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9598,
+                  "Y": 0.9331
+                },
+                "PreSize": {
+                  "X": 0.1072,
+                  "Y": 0.1338
+                },
+                "LeftMargin": 879.0,
+                "RightMargin": -13.0,
+                "BottomMargin": 673.0,
+                "Tag": 30,
+                "ActionTag": 1355698256,
+                "Size": {
+                  "X": 104.0,
+                  "Y": 104.0
+                },
+                "Name": "close",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 279.0,
+                  "Y": 221.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2876,
+                  "Y": 0.2844
+                },
+                "PreSize": {
+                  "X": 0.4227,
+                  "Y": 0.2368
+                },
+                "LeftMargin": 74.0,
+                "RightMargin": 486.0,
+                "TopMargin": 464.0,
+                "BottomMargin": 129.0,
+                "Tag": 32,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "exitTipGroup/com_btn_green.png",
+                      "Plist": "plistAll/WindowPlist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 60,
+                    "Scale9OriginY": 60,
+                    "Scale9Width": 66,
+                    "Scale9Height": 66,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.9946
+                    },
+                    "TopMargin": 1.0,
+                    "Tag": 33,
+                    "ActionTag": -1580224170,
+                    "Size": {
+                      "X": 410.0,
+                      "Y": 183.0
+                    },
+                    "Name": "Image_1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "perssion/Closex.png",
+                      "Plist": "plistAll/Permission.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 205.0,
+                      "Y": 98.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5326
+                    },
+                    "PreSize": {
+                      "X": 0.4244,
+                      "Y": 0.3533
+                    },
+                    "LeftMargin": 104.0,
+                    "RightMargin": 104.0,
+                    "TopMargin": 53.5,
+                    "BottomMargin": 65.5,
+                    "Tag": 34,
+                    "ActionTag": -520435437,
+                    "Size": {
+                      "X": 202.0,
+                      "Y": 65.0
+                    },
+                    "Name": "okBtn_0",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -145691458,
+                "Size": {
+                  "X": 410.0,
+                  "Y": 184.0
+                },
+                "Name": "closePanel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 686.0,
+                  "Y": 221.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7072,
+                  "Y": 0.2844
+                },
+                "PreSize": {
+                  "X": 0.4227,
+                  "Y": 0.2368
+                },
+                "LeftMargin": 481.0,
+                "RightMargin": 79.0,
+                "TopMargin": 464.0,
+                "BottomMargin": 129.0,
+                "Tag": 49,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "exitTipGroup/com_btn_green.png",
+                      "Plist": "plistAll/WindowPlist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 60,
+                    "Scale9OriginY": 60,
+                    "Scale9Width": 66,
+                    "Scale9Height": 66,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.9946
+                    },
+                    "TopMargin": 1.0,
+                    "Tag": 50,
+                    "ActionTag": 561594220,
+                    "Size": {
+                      "X": 410.0,
+                      "Y": 183.0
+                    },
+                    "Name": "Image_1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "perssion/Settings.png",
+                      "Plist": "plistAll/Permission.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 204.0,
+                      "Y": 89.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4976,
+                      "Y": 0.4837
+                    },
+                    "PreSize": {
+                      "X": 0.4927,
+                      "Y": 0.3533
+                    },
+                    "LeftMargin": 56.5,
+                    "RightMargin": 58.5,
+                    "TopMargin": 54.0,
+                    "BottomMargin": 48.0,
+                    "Tag": 51,
+                    "ActionTag": 1356682492,
+                    "Size": {
+                      "X": 295.0,
+                      "Y": 82.0
+                    },
+                    "Name": "okBtn_0",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -282630619,
+                "Size": {
+                  "X": 410.0,
+                  "Y": 184.0
+                },
+                "Name": "settingPanel",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": 1462152310,
+            "Size": {
+              "X": 970.0,
+              "Y": 777.0
+            },
+            "Name": "RootView",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "plistAll/Permission.plist",
+        "plistAll/Permission.png",
+        "plistAll/WindowPlist.plist",
+        "plistAll/WindowPlist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

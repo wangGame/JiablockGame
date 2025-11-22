@@ -1,0 +1,226 @@
+{
+  "ID": "ab77784e-3a83-432b-8b2b-0e41c84682be",
+  "Version": "3.10.0.0",
+  "Name": "MainSettingGuide",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 847,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 184,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.8
+                },
+                "Position": {
+                  "X": 907.4021,
+                  "Y": 1838.2936
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8402,
+                  "Y": 0.9574
+                },
+                "PreSize": {
+                  "X": 0.8046,
+                  "Y": 0.2208
+                },
+                "LeftMargin": 38.4021,
+                "RightMargin": 172.5979,
+                "TopMargin": -3.0936,
+                "BottomMargin": 1499.0935,
+                "Tag": 185,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "mainSettingguide/settingLa.png",
+                      "Plist": "guideplist/mainSetting.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 438.0,
+                      "Y": 241.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.504,
+                      "Y": 0.5684
+                    },
+                    "PreSize": {
+                      "X": 0.702,
+                      "Y": 0.2736
+                    },
+                    "LeftMargin": -5.5,
+                    "RightMargin": -12.5,
+                    "TopMargin": 24.0,
+                    "BottomMargin": 82.0,
+                    "Tag": 36,
+                    "ActionTag": -1878416881,
+                    "Size": {
+                      "X": 887.0,
+                      "Y": 318.0
+                    },
+                    "Name": "settinglabel_2",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -106476823,
+                "Size": {
+                  "X": 869.0,
+                  "Y": 424.0
+                },
+                "Name": "shuomingPanel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "mainSettingguide/button_setting.png",
+                  "Plist": "guideplist/mainSetting.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.3626,
+                  "ScaleY": 0.6202
+                },
+                "Position": {
+                  "X": 990.8108,
+                  "Y": 1858.0988
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9174,
+                  "Y": 0.9678
+                },
+                "PreSize": {
+                  "X": 0.0889,
+                  "Y": 0.0437
+                },
+                "LeftMargin": 956.0012,
+                "RightMargin": 27.9988,
+                "TopMargin": 29.998,
+                "BottomMargin": 1806.002,
+                "Tag": 190,
+                "ActionTag": -1639810260,
+                "Size": {
+                  "X": 96.0,
+                  "Y": 84.0
+                },
+                "Name": "button_setting",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -1581458615,
+            "Size": {
+              "X": 1080.0,
+              "Y": 1920.0
+            },
+            "Name": "RootView",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "guideplist/mainSetting.plist",
+        "guideplist/mainSetting.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

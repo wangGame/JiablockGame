@@ -1,0 +1,776 @@
+{
+  "ID": "d32ab4ee-3f82-467b-a2f1-91ad5f77176e",
+  "Version": "3.10.0.0",
+  "Name": "SettingDialog",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 142,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 44.0,
+              "Y": 399.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0407,
+              "Y": 0.2078
+            },
+            "PreSize": {
+              "X": 0.9204,
+              "Y": 0.5849
+            },
+            "LeftMargin": 44.0,
+            "RightMargin": 42.0,
+            "TopMargin": 398.0,
+            "BottomMargin": 399.0,
+            "Tag": 393,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "setting/Settings.png",
+                  "Plist": "plistAll/MainSettingPlist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 497.0018,
+                  "Y": 562.022
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5005
+                },
+                "PreSize": {
+                  "X": 0.9759,
+                  "Y": 0.9858
+                },
+                "LeftMargin": 12.0018,
+                "RightMargin": 11.9982,
+                "TopMargin": 7.478,
+                "BottomMargin": 8.522,
+                "Tag": 151,
+                "ActionTag": -1695104643,
+                "Size": {
+                  "X": 970.0,
+                  "Y": 1107.0
+                },
+                "Name": "SettingsBg",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 937.006,
+                  "Y": 1057.0696
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9427,
+                  "Y": 0.9413
+                },
+                "PreSize": {
+                  "X": 0.0805,
+                  "Y": 0.0712
+                },
+                "LeftMargin": 897.006,
+                "RightMargin": 16.994,
+                "TopMargin": 25.9304,
+                "BottomMargin": 1017.0696,
+                "Tag": 154,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "setting/button_close.png",
+                      "Plist": "plistAll/MainSettingPlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 46.0,
+                      "Y": 45.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.575,
+                      "Y": 0.5625
+                    },
+                    "PreSize": {
+                      "X": 1.3,
+                      "Y": 1.3
+                    },
+                    "LeftMargin": -6.0,
+                    "RightMargin": -18.0,
+                    "TopMargin": -17.0,
+                    "BottomMargin": -7.0,
+                    "Tag": 147,
+                    "ActionTag": -324833660,
+                    "Size": {
+                      "X": 104.0,
+                      "Y": 104.0
+                    },
+                    "Name": "button_close",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1774081986,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 80.0
+                },
+                "Name": "closeBtn",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 247.0003,
+                  "Y": 855.0682
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2485,
+                  "Y": 0.7614
+                },
+                "PreSize": {
+                  "X": 0.6056,
+                  "Y": 0.049
+                },
+                "LeftMargin": 247.0003,
+                "RightMargin": 144.9997,
+                "TopMargin": 267.9318,
+                "BottomMargin": 800.0682,
+                "Tag": 155,
+                "ActionTag": 2132904775,
+                "Size": {
+                  "X": 602.0,
+                  "Y": 55.0
+                },
+                "Name": "MusicProcess",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 247.0003,
+                  "Y": 665.051
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2485,
+                  "Y": 0.5922
+                },
+                "PreSize": {
+                  "X": 0.6056,
+                  "Y": 0.049
+                },
+                "LeftMargin": 247.0003,
+                "RightMargin": 144.9997,
+                "TopMargin": 402.949,
+                "BottomMargin": 665.051,
+                "Tag": 158,
+                "ActionTag": 408885835,
+                "Size": {
+                  "X": 602.0,
+                  "Y": 55.0
+                },
+                "Name": "SoundProcess",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 658.0,
+                  "Y": 710.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.662,
+                  "Y": 0.6322
+                },
+                "PreSize": {
+                  "X": 0.2042,
+                  "Y": 0.1808
+                },
+                "LeftMargin": 658.0,
+                "RightMargin": 133.0,
+                "TopMargin": 210.0,
+                "BottomMargin": 710.0,
+                "Tag": 609,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "setting/zw.png",
+                      "Plist": "plistAll/MainSettingPlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 241,
+                    "ActionTag": -595451821,
+                    "Size": {
+                      "X": 203.0,
+                      "Y": 203.0
+                    },
+                    "Name": "m",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 250299851,
+                "Size": {
+                  "X": 203.0,
+                  "Y": 203.0
+                },
+                "Name": "m",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 398.0,
+                  "Y": 710.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4004,
+                  "Y": 0.6322
+                },
+                "PreSize": {
+                  "X": 0.2042,
+                  "Y": 0.1808
+                },
+                "LeftMargin": 398.0,
+                "RightMargin": 393.0,
+                "TopMargin": 210.0,
+                "BottomMargin": 710.0,
+                "Tag": 610,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "setting/zw.png",
+                      "Plist": "plistAll/MainSettingPlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 242,
+                    "ActionTag": -333255146,
+                    "Size": {
+                      "X": 203.0,
+                      "Y": 203.0
+                    },
+                    "Name": "s",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -289097847,
+                "Size": {
+                  "X": 203.0,
+                  "Y": 203.0
+                },
+                "Name": "s",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 137.0,
+                  "Y": 710.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1378,
+                  "Y": 0.6322
+                },
+                "PreSize": {
+                  "X": 0.2042,
+                  "Y": 0.1808
+                },
+                "LeftMargin": 137.0,
+                "RightMargin": 654.0,
+                "TopMargin": 210.0,
+                "BottomMargin": 710.0,
+                "Tag": 611,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "setting/zw.png",
+                      "Plist": "plistAll/MainSettingPlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 243,
+                    "ActionTag": -38204219,
+                    "Size": {
+                      "X": 203.0,
+                      "Y": 203.0
+                    },
+                    "Name": "v",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -384456046,
+                "Size": {
+                  "X": 203.0,
+                  "Y": 203.0
+                },
+                "Name": "v",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 677.0,
+                  "Y": 182.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6811,
+                  "Y": 0.1621
+                },
+                "PreSize": {
+                  "X": 0.2052,
+                  "Y": 0.0801
+                },
+                "LeftMargin": 677.0,
+                "RightMargin": 113.0,
+                "TopMargin": 851.0,
+                "BottomMargin": 182.0,
+                "Tag": 163,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "setting/bar_switch_1.png",
+                      "Plist": "plistAll/MainSettingPlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 164,
+                    "ActionTag": 1930215574,
+                    "Size": {
+                      "X": 204.0,
+                      "Y": 90.0
+                    },
+                    "Name": "offBg",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1011633802,
+                "Size": {
+                  "X": 204.0,
+                  "Y": 90.0
+                },
+                "Name": "ShowScoringHints",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 677.0,
+                  "Y": 404.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6811,
+                  "Y": 0.3598
+                },
+                "PreSize": {
+                  "X": 0.2052,
+                  "Y": 0.0801
+                },
+                "LeftMargin": 677.0,
+                "RightMargin": 113.0,
+                "TopMargin": 629.0,
+                "BottomMargin": 404.0,
+                "Tag": 176,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "setting/bar_switch_1.png",
+                      "Plist": "plistAll/MainSettingPlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 177,
+                    "ActionTag": -1065684591,
+                    "Size": {
+                      "X": 204.0,
+                      "Y": 90.0
+                    },
+                    "Name": "offBg",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -526024603,
+                "Size": {
+                  "X": 204.0,
+                  "Y": 90.0
+                },
+                "Name": "ShowMatchTiles",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": 892638839,
+            "Size": {
+              "X": 994.0,
+              "Y": 1123.0
+            },
+            "Name": "RootView",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "plistAll/MainSettingPlist.plist",
+        "plistAll/MainSettingPlist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

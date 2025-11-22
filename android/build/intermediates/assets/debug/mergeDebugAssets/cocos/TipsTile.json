@@ -1,0 +1,558 @@
+{
+  "ID": "cf4e1f3b-dd9b-4109-b5d1-32c323e45117",
+  "Version": "3.10.0.0",
+  "Name": "TipsTile",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 1076,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 1085,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "tipsTile/pro.png",
+                  "Plist": "plistAll/ThemePlist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 543.0,
+                  "Y": 1071.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5028,
+                  "Y": 0.5578
+                },
+                "PreSize": {
+                  "X": 0.0593,
+                  "Y": 0.0229
+                },
+                "LeftMargin": 511.0,
+                "RightMargin": 505.0,
+                "TopMargin": 827.0,
+                "BottomMargin": 1049.0,
+                "Tag": 1079,
+                "ActionTag": 494822303,
+                "Size": {
+                  "X": 64.0,
+                  "Y": 44.0
+                },
+                "Name": "mumumdominoIcon",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "tipsTile/labelTip.png",
+                  "Plist": "plistAll/ThemePlist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 542.0,
+                  "Y": 653.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5019,
+                  "Y": 0.3401
+                },
+                "PreSize": {
+                  "X": 0.562,
+                  "Y": 0.0328
+                },
+                "LeftMargin": 238.5,
+                "RightMargin": 234.5,
+                "TopMargin": 1235.5,
+                "BottomMargin": 621.5,
+                "Tag": 1082,
+                "ActionTag": 508859893,
+                "Size": {
+                  "X": 607.0,
+                  "Y": 63.0
+                },
+                "Name": "labelTip_6",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 540.0,
+                  "Y": 1497.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.7799
+                },
+                "PreSize": {
+                  "X": 0.9222,
+                  "Y": 0.1474
+                },
+                "LeftMargin": 42.0,
+                "RightMargin": 42.0,
+                "TopMargin": 281.0,
+                "BottomMargin": 1356.0,
+                "Tag": 1086,
+                "ActionTag": 1134538637,
+                "Size": {
+                  "X": 996.0,
+                  "Y": 283.0
+                },
+                "Name": "titlePanel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 540.0,
+                  "Y": 468.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.2438
+                },
+                "PreSize": {
+                  "X": 0.5926,
+                  "Y": 0.0969
+                },
+                "LeftMargin": 220.0,
+                "RightMargin": 220.0,
+                "TopMargin": 1359.0,
+                "BottomMargin": 375.0,
+                "Tag": 1087,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "tipsTile/com_btn_yellow_bg.png",
+                      "Plist": "plistAll/ThemePlist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 60,
+                    "Scale9OriginY": 60,
+                    "Scale9Width": 66,
+                    "Scale9Height": 66,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 99,
+                    "ActionTag": -544194751,
+                    "Size": {
+                      "X": 640.0,
+                      "Y": 186.0
+                    },
+                    "Name": "com_btn_bg",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 178.0,
+                      "Y": 57.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2781,
+                      "Y": 0.3065
+                    },
+                    "PreSize": {
+                      "X": 0.3672,
+                      "Y": 0.4624
+                    },
+                    "LeftMargin": 178.0,
+                    "RightMargin": 227.0,
+                    "TopMargin": 43.0,
+                    "BottomMargin": 57.0,
+                    "Tag": 2055,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "tipsTile/icon_money.png",
+                          "Plist": "plistAll/ThemePlist.plist"
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 231.0,
+                          "Y": 40.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.983,
+                          "Y": 0.4651
+                        },
+                        "PreSize": {
+                          "X": 0.3915,
+                          "Y": 1.0698
+                        },
+                        "LeftMargin": 185.0,
+                        "RightMargin": -42.0,
+                        "BottomMargin": -6.0,
+                        "Tag": 1080,
+                        "ActionTag": 1983699950,
+                        "Size": {
+                          "X": 92.0,
+                          "Y": 92.0
+                        },
+                        "Name": "icon_money",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "LabelText": "Unlock at levle",
+                        "LabelBMFontFile_CNB": {
+                          "Type": "Normal",
+                          "Path": "newFont/Manrope-ExtraBold_68_1.fnt",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 96.0,
+                          "Y": 44.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.4085,
+                          "Y": 0.5116
+                        },
+                        "PreSize": {
+                          "X": 2.0979,
+                          "Y": 1.093
+                        },
+                        "LeftMargin": -150.5,
+                        "RightMargin": -107.5,
+                        "TopMargin": -5.0,
+                        "BottomMargin": -3.0,
+                        "Tag": 2053,
+                        "ActionTag": -1749512108,
+                        "Size": {
+                          "X": 493.0,
+                          "Y": 94.0
+                        },
+                        "Name": "btnLabel",
+                        "ctype": "TextBMFontObjectData"
+                      }
+                    ],
+                    "ActionTag": 886091840,
+                    "Size": {
+                      "X": 235.0,
+                      "Y": 86.0
+                    },
+                    "Name": "Panel_2",
+                    "ctype": "PanelObjectData"
+                  }
+                ],
+                "ActionTag": -1539006088,
+                "Size": {
+                  "X": 640.0,
+                  "Y": 186.0
+                },
+                "Name": "btn",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 540.0,
+                  "Y": 254.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1323
+                },
+                "PreSize": {
+                  "X": 0.5167,
+                  "Y": 0.0552
+                },
+                "LeftMargin": 261.0,
+                "RightMargin": 261.0,
+                "TopMargin": 1613.0,
+                "BottomMargin": 201.0,
+                "Tag": 2378,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "tipsTile/Tap to skip.png",
+                      "Plist": "plistAll/ThemePlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 280.0,
+                      "Y": 54.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5018,
+                      "Y": 0.5094
+                    },
+                    "PreSize": {
+                      "X": 0.371,
+                      "Y": 0.6226
+                    },
+                    "LeftMargin": 176.5,
+                    "RightMargin": 174.5,
+                    "TopMargin": 19.0,
+                    "BottomMargin": 21.0,
+                    "Tag": 2379,
+                    "ActionTag": -2124576628,
+                    "Size": {
+                      "X": 207.0,
+                      "Y": 66.0
+                    },
+                    "Name": "Sprite_6",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 712029422,
+                "Size": {
+                  "X": 558.0,
+                  "Y": 106.0
+                },
+                "Name": "skipBtn",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": 710573280,
+            "Size": {
+              "X": 1080.0,
+              "Y": 1920.0
+            },
+            "Name": "RooView",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "newFont/Manrope-ExtraBold_68_1.fnt",
+        "newFont/Manrope-ExtraBold_68_1.png",
+        "plistAll/ThemePlist.plist",
+        "plistAll/ThemePlist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

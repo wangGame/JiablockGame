@@ -1,0 +1,218 @@
+{
+  "ID": "26c021c4-fcb7-46a3-a648-5940332271a5",
+  "Version": "3.10.0.0",
+  "Name": "drawGuide",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 1384,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.763,
+              "Y": 1.4177
+            },
+            "RightMargin": 256.0,
+            "TopMargin": -802.0,
+            "Tag": 1437,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "drawGuide/inset_1.png",
+                  "Plist": "plistAll/drawGuidePlist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 411.0,
+                  "Y": 2462.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4988,
+                  "Y": 0.9045
+                },
+                "PreSize": {
+                  "X": 0.8034,
+                  "Y": 0.205
+                },
+                "LeftMargin": 80.0,
+                "RightMargin": 82.0,
+                "TopMargin": -39.0,
+                "BottomMargin": 2163.0,
+                "Tag": 1444,
+                "ActionTag": 805962171,
+                "Size": {
+                  "X": 662.0,
+                  "Y": 598.0
+                },
+                "Name": "inset_1_14",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "drawGuide/inset_2.png",
+                  "Plist": "plistAll/drawGuidePlist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 412.0,
+                  "Y": 1799.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.6609
+                },
+                "PreSize": {
+                  "X": 0.9175,
+                  "Y": 0.2384
+                },
+                "LeftMargin": 34.0,
+                "RightMargin": 34.0,
+                "TopMargin": 598.5,
+                "BottomMargin": 1474.5,
+                "Tag": 1445,
+                "ActionTag": -1368824405,
+                "Size": {
+                  "X": 756.0,
+                  "Y": 649.0
+                },
+                "Name": "inset_2_15",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "drawGuide/inset_3.png",
+                  "Plist": "plistAll/drawGuidePlist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 410.0,
+                  "Y": 978.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4976,
+                  "Y": 0.3593
+                },
+                "PreSize": {
+                  "X": 0.9175,
+                  "Y": 0.3325
+                },
+                "LeftMargin": 32.0,
+                "RightMargin": 36.0,
+                "TopMargin": 1291.5,
+                "BottomMargin": 525.5,
+                "Tag": 1446,
+                "ActionTag": 81852033,
+                "Size": {
+                  "X": 756.0,
+                  "Y": 905.0
+                },
+                "Name": "inset_3_16",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1414155719,
+            "Size": {
+              "X": 824.0,
+              "Y": 2722.0
+            },
+            "Name": "contentView",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "plistAll/drawGuidePlist.plist",
+        "plistAll/drawGuidePlist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

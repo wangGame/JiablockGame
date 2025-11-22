@@ -1,0 +1,172 @@
+{
+  "ID": "1d746368-7cf1-4ea8-b4cc-6d65d28ab6ed",
+  "Version": "3.10.0.0",
+  "Name": "LuckDrawGuide",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 84,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 89,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "luckDrawGuide/luckDraw.png",
+                  "Plist": "plistAll/luckDrawGuide.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 539.0,
+                  "Y": 1062.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4991,
+                  "Y": 0.5531
+                },
+                "PreSize": {
+                  "X": 0.5472,
+                  "Y": 0.0604
+                },
+                "HorizontalEdge": "LeftEdge",
+                "LeftMargin": 243.5,
+                "RightMargin": 245.5,
+                "TopMargin": 800.0,
+                "BottomMargin": 1004.0,
+                "Tag": 91,
+                "ActionTag": 645750992,
+                "Size": {
+                  "X": 591.0,
+                  "Y": 116.0
+                },
+                "Name": "leagueEnter",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "luckDrawGuide/button.png",
+                  "Plist": "plistAll/luckDrawGuide.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 540.0,
+                  "Y": 866.7871
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4515
+                },
+                "PreSize": {
+                  "X": 0.4926,
+                  "Y": 0.0948
+                },
+                "LeftMargin": 274.0,
+                "RightMargin": 274.0,
+                "TopMargin": 962.2129,
+                "BottomMargin": 775.7871,
+                "Tag": 561,
+                "ActionTag": 294760955,
+                "Size": {
+                  "X": 532.0,
+                  "Y": 182.0
+                },
+                "Name": "button_1",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -785377594,
+            "Size": {
+              "X": 1080.0,
+              "Y": 1920.0
+            },
+            "Name": "RootView",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "plistAll/luckDrawGuide.plist",
+        "plistAll/luckDrawGuide.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

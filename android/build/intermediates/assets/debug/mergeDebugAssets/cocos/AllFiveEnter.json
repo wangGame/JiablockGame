@@ -1,0 +1,1009 @@
+{
+  "ID": "25a90637-7d3c-459b-bcc6-98d147f428f3",
+  "Version": "3.10.0.0",
+  "Name": "AllFiveEnter",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 231,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 44.0,
+              "Y": 434.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0407,
+              "Y": 0.226
+            },
+            "PreSize": {
+              "X": 0.9204,
+              "Y": 0.5849
+            },
+            "LeftMargin": 44.0,
+            "RightMargin": 42.0,
+            "TopMargin": 363.0,
+            "BottomMargin": 434.0,
+            "Tag": 296,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "CommonEnter/commonbg.png",
+                  "Plist": "plistAll/EnterGameGuidePlist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 497.0,
+                  "Y": 561.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.9759,
+                  "Y": 0.9688
+                },
+                "LeftMargin": 12.0,
+                "RightMargin": 12.0,
+                "TopMargin": 17.5,
+                "BottomMargin": 17.5,
+                "Tag": 329,
+                "ActionTag": -227027796,
+                "Size": {
+                  "X": 970.0,
+                  "Y": 1088.0
+                },
+                "Name": "AllFivesbg",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "CommonEnter/floor_window2_2 .png",
+                  "Plist": "plistAll/EnterGameGuidePlist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 496.0,
+                  "Y": 1071.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.499,
+                  "Y": 0.9537
+                },
+                "PreSize": {
+                  "X": 0.7746,
+                  "Y": 0.0953
+                },
+                "LeftMargin": 111.0,
+                "RightMargin": 113.0,
+                "TopMargin": -1.5,
+                "BottomMargin": 1017.5,
+                "Tag": 1119,
+                "ActionTag": 158628668,
+                "Size": {
+                  "X": 770.0,
+                  "Y": 107.0
+                },
+                "Name": "titleSprite",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 497.0,
+                  "Y": 696.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.6202
+                },
+                "PreSize": {
+                  "X": 0.827,
+                  "Y": 0.5378
+                },
+                "LeftMargin": 86.0,
+                "RightMargin": 86.0,
+                "TopMargin": 124.5,
+                "BottomMargin": 394.5,
+                "Tag": 337,
+                "ActionTag": 130543075,
+                "Size": {
+                  "X": 822.0,
+                  "Y": 604.0
+                },
+                "Name": "cotentPanel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 412.0,
+                  "Y": 310.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4145,
+                  "Y": 0.276
+                },
+                "PreSize": {
+                  "X": 0.1499,
+                  "Y": 0.0356
+                },
+                "LeftMargin": 412.0,
+                "RightMargin": 433.0,
+                "TopMargin": 773.0,
+                "BottomMargin": 310.0,
+                "Tag": 338,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "CommonEnter/selectbg.png",
+                      "Plist": "plistAll/EnterGameGuidePlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -28.0,
+                      "Y": 19.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": -0.1879,
+                      "Y": 0.475
+                    },
+                    "PreSize": {
+                      "X": 0.255,
+                      "Y": 0.975
+                    },
+                    "LeftMargin": -28.0,
+                    "RightMargin": 139.0,
+                    "TopMargin": 1.5,
+                    "BottomMargin": -0.5,
+                    "Tag": 336,
+                    "ActionTag": -199229602,
+                    "Size": {
+                      "X": 38.0,
+                      "Y": 39.0
+                    },
+                    "Name": "selectbg1",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "CommonEnter/selectbg.png",
+                      "Plist": "plistAll/EnterGameGuidePlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 52.0,
+                      "Y": 19.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.349,
+                      "Y": 0.475
+                    },
+                    "PreSize": {
+                      "X": 0.255,
+                      "Y": 0.975
+                    },
+                    "LeftMargin": 33.0,
+                    "RightMargin": 78.0,
+                    "TopMargin": 1.5,
+                    "BottomMargin": -0.5,
+                    "Tag": 340,
+                    "ActionTag": -356634221,
+                    "Size": {
+                      "X": 38.0,
+                      "Y": 39.0
+                    },
+                    "Name": "selectbg2",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "CommonEnter/selectbg.png",
+                      "Plist": "plistAll/EnterGameGuidePlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 115.0,
+                      "Y": 19.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7718,
+                      "Y": 0.475
+                    },
+                    "PreSize": {
+                      "X": 0.255,
+                      "Y": 0.975
+                    },
+                    "LeftMargin": 96.0,
+                    "RightMargin": 15.0,
+                    "TopMargin": 1.5,
+                    "BottomMargin": -0.5,
+                    "Tag": 341,
+                    "ActionTag": 1205954216,
+                    "Size": {
+                      "X": 38.0,
+                      "Y": 39.0
+                    },
+                    "Name": "selectbg3",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "CommonEnter/selectbg.png",
+                      "Plist": "plistAll/EnterGameGuidePlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 177.0,
+                      "Y": 20.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 1.1879,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.255,
+                      "Y": 0.975
+                    },
+                    "LeftMargin": 158.0,
+                    "RightMargin": -47.0,
+                    "TopMargin": 0.5,
+                    "BottomMargin": 0.5,
+                    "Tag": 975,
+                    "ActionTag": 323471935,
+                    "Size": {
+                      "X": 38.0,
+                      "Y": 39.0
+                    },
+                    "Name": "selectbg4",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "CommonEnter/select.png",
+                      "Plist": "plistAll/EnterGameGuidePlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -9.0,
+                      "Y": 21.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": -0.0604,
+                      "Y": 0.525
+                    },
+                    "PreSize": {
+                      "X": 0.2685,
+                      "Y": 1.0
+                    },
+                    "LeftMargin": -29.0,
+                    "RightMargin": 138.0,
+                    "TopMargin": -1.0,
+                    "BottomMargin": 1.0,
+                    "Tag": 335,
+                    "ActionTag": 576077572,
+                    "Size": {
+                      "X": 40.0,
+                      "Y": 40.0
+                    },
+                    "Name": "selectCursor",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -167822028,
+                "Size": {
+                  "X": 149.0,
+                  "Y": 40.0
+                },
+                "Name": "currentSelectPanel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "CommonEnter/close.png",
+                  "Plist": "plistAll/EnterGameGuidePlist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 944.0,
+                  "Y": 1074.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9497,
+                  "Y": 0.9564
+                },
+                "PreSize": {
+                  "X": 0.1046,
+                  "Y": 0.0926
+                },
+                "LeftMargin": 892.0,
+                "RightMargin": -2.0,
+                "TopMargin": -3.0,
+                "BottomMargin": 1022.0,
+                "Tag": 330,
+                "ActionTag": -2110699054,
+                "Size": {
+                  "X": 104.0,
+                  "Y": 104.0
+                },
+                "Name": "close",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 940.0,
+                  "Y": 687.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9457,
+                  "Y": 0.6118
+                },
+                "PreSize": {
+                  "X": 0.0825,
+                  "Y": 0.1202
+                },
+                "LeftMargin": 899.0,
+                "RightMargin": 13.0,
+                "TopMargin": 368.5,
+                "BottomMargin": 619.5,
+                "Tag": 359,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "CommonEnter/right.png",
+                      "Plist": "plistAll/EnterGameGuidePlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 41.0,
+                      "Y": 67.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.0122,
+                      "Y": 1.0
+                    },
+                    "LeftMargin": -0.5,
+                    "RightMargin": -0.5,
+                    "Tag": 334,
+                    "ActionTag": 1542153829,
+                    "Size": {
+                      "X": 83.0,
+                      "Y": 135.0
+                    },
+                    "Name": "right",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "CommonEnter/huir.png",
+                      "Plist": "plistAll/EnterGameGuidePlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 41.0,
+                      "Y": 67.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 903,
+                    "ActionTag": 1471986985,
+                    "Size": {
+                      "X": 82.0,
+                      "Y": 135.0
+                    },
+                    "Name": "huir_2",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -15002085,
+                "Size": {
+                  "X": 82.0,
+                  "Y": 135.0
+                },
+                "Name": "rightBtn",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 53.0,
+                  "Y": 686.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0533,
+                  "Y": 0.6109
+                },
+                "PreSize": {
+                  "X": 0.0825,
+                  "Y": 0.1202
+                },
+                "LeftMargin": 12.0,
+                "RightMargin": 900.0,
+                "TopMargin": 369.5,
+                "BottomMargin": 618.5,
+                "Tag": 358,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "CommonEnter/left.png",
+                      "Plist": "plistAll/EnterGameGuidePlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 41.0,
+                      "Y": 67.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 331,
+                    "ActionTag": 2131867761,
+                    "Size": {
+                      "X": 82.0,
+                      "Y": 135.0
+                    },
+                    "Name": "left",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "CommonEnter/huil.png",
+                      "Plist": "plistAll/EnterGameGuidePlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 41.0,
+                      "Y": 67.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 902,
+                    "ActionTag": -44882040,
+                    "Size": {
+                      "X": 82.0,
+                      "Y": 135.0
+                    },
+                    "Name": "huil_1",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1847219290,
+                "Size": {
+                  "X": 82.0,
+                  "Y": 135.0
+                },
+                "Name": "leftBtn",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 496.0,
+                  "Y": 202.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.499,
+                  "Y": 0.1799
+                },
+                "PreSize": {
+                  "X": 0.6439,
+                  "Y": 0.1656
+                },
+                "LeftMargin": 176.0,
+                "RightMargin": 178.0,
+                "TopMargin": 828.0,
+                "BottomMargin": 109.0,
+                "Tag": 339,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "CommonEnter/com_btn_green_4.png",
+                      "Plist": "plistAll/EnterGameGuidePlist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 61,
+                    "Scale9OriginY": 61,
+                    "Scale9Width": 64,
+                    "Scale9Height": 64,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 340,
+                    "ActionTag": 155725430,
+                    "Size": {
+                      "X": 640.0,
+                      "Y": 186.0
+                    },
+                    "Name": "Image_1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "CommonEnter/play.png",
+                      "Plist": "plistAll/EnterGameGuidePlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 320.0,
+                      "Y": 93.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.2344,
+                      "Y": 0.4355
+                    },
+                    "LeftMargin": 245.0,
+                    "RightMargin": 245.0,
+                    "TopMargin": 52.5,
+                    "BottomMargin": 52.5,
+                    "Tag": 341,
+                    "ActionTag": -833966011,
+                    "Size": {
+                      "X": 150.0,
+                      "Y": 81.0
+                    },
+                    "Name": "play_1",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -448452937,
+                "Size": {
+                  "X": 640.0,
+                  "Y": 186.0
+                },
+                "Name": "playBtn",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "CommonEnter/icon_draw_1.png",
+                  "Plist": "plistAll/EnterGameGuidePlist.plist"
+                },
+                "Scale9OriginX": 75,
+                "Scale9OriginY": 15,
+                "Scale9Width": 133,
+                "Scale9Height": 53,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 489.0,
+                  "Y": 1072.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.492,
+                  "Y": 0.9546
+                },
+                "PreSize": {
+                  "X": 0.2847,
+                  "Y": 0.0739
+                },
+                "LeftMargin": 347.5,
+                "RightMargin": 363.5,
+                "TopMargin": 9.5,
+                "BottomMargin": 1030.5,
+                "Tag": 1219,
+                "ActionTag": -2046444805,
+                "Size": {
+                  "X": 283.0,
+                  "Y": 83.0
+                },
+                "Name": "title",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -1567244586,
+            "Size": {
+              "X": 994.0,
+              "Y": 1123.0
+            },
+            "Name": "RootView",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "plistAll/EnterGameGuidePlist.plist",
+        "plistAll/EnterGameGuidePlist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>byondDialog/BotTitle.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1282,461},{727,51}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{727,51}</string>
+			</dict>
+			<key>byondDialog/btn_player_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1937,206},{85,88}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{85,88}</string>
+			</dict>
+			<key>byondDialog/floor_window1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{1276,690}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{1276,690}</string>
+			</dict>
+			<key>byondDialog/icon_prompts1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1776,231},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>byondDialog/tile.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1818,2},{115,225}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{115,225}</string>
+			</dict>
+			<key>byondDialog/icon_cannot.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1937,114},{88,88}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{88,88}</string>
+			</dict>
+			<key>byondDialog/icon_hint_0.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1864,231},{58,58}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{58,58}</string>
+			</dict>
+			<key>byondDialog/icon_hint_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1864,293},{58,58}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{58,58}</string>
+			</dict>
+			<key>byondDialog/icon_hint_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1776,319},{58,58}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{58,58}</string>
+			</dict>
+			<key>byondDialog/icon_hint_3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1926,298},{58,58}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{58,58}</string>
+			</dict>
+			<key>byondDialog/icon_hint_4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1988,298},{58,58}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{58,58}</string>
+			</dict>
+			<key>byondDialog/icon_hint_5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1838,355},{58,58}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{58,58}</string>
+			</dict>
+			<key>byondDialog/icon_hint_6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1900,360},{58,58}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{58,58}</string>
+			</dict>
+			<key>byondDialog/com_btn_special.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1282,2},{532,182}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{532,182}</string>
+			</dict>
+			<key>byondDialog/Draw from boneyard.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1282,406},{404,51}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{404,51}</string>
+			</dict>
+			<key>byondDialog/icon_luckydraw_icon.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1937,2},{100,108}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,108}</string>
+			</dict>
+			<key>byondDialog/icon_padlock.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1282,188},{490,140}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{490,140}</string>
+			</dict>
+			<key>byondDialog/Lucky Draw.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1282,332},{328,70}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{328,70}</string>
+			</dict>
+			<key>byondDialog/floor_window1_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,696},{1071,690}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{1071,690}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>GameByongPlist.png</string>
+			<key>realTextureFileName</key>
+			<string>GameByongPlist.png</string>
+			<key>size</key>
+			<string>{2048,2048}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>2048</integer>
+			<key>height</key>
+			<integer>2048</integer>
+		</dict>
+	</dict>
+</plist>

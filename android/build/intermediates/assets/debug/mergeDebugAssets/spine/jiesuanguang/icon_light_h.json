@@ -1,0 +1,40 @@
+{
+"skeleton": { "hash": "OY/c86/nPlU", "spine": "4.1.23", "x": -413.51, "y": -426.47, "width": 826, "height": 826 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "light_icon1", "parent": "root" },
+	{ "name": "light_ca", "parent": "light_icon1", "x": 0.15, "y": -17.42, "scaleX": 2, "scaleY": 2 }
+],
+"slots": [
+	{ "name": "light_ca", "bone": "light_ca", "color": "ffffff00", "attachment": "light_ca" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"light_ca": {
+				"light_ca": { "x": -0.33, "y": 1.97, "width": 413, "height": 413 }
+			}
+		}
+	}
+],
+"animations": {
+	"idle": {
+		"slots": {
+			"light_ca": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"light_ca": {
+				"rotate": [
+					{},
+					{ "time": 2, "value": -90 }
+				]
+			}
+		}
+	}
+}
+}

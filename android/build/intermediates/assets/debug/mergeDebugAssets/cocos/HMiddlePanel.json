@@ -1,0 +1,1735 @@
+{
+  "ID": "e0178d6d-5943-4aa3-99dc-3f63562849db",
+  "Version": "3.10.0.0",
+  "Name": "HMiddlePanel",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 193,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.9042
+            },
+            "TopMargin": 184.0,
+            "Tag": 518,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 540.0,
+                  "Y": 185.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1066
+                },
+                "PreSize": {
+                  "X": 0.5917,
+                  "Y": 0.1071
+                },
+                "LeftMargin": 220.5,
+                "RightMargin": 220.5,
+                "TopMargin": 1458.0,
+                "BottomMargin": 92.0,
+                "Tag": 309,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "home/com_btn_blue_4.png",
+                      "Plist": "plistAll/GameMainPlist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 61,
+                    "Scale9OriginY": 61,
+                    "Scale9Width": 64,
+                    "Scale9Height": 64,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -4.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": -0.0215
+                    },
+                    "PreSize": {
+                      "X": 0.9984,
+                      "Y": 1.0
+                    },
+                    "RightMargin": 1.0,
+                    "TopMargin": 4.0,
+                    "BottomMargin": -4.0,
+                    "Tag": 312,
+                    "ActionTag": -295841041,
+                    "Size": {
+                      "X": 638.0,
+                      "Y": 186.0
+                    },
+                    "Name": "Image_1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "home/icon_allfives.png",
+                      "Plist": "plistAll/GameMainPlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 301.0,
+                      "Y": 93.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.471,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.5994,
+                      "Y": 0.4624
+                    },
+                    "LeftMargin": 109.5,
+                    "RightMargin": 146.5,
+                    "TopMargin": 50.0,
+                    "BottomMargin": 50.0,
+                    "Tag": 315,
+                    "ActionTag": -1543272198,
+                    "Size": {
+                      "X": 383.0,
+                      "Y": 86.0
+                    },
+                    "Name": "icon_allfives_1",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1860805537,
+                "Size": {
+                  "X": 639.0,
+                  "Y": 186.0
+                },
+                "Name": "AllFives",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 540.0,
+                  "Y": 387.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.2229
+                },
+                "PreSize": {
+                  "X": 0.5917,
+                  "Y": 0.1071
+                },
+                "LeftMargin": 220.5,
+                "RightMargin": 220.5,
+                "TopMargin": 1256.0,
+                "BottomMargin": 294.0,
+                "Tag": 310,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "home/com_btn_yellow_4.png",
+                      "Plist": "plistAll/GameMainPlist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 61,
+                    "Scale9OriginY": 61,
+                    "Scale9Width": 64,
+                    "Scale9Height": 64,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.9984,
+                      "Y": 1.0
+                    },
+                    "RightMargin": 1.0,
+                    "Tag": 313,
+                    "ActionTag": -200114156,
+                    "Size": {
+                      "X": 638.0,
+                      "Y": 186.0
+                    },
+                    "Name": "Image_1_0",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "home/icon_block.png",
+                      "Plist": "plistAll/GameMainPlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 299.0,
+                      "Y": 97.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4679,
+                      "Y": 0.5215
+                    },
+                    "PreSize": {
+                      "X": 0.4757,
+                      "Y": 0.5054
+                    },
+                    "LeftMargin": 147.0,
+                    "RightMargin": 188.0,
+                    "TopMargin": 42.0,
+                    "BottomMargin": 50.0,
+                    "Tag": 316,
+                    "ActionTag": -1880311368,
+                    "Size": {
+                      "X": 304.0,
+                      "Y": 94.0
+                    },
+                    "Name": "icon_block_2",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 476058644,
+                "Size": {
+                  "X": 639.0,
+                  "Y": 186.0
+                },
+                "Name": "Block",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 540.0,
+                  "Y": 591.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.3404
+                },
+                "PreSize": {
+                  "X": 0.5907,
+                  "Y": 0.1071
+                },
+                "LeftMargin": 221.0,
+                "RightMargin": 221.0,
+                "TopMargin": 1052.0,
+                "BottomMargin": 498.0,
+                "Tag": 311,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "home/com_btn_green_4.png",
+                      "Plist": "plistAll/GameMainPlist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 61,
+                    "Scale9OriginY": 61,
+                    "Scale9Width": 64,
+                    "Scale9Height": 64,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 314,
+                    "ActionTag": 96096128,
+                    "Size": {
+                      "X": 638.0,
+                      "Y": 186.0
+                    },
+                    "Name": "Image_1_0_0",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "home/icon_draw.png",
+                      "Plist": "plistAll/GameMainPlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 299.0,
+                      "Y": 97.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4687,
+                      "Y": 0.5215
+                    },
+                    "PreSize": {
+                      "X": 0.4561,
+                      "Y": 0.5054
+                    },
+                    "LeftMargin": 153.5,
+                    "RightMargin": 193.5,
+                    "TopMargin": 42.0,
+                    "BottomMargin": 50.0,
+                    "Tag": 317,
+                    "ActionTag": 1795564741,
+                    "Size": {
+                      "X": 291.0,
+                      "Y": 94.0
+                    },
+                    "Name": "icon_draw_3",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1350165637,
+                "Size": {
+                  "X": 638.0,
+                  "Y": 186.0
+                },
+                "Name": "Draw",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 975.0,
+                  "Y": 920.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9028,
+                  "Y": 0.53
+                },
+                "PreSize": {
+                  "X": 0.1296,
+                  "Y": 0.0806
+                },
+                "LeftMargin": 905.0,
+                "RightMargin": 35.0,
+                "TopMargin": 746.0,
+                "BottomMargin": 850.0,
+                "Tag": 348,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "home/mIcon1.png",
+                      "Plist": "plistAll/GameMainPlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 70.0,
+                      "Y": 70.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.2357,
+                      "Y": 1.2286
+                    },
+                    "LeftMargin": -16.5,
+                    "RightMargin": -16.5,
+                    "TopMargin": -16.0,
+                    "BottomMargin": -16.0,
+                    "Tag": 349,
+                    "ActionTag": -430943990,
+                    "Size": {
+                      "X": 173.0,
+                      "Y": 172.0
+                    },
+                    "Name": "mIcon1_2",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "home/mIcon2.png",
+                      "Plist": "plistAll/GameMainPlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 70.0,
+                      "Y": 68.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.4857
+                    },
+                    "PreSize": {
+                      "X": 1.1929,
+                      "Y": 1.2
+                    },
+                    "LeftMargin": -13.5,
+                    "RightMargin": -13.5,
+                    "TopMargin": -12.0,
+                    "BottomMargin": -16.0,
+                    "Tag": 124,
+                    "ActionTag": 596207184,
+                    "Size": {
+                      "X": 167.0,
+                      "Y": 168.0
+                    },
+                    "Name": "spinIcon",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "home/btn_player_2.png",
+                      "Plist": "plistAll/GameMainPlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 129.0,
+                      "Y": 120.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.9214,
+                      "Y": 0.8571
+                    },
+                    "PreSize": {
+                      "X": 0.6071,
+                      "Y": 0.6286
+                    },
+                    "LeftMargin": 86.5,
+                    "RightMargin": -31.5,
+                    "TopMargin": -24.0,
+                    "BottomMargin": 76.0,
+                    "Tag": 562,
+                    "ActionTag": -996887017,
+                    "Size": {
+                      "X": 85.0,
+                      "Y": 88.0
+                    },
+                    "Name": "btn_player_2_6",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -43782239,
+                "Size": {
+                  "X": 140.0,
+                  "Y": 140.0
+                },
+                "Name": "leftSpin",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 976.0,
+                  "Y": 1152.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9037,
+                  "Y": 0.6636
+                },
+                "PreSize": {
+                  "X": 0.1296,
+                  "Y": 0.0806
+                },
+                "LeftMargin": 906.0,
+                "RightMargin": 34.0,
+                "TopMargin": 514.0,
+                "BottomMargin": 1082.0,
+                "Tag": 125,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "home/mIcon1.png",
+                      "Plist": "plistAll/GameMainPlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 68.0,
+                      "Y": 70.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4857,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.2357,
+                      "Y": 1.2286
+                    },
+                    "LeftMargin": -18.5,
+                    "RightMargin": -14.5,
+                    "TopMargin": -16.0,
+                    "BottomMargin": -16.0,
+                    "Tag": 836,
+                    "ActionTag": -1002462323,
+                    "Size": {
+                      "X": 173.0,
+                      "Y": 172.0
+                    },
+                    "Name": "mIcon1_2",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "home/btn_player_2.png",
+                      "Plist": "plistAll/GameMainPlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 127.0,
+                      "Y": 120.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.9071,
+                      "Y": 0.8571
+                    },
+                    "PreSize": {
+                      "X": 0.6071,
+                      "Y": 0.6286
+                    },
+                    "LeftMargin": 84.5,
+                    "RightMargin": -29.5,
+                    "TopMargin": -24.0,
+                    "BottomMargin": 76.0,
+                    "Tag": 563,
+                    "ActionTag": 1626197191,
+                    "Size": {
+                      "X": 85.0,
+                      "Y": 88.0
+                    },
+                    "Name": "btn_player_2_7",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "home/bar_home_black_3.png",
+                      "Plist": "plistAll/GameMainPlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 69.0,
+                      "Y": -23.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4929,
+                      "Y": -0.1643
+                    },
+                    "PreSize": {
+                      "X": 0.9857,
+                      "Y": 0.3714
+                    },
+                    "RightMargin": 2.0,
+                    "TopMargin": 137.0,
+                    "BottomMargin": -49.0,
+                    "Tag": 73,
+                    "ActionTag": -458600109,
+                    "Size": {
+                      "X": 138.0,
+                      "Y": 52.0
+                    },
+                    "Name": "bar_home_black_3_8",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "home/onehund.png",
+                      "Plist": "plistAll/GameMainPlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 69.0001,
+                      "Y": -23.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4929,
+                      "Y": -0.1643
+                    },
+                    "PreSize": {
+                      "X": 0.7929,
+                      "Y": 0.2643
+                    },
+                    "LeftMargin": 13.5001,
+                    "RightMargin": 15.4999,
+                    "TopMargin": 144.5,
+                    "BottomMargin": -41.5,
+                    "Tag": 597,
+                    "ActionTag": 1629157769,
+                    "Size": {
+                      "X": 111.0,
+                      "Y": 37.0
+                    },
+                    "Name": "onehund_8",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 974868916,
+                "Size": {
+                  "X": 140.0,
+                  "Y": 140.0
+                },
+                "Name": "leftCoinIcon",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": -0.8953,
+                  "Y": 1736.5106
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.0008,
+                  "Y": 1.0003
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.0795
+                },
+                "LeftMargin": -0.8953,
+                "RightMargin": 0.8953,
+                "TopMargin": -0.5106,
+                "BottomMargin": 1598.5106,
+                "Tag": 131,
+                "Children": [
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 105.0,
+                      "Y": 68.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0972,
+                      "Y": 0.4928
+                    },
+                    "PreSize": {
+                      "X": 0.1315,
+                      "Y": 1.029
+                    },
+                    "LeftMargin": 34.0,
+                    "RightMargin": 904.0,
+                    "TopMargin": -1.0,
+                    "BottomMargin": -3.0,
+                    "Tag": 144,
+                    "Children": [
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9Width": 1,
+                        "Scale9Height": 1,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 73.0,
+                          "Y": 71.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.55,
+                          "ScaleY": 0.55
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5141,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 1.0
+                        },
+                        "LeftMargin": 2.0,
+                        "RightMargin": -2.0,
+                        "Tag": 146,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "home/avatar1.png",
+                              "Plist": "plistAll/GameMainPlist.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 71.0,
+                              "Y": 70.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.493
+                            },
+                            "PreSize": {
+                              "X": 1.4085,
+                              "Y": 1.4085
+                            },
+                            "LeftMargin": -29.0,
+                            "RightMargin": -29.0,
+                            "TopMargin": -28.0,
+                            "BottomMargin": -30.0,
+                            "Tag": 141,
+                            "ActionTag": 173224920,
+                            "Size": {
+                              "X": 200.0,
+                              "Y": 200.0
+                            },
+                            "Name": "avatar",
+                            "ctype": "SpriteObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "home/frm_blue.png",
+                              "Plist": "plistAll/GameMainPlist.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 71.0,
+                              "Y": 71.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 1.4085,
+                              "Y": 1.4085
+                            },
+                            "LeftMargin": -29.0,
+                            "RightMargin": -29.0,
+                            "TopMargin": -29.0,
+                            "BottomMargin": -29.0,
+                            "Tag": 142,
+                            "ActionTag": -1421607351,
+                            "Size": {
+                              "X": 200.0,
+                              "Y": 200.0
+                            },
+                            "Name": "frm_blue_40",
+                            "ctype": "SpriteObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "home/shader_avatar.png",
+                              "Plist": "plistAll/GameMainPlist.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 71.0,
+                              "Y": 67.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.4718
+                            },
+                            "PreSize": {
+                              "X": 1.5915,
+                              "Y": 1.5915
+                            },
+                            "LeftMargin": -42.0,
+                            "RightMargin": -42.0,
+                            "TopMargin": -38.0,
+                            "BottomMargin": -46.0,
+                            "Tag": 1370,
+                            "ActionTag": 1433258709,
+                            "Size": {
+                              "X": 226.0,
+                              "Y": 226.0
+                            },
+                            "Name": "shader_avatar_1",
+                            "ctype": "SpriteObjectData"
+                          }
+                        ],
+                        "ActionTag": -750923356,
+                        "Size": {
+                          "X": 142.0,
+                          "Y": 142.0
+                        },
+                        "Name": "icon",
+                        "ctype": "PanelObjectData"
+                      },
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9Width": 1,
+                        "Scale9Height": 1,
+                        "TouchEnable": true,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 38.0,
+                          "Y": 12.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.2676,
+                          "Y": 0.0845
+                        },
+                        "PreSize": {
+                          "X": 0.6901,
+                          "Y": 0.1408
+                        },
+                        "LeftMargin": 38.0,
+                        "RightMargin": 6.0,
+                        "TopMargin": 110.0,
+                        "BottomMargin": 12.0,
+                        "Tag": 145,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "home/bar_exp_1.png",
+                              "Plist": "plistAll/GameMainPlist.plist"
+                            },
+                            "Scale9Enable": true,
+                            "Scale9OriginX": 6,
+                            "Scale9OriginY": 6,
+                            "Scale9Width": 8,
+                            "Scale9Height": 8,
+                            "AnchorPoint": {
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": -5.0,
+                              "Y": 10.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": -0.051,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 1.0306,
+                              "Y": 1.0
+                            },
+                            "LeftMargin": -5.0,
+                            "RightMargin": 2.0,
+                            "Tag": 149,
+                            "ActionTag": -340335101,
+                            "Size": {
+                              "X": 101.0,
+                              "Y": 20.0
+                            },
+                            "Name": "processbg",
+                            "ctype": "ImageViewObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "home/bar_exp_2.png",
+                              "Plist": "plistAll/GameMainPlist.plist"
+                            },
+                            "Scale9Enable": true,
+                            "Scale9OriginX": 9,
+                            "Scale9OriginY": 4,
+                            "Scale9Width": 2,
+                            "Scale9Height": 8,
+                            "AnchorPoint": {
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": -7.0,
+                              "Y": 10.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": -0.0714,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 1.0306,
+                              "Y": 0.8
+                            },
+                            "LeftMargin": -7.0,
+                            "RightMargin": 4.0,
+                            "TopMargin": 2.0,
+                            "BottomMargin": 2.0,
+                            "Tag": 150,
+                            "ActionTag": 1396279380,
+                            "Size": {
+                              "X": 101.0,
+                              "Y": 16.0
+                            },
+                            "Name": "process",
+                            "ctype": "ImageViewObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "home/icon_exp.png",
+                              "Plist": "plistAll/GameMainPlist.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": -17.0,
+                              "Y": 8.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": -0.1735,
+                              "Y": 0.4
+                            },
+                            "PreSize": {
+                              "X": 0.5714,
+                              "Y": 2.85
+                            },
+                            "LeftMargin": -45.0,
+                            "RightMargin": 87.0,
+                            "TopMargin": -16.5,
+                            "BottomMargin": -20.5,
+                            "Tag": 140,
+                            "ActionTag": -246513018,
+                            "Size": {
+                              "X": 56.0,
+                              "Y": 57.0
+                            },
+                            "Name": "star",
+                            "ctype": "SpriteObjectData"
+                          },
+                          {
+                            "LabelText": "99",
+                            "LabelBMFontFile_CNB": {
+                              "Type": "Normal",
+                              "Path": "newFont/Manrope-ExtraBold_26_1.fnt",
+                              "Plist": ""
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": -17.0,
+                              "Y": 14.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": -0.1735,
+                              "Y": 0.7
+                            },
+                            "PreSize": {
+                              "X": 0.3163,
+                              "Y": 1.8
+                            },
+                            "LeftMargin": -32.5,
+                            "RightMargin": 99.5,
+                            "TopMargin": -12.0,
+                            "BottomMargin": -4.0,
+                            "Tag": 395,
+                            "ActionTag": 262586985,
+                            "Size": {
+                              "X": 31.0,
+                              "Y": 36.0
+                            },
+                            "Name": "levelNum",
+                            "ctype": "TextBMFontObjectData"
+                          }
+                        ],
+                        "ActionTag": -1238178058,
+                        "Size": {
+                          "X": 98.0,
+                          "Y": 20.0
+                        },
+                        "Name": "processPanel",
+                        "ctype": "PanelObjectData"
+                      }
+                    ],
+                    "ActionTag": -1410730458,
+                    "Size": {
+                      "X": 142.0,
+                      "Y": 142.0
+                    },
+                    "Name": "PlayInfoPanel",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 390.0,
+                      "Y": 67.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3611,
+                      "Y": 0.4855
+                    },
+                    "PreSize": {
+                      "X": 0.2074,
+                      "Y": 0.4638
+                    },
+                    "LeftMargin": 278.0,
+                    "RightMargin": 578.0,
+                    "TopMargin": 39.0,
+                    "BottomMargin": 35.0,
+                    "Tag": 151,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "home/bar_home_black_2.png",
+                          "Plist": "plistAll/GameMainPlist.plist"
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 112.0,
+                          "Y": 32.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 1.0
+                        },
+                        "Tag": 135,
+                        "ActionTag": 1462176414,
+                        "Size": {
+                          "X": 224.0,
+                          "Y": 64.0
+                        },
+                        "Name": "bar_home_black_2_33",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": 82882331,
+                    "Size": {
+                      "X": 224.0,
+                      "Y": 64.0
+                    },
+                    "Name": "online",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 1005.0,
+                      "Y": 65.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.9306,
+                      "Y": 0.471
+                    },
+                    "PreSize": {
+                      "X": 0.0889,
+                      "Y": 0.6087
+                    },
+                    "LeftMargin": 957.0,
+                    "RightMargin": 27.0,
+                    "TopMargin": 31.0,
+                    "BottomMargin": 23.0,
+                    "Tag": 378,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "home/button_setting.png",
+                          "Plist": "plistAll/GameMainPlist.plist"
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 1.0
+                        },
+                        "Tag": 137,
+                        "ActionTag": -287681966,
+                        "Size": {
+                          "X": 96.0,
+                          "Y": 84.0
+                        },
+                        "Name": "button_setting",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": -909064123,
+                    "Size": {
+                      "X": 96.0,
+                      "Y": 84.0
+                    },
+                    "Name": "button_setting_panel",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 893.0,
+                      "Y": 65.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8269,
+                      "Y": 0.471
+                    },
+                    "PreSize": {
+                      "X": 0.0889,
+                      "Y": 0.6087
+                    },
+                    "LeftMargin": 845.0,
+                    "RightMargin": 139.0,
+                    "TopMargin": 31.0,
+                    "BottomMargin": 23.0,
+                    "Tag": 377,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "home/button_cup.png",
+                          "Plist": "plistAll/GameMainPlist.plist"
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 1.0
+                        },
+                        "Tag": 864,
+                        "ActionTag": -1460223229,
+                        "Size": {
+                          "X": 96.0,
+                          "Y": 84.0
+                        },
+                        "Name": "button_cup",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": -1071344223,
+                    "Size": {
+                      "X": 96.0,
+                      "Y": 84.0
+                    },
+                    "Name": "button_Panel",
+                    "ctype": "PanelObjectData"
+                  }
+                ],
+                "ActionTag": 1184374857,
+                "Size": {
+                  "X": 1080.0,
+                  "Y": 138.0
+                },
+                "Name": "Toppanel",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -644794920,
+            "Size": {
+              "X": 1080.0,
+              "Y": 1736.0
+            },
+            "Name": "Middle",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "newFont/Manrope-ExtraBold_26_1.fnt",
+        "newFont/Manrope-ExtraBold_26_1.png",
+        "plistAll/GameMainPlist.plist",
+        "plistAll/GameMainPlist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

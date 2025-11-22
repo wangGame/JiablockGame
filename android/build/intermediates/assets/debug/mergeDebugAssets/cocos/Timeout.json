@@ -1,0 +1,591 @@
+{
+  "ID": "8d87be78-e570-4522-9c7b-15bb27fede7e",
+  "Version": "3.10.0.0",
+  "Name": "Timeout",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 327,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 54.0,
+              "Y": 406.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.05,
+              "Y": 0.2115
+            },
+            "PreSize": {
+              "X": 0.8981,
+              "Y": 0.5766
+            },
+            "LeftMargin": 54.0,
+            "RightMargin": 56.0,
+            "TopMargin": 407.0,
+            "BottomMargin": 406.0,
+            "Tag": 328,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameover/floor_window2_2.png",
+                  "Plist": "plistAll/GameOver.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 329,
+                "ActionTag": 267694354,
+                "Size": {
+                  "X": 970.0,
+                  "Y": 1107.0
+                },
+                "Name": "floor_window",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameover/timeout/Time Is Out..png",
+                  "Plist": "plistAll/GameOver.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 484.1471,
+                  "Y": 1046.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4991,
+                  "Y": 0.9449
+                },
+                "PreSize": {
+                  "X": 0.3546,
+                  "Y": 0.0659
+                },
+                "LeftMargin": 312.1471,
+                "RightMargin": 313.8529,
+                "TopMargin": 24.5,
+                "BottomMargin": 1009.5,
+                "Tag": 330,
+                "ActionTag": 2101475663,
+                "Size": {
+                  "X": 344.0,
+                  "Y": 73.0
+                },
+                "Name": "AreYouSure_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameover/timeout/timeoutlabel.png",
+                  "Plist": "plistAll/GameOver.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 494.0,
+                  "Y": 433.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5093,
+                  "Y": 0.3911
+                },
+                "PreSize": {
+                  "X": 0.7505,
+                  "Y": 0.0506
+                },
+                "LeftMargin": 130.0,
+                "RightMargin": 112.0,
+                "TopMargin": 646.0,
+                "BottomMargin": 405.0,
+                "Tag": 331,
+                "ActionTag": 1505782021,
+                "Size": {
+                  "X": 728.0,
+                  "Y": 56.0
+                },
+                "Name": "los_3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameover/emoji.png",
+                  "Plist": "plistAll/GameOver.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 480.0,
+                  "Y": 725.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4948,
+                  "Y": 0.6549
+                },
+                "PreSize": {
+                  "X": 0.4629,
+                  "Y": 0.3704
+                },
+                "LeftMargin": 255.5,
+                "RightMargin": 265.5,
+                "TopMargin": 177.0,
+                "BottomMargin": 520.0,
+                "Tag": 332,
+                "ActionTag": 1726507236,
+                "Size": {
+                  "X": 449.0,
+                  "Y": 410.0
+                },
+                "Name": "xin_4",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 689.0,
+                  "Y": 218.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7103,
+                  "Y": 0.1969
+                },
+                "PreSize": {
+                  "X": 0.4206,
+                  "Y": 0.168
+                },
+                "LeftMargin": 485.0,
+                "RightMargin": 77.0,
+                "TopMargin": 796.0,
+                "BottomMargin": 125.0,
+                "Tag": 1091,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "gameover/timeout/com_btn_green_1.png",
+                      "Plist": "plistAll/GameOver.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 60,
+                    "Scale9OriginY": 60,
+                    "Scale9Width": 66,
+                    "Scale9Height": 66,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 91.4748
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.4918
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "TopMargin": 1.5252,
+                    "BottomMargin": -1.5252,
+                    "Tag": 1092,
+                    "ActionTag": 24503980,
+                    "Size": {
+                      "X": 408.0,
+                      "Y": 186.0
+                    },
+                    "Name": "Image_2",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "gameover/timeout/Continue.png",
+                      "Plist": "plistAll/GameOver.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 202.0,
+                      "Y": 101.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4951,
+                      "Y": 0.543
+                    },
+                    "PreSize": {
+                      "X": 0.7941,
+                      "Y": 0.3495
+                    },
+                    "LeftMargin": 40.0,
+                    "RightMargin": 44.0,
+                    "TopMargin": 52.5,
+                    "BottomMargin": 68.5,
+                    "Tag": 1093,
+                    "ActionTag": 1914072456,
+                    "Size": {
+                      "X": 324.0,
+                      "Y": 65.0
+                    },
+                    "Name": "NextMatchF_20",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1222612147,
+                "Size": {
+                  "X": 408.0,
+                  "Y": 186.0
+                },
+                "Name": "playBtn",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 283.0,
+                  "Y": 218.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2918,
+                  "Y": 0.1969
+                },
+                "PreSize": {
+                  "X": 0.4206,
+                  "Y": 0.168
+                },
+                "LeftMargin": 79.0,
+                "RightMargin": 483.0,
+                "TopMargin": 796.0,
+                "BottomMargin": 125.0,
+                "Tag": 1097,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "gameover/timeout/com_btn_red_4.png",
+                      "Plist": "plistAll/GameOver.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 60,
+                    "Scale9OriginY": 60,
+                    "Scale9Width": 66,
+                    "Scale9Height": 66,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 91.4748
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.4918
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "TopMargin": 1.5252,
+                    "BottomMargin": -1.5252,
+                    "Tag": 1098,
+                    "ActionTag": 389640534,
+                    "Size": {
+                      "X": 408.0,
+                      "Y": 186.0
+                    },
+                    "Name": "Image_2",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "gameover/timeout/Exit.png",
+                      "Plist": "plistAll/GameOver.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 203.0,
+                      "Y": 99.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4975,
+                      "Y": 0.5323
+                    },
+                    "PreSize": {
+                      "X": 0.3333,
+                      "Y": 0.3495
+                    },
+                    "LeftMargin": 135.0,
+                    "RightMargin": 137.0,
+                    "TopMargin": 54.5,
+                    "BottomMargin": 66.5,
+                    "Tag": 1099,
+                    "ActionTag": -393209184,
+                    "Size": {
+                      "X": 136.0,
+                      "Y": 65.0
+                    },
+                    "Name": "NextMatchF_20",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1152521580,
+                "Size": {
+                  "X": 408.0,
+                  "Y": 186.0
+                },
+                "Name": "exitBtn",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameover/close.png",
+                  "Plist": "plistAll/GameOver.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 933.4996,
+                  "Y": 1056.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9624,
+                  "Y": 0.9539
+                },
+                "PreSize": {
+                  "X": 0.1072,
+                  "Y": 0.0939
+                },
+                "LeftMargin": 881.4996,
+                "RightMargin": -15.4996,
+                "TopMargin": -1.0,
+                "BottomMargin": 1004.0,
+                "Tag": 352,
+                "ActionTag": -1120838627,
+                "Size": {
+                  "X": 104.0,
+                  "Y": 104.0
+                },
+                "Name": "close",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1539971854,
+            "Size": {
+              "X": 970.0,
+              "Y": 1107.0
+            },
+            "Name": "RootView",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "plistAll/GameOver.plist",
+        "plistAll/GameOver.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

@@ -1,0 +1,10 @@
+dc.png
+size:266,117
+filter:Linear,Linear
+pma:true
+tick
+bounds:2,2,130,113
+offsets:1,2,132,116
+xmark
+bounds:134,2,130,113
+offsets:1,1,132,115
