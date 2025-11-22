@@ -9,16 +9,12 @@ import com.badlogic.gdx.scenes.scene2d.ui.TextArea;
 
 public class PartActor extends Group {
     private int index = 0;
-    private Texture region;
-    private Image allImage;
-    private Image partImage;
-    public PartActor(Texture region){
+    private TextureRegion region;
+    public PartActor(TextureRegion region){
         this.region = region;
-        allImage = new Image(region);
-        addActor(allImage);
-        setSize(allImage.getWidth(),allImage.getHeight());
-
-        partImage = new Image(region);
-
+        Image image = new Image(region);
+        addActor(image);
+        setSize(image.getWidth(),image.getHeight());
+        setDebug(true);
     }
 }
