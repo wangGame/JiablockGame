@@ -35,7 +35,7 @@ import com.badlogic.gdx.utils.SnapshotArray;
  * @author mzechner
  * @author Nathan Sweet */
 public class Group extends Actor implements Cullable {
-	static private final Vector2 tmp = new Vector2();
+	static public final Vector2 tmp = new Vector2();
 
 	final SnapshotArray<Actor> children = new SnapshotArray(true, 4, Actor.class);
 	private final Affine2 worldTransform = new Affine2();

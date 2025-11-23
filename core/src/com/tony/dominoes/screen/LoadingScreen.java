@@ -2,7 +2,7 @@ package com.tony.dominoes.screen;
 
 import com.kw.gdx.BaseGame;
 import com.kw.gdx.screen.BaseScreen;
-import com.tony.dominoes.view.PicCutGroup;
+import com.tony.dominoes.view.GameView;
 
 public class LoadingScreen extends BaseScreen {
     public LoadingScreen(BaseGame game) {
@@ -12,8 +12,8 @@ public class LoadingScreen extends BaseScreen {
     @Override
     public void initView() {
         super.initView();
-        PicCutGroup picCutGroup = new PicCutGroup();
-        addActor(picCutGroup);
-        picCutGroup.setPosition(200,200);
+        GameView gameView = new GameView();
+        addActor(gameView);
+        gameView.setPosition(200,200);
     }
 }
