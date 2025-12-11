@@ -1,16 +1,14 @@
 package com.tony.puzzle;
 
-import com.badlogic.gdx.Game;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
 import com.tony.dominoes.DominoesGame;
 
 import kw.test.file.Bean;
-import kw.test.file.IconResizer;
 import kw.test.file.ReadFileConfig;
 
 //1.43f
-public class DesktopLauncher1 {
+public class DesktopLauncher {
     public static void main(String[] args) {
         ReadFileConfig readFileConfig = new ReadFileConfig();
         Bean value = readFileConfig.getValue();
