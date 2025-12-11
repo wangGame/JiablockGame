@@ -13,3 +13,4 @@ android/ic_launcher-web.png
 *.iml
 ```
 
+一些小的尝试，每个块只关心自己。
