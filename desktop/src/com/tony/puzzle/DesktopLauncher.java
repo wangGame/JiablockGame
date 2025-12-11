@@ -19,8 +19,8 @@ public class DesktopLauncher {
         config.samples = 8;
         config.useHDPI = true;
         config.stencil = 8;
-        config.width = (int) (720 * 0.5f);
-        config.height = (int) (1280*0.5f);
+        config.width = (int) (720 * 0.9f);
+        config.height = (int) (1280*0.9f);
         config.pauseWhenMinimized = true;
         config.pauseWhenBackground = true;
         new LwjglApplication(new DominoesGame(), config);
