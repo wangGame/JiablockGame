@@ -8,6 +8,24 @@ public class PartData {
     private float offset;
     private int currentX;
     private int currentY;
+    private int splitX;
+    private int splitY;
+
+    public int getSplitX() {
+        return splitX;
+    }
+
+    public void setSplitX(int splitX) {
+        this.splitX = splitX;
+    }
+
+    public int getSplitY() {
+        return splitY;
+    }
+
+    public void setSplitY(int splitY) {
+        this.splitY = splitY;
+    }
 
     public int getCurrentX() {
         return currentX;

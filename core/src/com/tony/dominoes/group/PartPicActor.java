@@ -6,13 +6,13 @@ import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Align;
+import com.badlogic.gdx.utils.Array;
 import com.kw.gdx.asset.Asset;
 import com.tony.dominoes.data.PartData;
 
 public class PartPicActor extends ModelGroup{
     private PartData partDatum;
     private Vector2 touchV2;
-
     /**
      * 我的上下左右
      * @param partDatum
@@ -22,6 +22,7 @@ public class PartPicActor extends ModelGroup{
     private boolean left = false;
     private boolean right = false;
 
+    private Vector2 touchTempV2;
     /**
      *
      * @param partDatum
@@ -31,10 +32,12 @@ public class PartPicActor extends ModelGroup{
     private Image downImg;
     private Image leftImg;
     private Image rightImg;
-
+    private Array<PartPicActor> adjacents;
 
     public PartPicActor(PartData partDatum){
         setStartModelTest(true);
+        this.touchTempV2 = new Vector2();
+        this.adjacents = new Array<>();
         this.partDatum = partDatum;
         this.touchV2 = new Vector2();
         Image image = new Image(Asset.getAsset().getTexture("filePic.png"));
@@ -63,7 +66,6 @@ public class PartPicActor extends ModelGroup{
         Actor a = new Actor();
         a.setSize(100,100);
         addActor(a);
-        a.setDebug(true);
         a.addListener(new ClickListener(){
             @Override
             public void clicked(InputEvent event, float x, float y) {
@@ -73,14 +75,52 @@ public class PartPicActor extends ModelGroup{
         });
     }
 
-    protected void drawCir(){
+    public void setTouchTempV2(float x,float y) {
+        this.touchTempV2.x = x;
+        this.touchTempV2.y = y;
+        parentToLocalCoordinates(touchTempV2);
+    }
 
-        fillRoundRect(partDatum.getOffset(), partDatum.getOffset(), partDatum.getPerW()-partDatum.getOffset()*2,
-                partDatum.getPerH()-partDatum.getOffset()*2, 20, 16);
+    public void move(float x,float y){
+        setPosition(x-touchTempV2.x,y-touchTempV2.y);
+    }
+
+    private float offsetX;
+    private float offsetY;
+    private float offsetWidth;
+    private float offsetHight;
+    protected void drawCir(){
+        offsetX = partDatum.getOffset();
+        offsetY = partDatum.getOffset();
+        offsetWidth = partDatum.getOffset();
+        offsetHight = partDatum.getOffset();
+
+        if (left){
+            offsetX = 0;
+        }
+        if (right){
+            offsetWidth = 0;
+        }
+        if (up){
+            offsetHight = 0;
+        }
+
+        if (down){
+            offsetY = 0;
+        }
+
+        fillRoundRect(offsetX,
+                offsetY,
+                partDatum.getPerW()-offsetWidth*2,
+                partDatum.getPerH()-offsetHight*2,
+                20, 16);
     }
     public void fillRoundRect(float x, float y, float width, float height, float radius, int segments) {
         float r = radius;
 
+        if (up){
+            sr.rect(x + r, y, width - 2*r, height);               // 中间横向主体
+        }
         // 中间矩形和边条（不包含四角）
         sr.rect(x + r, y, width - 2*r, height);               // 中间横向主体
         sr.rect(x, y + r, r, height - 2*r);                   // 左边竖条（去掉上下 r）
@@ -89,7 +129,11 @@ public class PartPicActor extends ModelGroup{
         // 每个角由对应的 side flags 决定是否为方角。
         // bottom-left (左下): 如果 left || down 任一为 true 就画方块，否则画弧
         if (left || down) {
-            sr.rect(x, y, r, r);
+            if (left){
+                sr.rect(x, y, r, r);
+            }else {
+                sr.rect(x, y, r, r);
+            }
         } else {
             sr.arc(x + r, y + r, r, 180, 90, segments);      // 左下角：中心 (x+r, y+r)
         }
@@ -192,5 +236,29 @@ public class PartPicActor extends ModelGroup{
             return false;
         }
         return true;
+    }
+
+
+    public void addAdjacent(PartPicActor other) {
+        adjacents.add(other);
+    }
+
+    public Array<PartPicActor> getAdjacents() {
+        return adjacents;
+    }
+
+    public int getCurrenXY(){
+        return partDatum.getCurrentY()*partDatum.getSplitX() + partDatum.getCurrentX();
+    }
+
+    public void splitValue(int index){
+        int xx = index % partDatum.getSplitX();
+        int yy = index / partDatum.getSplitY();
+        partDatum.setCurrentX(xx);
+        partDatum.setCurrentY(yy);
+    }
+
+    public void clearAllAdjacent() {
+        adjacents.clear();
     }
 }

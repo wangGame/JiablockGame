@@ -52,6 +52,8 @@ public class GameData {
         for (int i = 0; i < widthSplit; i++) {
             for (int j = 0; j < widthSplit; j++) {
                 PartData data = new PartData();
+                data.setSplitX(widthSplit);
+                data.setSplitY(heightSplit);
                 data.setOffset(offset);
                 data.setPerW(perW);
                 data.setPerH(perH);

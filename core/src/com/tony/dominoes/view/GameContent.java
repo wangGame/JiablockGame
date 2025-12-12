@@ -1,6 +1,8 @@
 package com.tony.dominoes.view;
 
+import com.badlogic.gdx.Input;
 import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.Pixmap;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.Group;
@@ -13,17 +15,18 @@ import com.tony.dominoes.data.GameData;
 import com.tony.dominoes.data.PartData;
 import com.tony.dominoes.group.PartPicActor;
 
+import java.util.HashMap;
+import java.util.HashSet;
+
 public class GameContent extends Group {
     private Array<PartPicActor> partPicActors;
     private PartPicActor tempTouchActor;
-    private Vector2 touchTempV2;
     private Vector2 touchV2;
     private GameData gameData;
     public GameContent(){
         setSize(Constant.WIDTH,Constant.HIGHT);
         this.partPicActors = new Array<>();
         this.touchV2 = new Vector2();
-        this.touchTempV2 = new Vector2();
         gameData = new GameData();
         gameData.initData();
         gameData.shuffleAll();
@@ -44,38 +47,45 @@ public class GameContent extends Group {
         picGroup.addListener(new ClickListener(){
             private Vector2 temV2 = new Vector2();
             private Vector2 temV3 = new Vector2();
+            private HashSet<PartPicActor> collectAll = new HashSet<>();
             @Override
             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
-
+                collectAll.clear();
                 for (PartPicActor part : partPicActors) {
                     touchV2.set(x,y);
                     part.parentToLocalCoordinates(touchV2);
                     Actor hit = part.hit(touchV2.x, touchV2.y);
                     if (hit!=null){
-                        touchTempV2.set(touchV2.x,touchV2.y);
+                        collectAll.add(part);
                         tempTouchActor = (PartPicActor) hit;
                         tempTouchActor.setColor(Color.BLACK);
+                        collectAll(tempTouchActor);
+                        for (PartPicActor partPicActor : collectAll) {
+                            partPicActor.setTouchTempV2(x,y);
+                        }
                         break;
                     }
                 }
                 return super.touchDown(event, x, y, pointer, button);
             }
 
+            private void collectAll(PartPicActor partPicActor) {
+                Array<PartPicActor> adjacents = partPicActor.getAdjacents();
+                for (PartPicActor adjacent : adjacents) {
+                    if (!collectAll.contains(adjacent)) {
+                        collectAll.add(adjacent);
+                        collectAll(adjacent);
+                    }
+                }
+            }
+
             @Override
             public void touchDragged(InputEvent event, float x, float y, int pointer) {
                 super.touchDragged(event, x, y, pointer);
                 if (tempTouchActor!=null) {
-                    tempTouchActor.toFront();
-                    tempTouchActor.setPosition(x - touchTempV2.x, y - touchTempV2.y);
-
-
-                    for (PartPicActor partPicActor : partPicActors) {
-                        PartData partDatum = partPicActor.getPartDatum();
-                        temV2.set(partDatum.getCurrentX() * partDatum.getPerW() + partDatum.getPerW()/2f, partDatum.getCurrentY() * partDatum.getPerH()+ partDatum.getPerH()/2f);
-                        temV3.set(tempTouchActor.getX(Align.center),tempTouchActor.getY(Align.center));
-                        float dst = temV2.dst(temV3);
-
-
+                    for (PartPicActor partPicActor : collectAll) {
+                        partPicActor.toFront();
+                        partPicActor.move(x,y);
                     }
                 }
             }
@@ -90,13 +100,15 @@ public class GameContent extends Group {
                         temV3.set(tempTouchActor.getX(Align.center),tempTouchActor.getY(Align.center));
                         float dst = temV2.dst(temV3);
                         if (dst<tempTouchActor.getPartDatum().getPerW()/2f) {
-                            changePart(tempTouchActor,partPicActor);
+                            changePart(collectAll,partPicActors,partPicActor);
                             tempTouchActor = null;
                             checkAllConnect();
                             return;
                         }
                     }
-                    tempTouchActor.setPartPosition();
+                    for (PartPicActor partPicActor : collectAll) {
+                        partPicActor.setPartPosition();
+                    }
                 }
             }
         });
@@ -107,6 +119,7 @@ public class GameContent extends Group {
     private void checkAllConnect() {
         for (int i = 0; i < partPicActors.size; i++) {
             PartPicActor partPicActor = partPicActors.get(i);
+            partPicActor.clearAllAdjacent();
             PartData partDatum = partPicActor.getPartDatum();
             partPicActor.resetDir();
             int currentX = partDatum.getCurrentX();
@@ -141,12 +154,14 @@ public class GameContent extends Group {
                 if (ox == currentX && oy == currentY + 1){
                     if (posX == sx && sy == posY + 1){
                         partPicActor.setUp(true);
+                        partPicActor.addAdjacent(other);
                     }
                 }
                     // 下
                 else if (ox == currentX && oy == currentY - 1) {
                     if (posX == sx && sy == posY - 1){
                         partPicActor.setDown(true);
+                        partPicActor.addAdjacent(other);
                     }
                 }
 
@@ -154,6 +169,7 @@ public class GameContent extends Group {
                 else if (ox == currentX - 1 && oy == currentY) {
                     if (sx == posX - 1 && posY == sy){
                         partPicActor.setLeft(true);
+                        partPicActor.addAdjacent(other);
                     }
                 }
 
@@ -161,15 +177,19 @@ public class GameContent extends Group {
                 else if (ox == currentX + 1 && oy == currentY) {
                     if (sx == posX + 1 && posY == sy){
                         partPicActor.setRight(true);
+                        partPicActor.addAdjacent(other);
                     }
                 }
-
                 partPicActor.updateBorder();
             }
         }
 
 
         checkSuccess();
+    }
+
+    public void moveAll(){
+
     }
 
     private void checkSuccess() {
@@ -181,7 +201,47 @@ public class GameContent extends Group {
         System.out.println("success  =-===========================  ");
     }
 
-    private void changePart(PartPicActor tempTouchActor, PartPicActor partPicActor) {
+    private void changePart(HashSet<PartPicActor> hashSet, Array<PartPicActor> partPicActors,PartPicActor partPicActorTemp) {
+        Array<Integer> array = new Array<>();
+        HashMap<Integer,PartPicActor> actorHashSet = new HashMap<>();
+        HashMap<Integer,PartPicActor> actorHashSetAll = new HashMap<>();
+        for (PartPicActor partPicActor : hashSet) {
+            array.add(partPicActor.getCurrenXY());
+            actorHashSet.put(partPicActor.getCurrenXY(),partPicActor);
+        }
+        array.sort();
+
+        int sourXY = tempTouchActor.getCurrenXY();
+        int currenXY = partPicActorTemp.getCurrenXY();
+        int minus = currenXY - sourXY;
+        for (int i = 0; i < array.size; i++) {
+            int i1 = array.get(i) + minus;
+            if (i1<0 || i1>gameData.getHeightSplit()*gameData.getWidthSplit()){
+                for (PartPicActor partPicActor : hashSet) {
+                    partPicActor.setPartPosition();
+                    System.out.println("失败了  ");
+                    return;
+                }
+            }
+            array.set(i,i1);
+        }
+        for (PartPicActor partPicActor : partPicActors) {
+            actorHashSetAll.put(partPicActor.getCurrenXY(),partPicActor);
+        }
+        HashMap<PartPicActor,PartPicActor> hashMap = new HashMap<>();
+        for (Integer i : array) {
+            PartPicActor partPicActor = actorHashSetAll.get(i);
+            PartPicActor partPicActor1 = actorHashSet.get(i - minus);
+            hashMap.put(partPicActor,partPicActor1);
+        }
+        for (PartPicActor partPicActor : hashMap.keySet()) {
+            PartPicActor partPicActor1 = hashMap.get(partPicActor);
+            changePartItem(partPicActor1,partPicActor);
+        }
+    }
+
+
+    private void changePartItem(PartPicActor tempTouchActor, PartPicActor partPicActor) {
         tempTouchActor.updateData(partPicActor.getPartDatum());
         tempTouchActor.setPartPosition();
         partPicActor.setPartPosition();
