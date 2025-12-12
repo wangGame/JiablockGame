@@ -2,7 +2,9 @@ package com.tony.dominoes.group;
 
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.scenes.scene2d.Actor;
+import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
+import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Align;
 import com.kw.gdx.asset.Asset;
 import com.tony.dominoes.data.PartData;
@@ -57,6 +59,18 @@ public class PartPicActor extends ModelGroup{
             leftImg.setPosition(0,getHeight()/2f,Align.center);
             rightImg.setPosition(getWidth(),getHeight()/2f,Align.center);
         }
+
+        Actor a = new Actor();
+        a.setSize(100,100);
+        addActor(a);
+        a.setDebug(true);
+        a.addListener(new ClickListener(){
+            @Override
+            public void clicked(InputEvent event, float x, float y) {
+                super.clicked(event, x, y);
+                System.out.println(left +"   "+right+"    "+up+"   "+down);
+            }
+        });
     }
 
     protected void drawCir(){
@@ -64,47 +78,43 @@ public class PartPicActor extends ModelGroup{
         fillRoundRect(partDatum.getOffset(), partDatum.getOffset(), partDatum.getPerW()-partDatum.getOffset()*2,
                 partDatum.getPerH()-partDatum.getOffset()*2, 20, 16);
     }
-
     public void fillRoundRect(float x, float y, float width, float height, float radius, int segments) {
-
-
         float r = radius;
-        // 中间矩形
-        sr.rect(x + r, y, width - 2*r, height);
-        sr.rect(x, y + r, r, height - 2*r);
-        sr.rect(x + width - r, y + r, r, height - 2*r);
-        // 四个角：4 个圆弧
-        if (left) {
-//            sr.rect(x + r, y + r, r,r);               // 左下角
+
+        // 中间矩形和边条（不包含四角）
+        sr.rect(x + r, y, width - 2*r, height);               // 中间横向主体
+        sr.rect(x, y + r, r, height - 2*r);                   // 左边竖条（去掉上下 r）
+        sr.rect(x + width - r, y + r, r, height - 2*r);       // 右边竖条（去掉上下 r）
+
+        // 每个角由对应的 side flags 决定是否为方角。
+        // bottom-left (左下): 如果 left || down 任一为 true 就画方块，否则画弧
+        if (left || down) {
             sr.rect(x, y, r, r);
-            sr.rect(x, y + height - r, r, r);
-        }else {
-            sr.arc(x + r, y + r, r, 180, 90, segments);               // 左下角
-        }
-        if (right){
-//            sr.rect(x + r, y + r, r,r);       // 右下角
-            sr.rect(x + width - r, y, r, r);
-            sr.rect(x + width - r, y + height - r, r, r);
-        }else {
-            sr.arc(x + width - r, y + r, r, 270, 90, segments);       // 右下角
-        }
-        if (up){
-//            sr.rect(x + r, y + r, r,r);  // 右上角
-            sr.rect(x + width - r, y + height - r, r, r);
-            sr.rect(x, y + height - r, r, r);
-        }else {
-            sr.arc(x + width - r, y + height - r, r, 0, 90, segments);// 右上角
+        } else {
+            sr.arc(x + r, y + r, r, 180, 90, segments);      // 左下角：中心 (x+r, y+r)
         }
 
-        if (down){
-//            sr.rect(x + r, y + r, r,r);  // 右上角
-            sr.rect(x, y + height - r, r, r);
+        // bottom-right (右下)
+        if (right || down) {
+            sr.rect(x + width - r, y, r, r);
+        } else {
+            sr.arc(x + width - r, y + r, r, 270, 90, segments); // 右下角：中心 (x+width-r, y+r)
+        }
+
+        // top-right (右上)
+        if (right || up) {
             sr.rect(x + width - r, y + height - r, r, r);
-        }else {
-            sr.arc(x + r, y + height - r, r, 90, 90, segments);       // 左上角
+        } else {
+            sr.arc(x + width - r, y + height - r, r, 0, 90, segments); // 右上角：中心 (x+width-r, y+height-r)
+        }
+
+        // top-left (左上)
+        if (left || up) {
+            sr.rect(x, y + height - r, r, r);
+        } else {
+            sr.arc(x + r, y + height - r, r, 90, 90, segments); // 左上角：中心 (x+r, y+height-r)
         }
     }
-
     public Actor hit (float x, float y) {
         touchV2.set(x,y);
         return touchV2.x >= 0 && touchV2.x < getWidth() && touchV2.y >= 0 && touchV2.y < getHeight() ? this : null;
@@ -112,7 +122,6 @@ public class PartPicActor extends ModelGroup{
 
     public void setPartPosition(){
         setPosition(partDatum.getPerW() * partDatum.getCurrentX()+ partDatum.getPerW()/2f,partDatum.getPerH() * partDatum.getCurrentY()+ partDatum.getPerH()/2f, Align.center);
-//        setPosition(partDatum.getPerW() * partDatum.getPosX(),partDatum.getPerH() * partDatum.getPosY(), Align.center);
     }
 
     public PartData getPartDatum() {

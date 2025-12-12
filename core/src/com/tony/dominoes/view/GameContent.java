@@ -39,6 +39,8 @@ public class GameContent extends Group {
             partPicActors.add(partPicActor);
         }
 
+        picGroup.setOrigin(Align.center);
+        picGroup.setScale(1.3f);
         picGroup.addListener(new ClickListener(){
             private Vector2 temV2 = new Vector2();
             private Vector2 temV3 = new Vector2();
@@ -66,14 +68,14 @@ public class GameContent extends Group {
                     tempTouchActor.toFront();
                     tempTouchActor.setPosition(x - touchTempV2.x, y - touchTempV2.y);
 
-                    System.out.println("=========================");
+
                     for (PartPicActor partPicActor : partPicActors) {
                         PartData partDatum = partPicActor.getPartDatum();
                         temV2.set(partDatum.getCurrentX() * partDatum.getPerW() + partDatum.getPerW()/2f, partDatum.getCurrentY() * partDatum.getPerH()+ partDatum.getPerH()/2f);
                         temV3.set(tempTouchActor.getX(Align.center),tempTouchActor.getY(Align.center));
                         float dst = temV2.dst(temV3);
 
-                        System.out.println(dst+"   "+temV2 + x+"  "+y);
+
                     }
                 }
             }
@@ -120,7 +122,6 @@ public class GameContent extends Group {
                     partPicActor.setLeft(false);
                 }
 
-                System.out.println(currentX+1 +"   "+gameData.getHeightSplit());
                 if (currentX + 1>= gameData.getWidthSplit()){
                     partPicActor.setRight(false);
                 }
@@ -173,8 +174,11 @@ public class GameContent extends Group {
 
     private void checkSuccess() {
         for (PartPicActor partPicActor : partPicActors) {
-            partPicActor.checkSuccess();
+            if (!partPicActor.checkSuccess()) {
+                return;
+            }
         }
+        System.out.println("success  =-===========================  ");
     }
 
     private void changePart(PartPicActor tempTouchActor, PartPicActor partPicActor) {
