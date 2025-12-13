@@ -139,6 +139,8 @@ public class GameContent extends Group {
                     partPicActor.setRight(false);
                 }
 
+
+
                 if (currentY - 1 <0){
                     partPicActor.setDown(false);
                 }

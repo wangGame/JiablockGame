@@ -19,10 +19,15 @@ public class PartPicActor extends Group {
      * 我的上下左右
      * @param partDatum
      */
+
     private boolean up = false;
-    private boolean down = false;
-    private boolean left = false;
+    private boolean upRight = false;
     private boolean right = false;
+    private boolean rightDown = false;
+    private boolean down = false;
+    private boolean downLeft = false;
+    private boolean left = false;
+    private boolean leftUp;
 
     private Vector2 touchTempV2;
     /**
@@ -47,6 +52,14 @@ public class PartPicActor extends Group {
     private Image upBorderImg;
     //down
     private Image downBorderImg;
+    //up right
+    private Image upRightJImg;
+    //up left
+    private Image upleftJImg;
+    //left down
+    private Image leftDownJImg;
+    //right down
+    private Image rightDownJImg;
     private PartContentGroup partContentGroup;
     public PartPicActor(PartData partDatum){
         partContentGroup = new PartContentGroup(partDatum);
@@ -68,6 +81,12 @@ public class PartPicActor extends Group {
             upBorderImg         = new Image(new NinePatch(Asset.getAsset().getTexture("line/line2.png"),10,10,1,1));
             downBorderImg       = new Image(new NinePatch(Asset.getAsset().getTexture("line/line6.png"),10,10,1,1));
 
+
+            upRightJImg     = new Image(Asset.getAsset().getTexture("line/line10.png"));
+            upleftJImg      = new Image(Asset.getAsset().getTexture("line/line9.png"));
+            leftDownJImg    = new Image(Asset.getAsset().getTexture("line/line12.png"));
+            rightDownJImg   = new Image(Asset.getAsset().getTexture("line/line11.png"));
+
             addActor(leftUpBorderImg);
             addActor(rightUpBorderImg);
             addActor(leftDownBorderImg);
@@ -76,6 +95,11 @@ public class PartPicActor extends Group {
             addActor(rightBorderImg);
             addActor(upBorderImg);
             addActor(downBorderImg);
+
+//            addActor(upRightJImg);
+//            addActor(upleftJImg);
+//            addActor(leftDownJImg);
+//            addActor(rightDownJImg);
 
 
 
@@ -88,6 +112,10 @@ public class PartPicActor extends Group {
             upBorderImg.setPosition(getWidth()/2f,getHeight(),Align.top);
             downBorderImg.setPosition(getWidth()/2f,0,Align.bottom);
 
+            upRightJImg.setPosition(getWidth(),getHeight());
+            upleftJImg.setPosition(0,getHeight());
+            leftDownJImg.setPosition(0,0);
+            rightDownJImg.setPosition(getWidth(),0);
         }
     }
 
@@ -168,8 +196,8 @@ public class PartPicActor extends Group {
         partContentGroup.resetDir();
     }
 
-    private float cirWidth = 50;
-    private float cirHight = 75;
+    private float cirWidth = 75.05f;
+    private float cirHight = 75.05f;
     public void updateBorder(){
 
         // 边
@@ -190,10 +218,10 @@ public class PartPicActor extends Group {
                 upBorderImg.setX(getWidth()/2f,Align.center);
             }else if (left){
                 upBorderImg.setWidth(getWidth() - cirWidth);
-                upBorderImg.setX(getWidth()/2f-cirWidth,Align.center);
+                upBorderImg.setX(0);
             }else if (right){
                 upBorderImg.setWidth(getWidth() - cirWidth);
-                upBorderImg.setX(getWidth()/2f+cirWidth,Align.center);
+                upBorderImg.setX(getWidth(),Align.right);
             }else {
                 upBorderImg.setWidth(getWidth() - 2 * cirWidth);
                 upBorderImg.setX(getWidth()/2f,Align.center);
@@ -205,10 +233,10 @@ public class PartPicActor extends Group {
                 downBorderImg.setX(getWidth()/2f,Align.center);
             }else if (left){
                 downBorderImg.setWidth(getWidth() - cirWidth);
-                downBorderImg.setX(getWidth()/2f-cirWidth,Align.center);
+                downBorderImg.setX(0);
             }else if (right){
                 downBorderImg.setWidth(getWidth() - cirWidth);
-                downBorderImg.setX(getWidth()/2f+cirWidth,Align.center);
+                downBorderImg.setX(getWidth(),Align.right);
             }else {
                 downBorderImg.setWidth(getWidth() - 2 * cirWidth);
                 downBorderImg.setX(getWidth()/2f,Align.center);
@@ -219,11 +247,11 @@ public class PartPicActor extends Group {
                 leftBorderImg.setHeight(getHeight());
                 leftBorderImg.setY(getHeight()/2f,Align.center);
             }else if (up){
-                leftBorderImg.setHeight(getHeight() + cirHight);
-                    leftBorderImg.setY(getHeight()/2f+cirHight + 30,Align.center);
+                leftBorderImg.setHeight(getHeight() - cirHight);
+                leftBorderImg.setY(getHeight(),Align.top);
             }else if (down){
                 leftBorderImg.setHeight(getHeight() - cirHight);
-                leftBorderImg.setY(getHeight()/2f-cirHight + 30,Align.center);
+                leftBorderImg.setY(0);
             }else {
                 leftBorderImg.setHeight(getHeight() - 2 * cirHight);
                 leftBorderImg.setY(getHeight()/2f,Align.center);
@@ -234,11 +262,11 @@ public class PartPicActor extends Group {
                 rightBorderImg.setHeight(getHeight());
                 rightBorderImg.setY(getHeight()/2f,Align.center);
             }else if (up){
-                rightBorderImg.setHeight(getHeight() + cirHight);
-                rightBorderImg.setY(getHeight()/2f+cirHight + 16,Align.center);
+                rightBorderImg.setHeight(getHeight() - cirHight);
+                rightBorderImg.setY(getHeight(),Align.top);
             }else if (down){
                 rightBorderImg.setHeight(getHeight() - cirHight);
-                rightBorderImg.setY(getHeight()/2f-cirHight + 16,Align.center);
+                rightBorderImg.setY(0);
             }else {
                 rightBorderImg.setHeight(getHeight() - 2 * cirHight);
                 rightBorderImg.setY(getHeight()/2f,Align.center);

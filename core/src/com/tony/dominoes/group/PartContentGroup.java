@@ -21,6 +21,7 @@ public class PartContentGroup extends ModelGroup{
         Image image = new Image(Asset.getAsset().getTexture("filePic.png"));
         addActor(image);
         image.setPosition(-partDatum.getPosX()*partDatum.getPerW(),-partDatum.getPosY()*partDatum.getPerH());
+        setSize(partDatum.getPerW(),partDatum.getPerH());
     }
 
     protected void drawCir(){
