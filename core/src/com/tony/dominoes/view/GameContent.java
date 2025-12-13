@@ -202,49 +202,67 @@ public class GameContent extends Group {
     }
 
     private void changePart(HashSet<PartPicActor> hashSet, Array<PartPicActor> partPicActors,PartPicActor partPicActorTemp) {
-        Array<Integer> array = new Array<>();
         HashMap<Integer,PartPicActor> actorHashSet = new HashMap<>();
         HashMap<Integer,PartPicActor> actorHashSetAll = new HashMap<>();
-        for (PartPicActor partPicActor : hashSet) {
-            array.add(partPicActor.getCurrenXY());
-            actorHashSet.put(partPicActor.getCurrenXY(),partPicActor);
-        }
-        array.sort();
+        //修要移动的
+        HashSet<Integer> allEmpty = new HashSet<>();
+        Array<PartPicActor> actorArray = new Array<>();
 
         int sourXY = tempTouchActor.getCurrenXY();
         int currenXY = partPicActorTemp.getCurrenXY();
         int minus = currenXY - sourXY;
-        for (int i = 0; i < array.size; i++) {
-            int i1 = array.get(i) + minus;
-            if (i1<0 || i1>gameData.getHeightSplit()*gameData.getWidthSplit()){
-                for (PartPicActor partPicActor : hashSet) {
-                    partPicActor.setPartPosition();
-                    System.out.println("失败了  ");
+
+        for (PartPicActor partPicActor : hashSet) {
+            if (partPicActor.getCurrenXY()+minus>=16||partPicActor.getCurrenXY()<0) {
+                //失败
+                for (PartPicActor temp : hashSet) {
+                    temp.setPartPosition();
+                    System.out.println("失败了 ");
                     return;
                 }
+                return;
             }
-            array.set(i,i1);
+            actorHashSet.put(partPicActor.getCurrenXY(),partPicActor);
         }
+        //当前所有的
         for (PartPicActor partPicActor : partPicActors) {
             actorHashSetAll.put(partPicActor.getCurrenXY(),partPicActor);
         }
-        HashMap<PartPicActor,PartPicActor> hashMap = new HashMap<>();
-        for (Integer i : array) {
-            PartPicActor partPicActor = actorHashSetAll.get(i);
-            PartPicActor partPicActor1 = actorHashSet.get(i - minus);
-            hashMap.put(partPicActor,partPicActor1);
-        }
-        for (PartPicActor partPicActor : hashMap.keySet()) {
-            PartPicActor partPicActor1 = hashMap.get(partPicActor);
-            changePartItem(partPicActor1,partPicActor);
-        }
-    }
 
+        HashSet<Integer> hashSet1 = new HashSet<>();
+        for (PartPicActor partPicActor : hashSet) {
+            hashSet1.add(partPicActor.getCurrenXY());
+            hashSet1.add(actorHashSetAll.get(partPicActor.getCurrenXY()+minus).getCurrenXY());
+        }
+
+        Array<PartPicActor> allPart = new Array<>();
+        for (Integer i : hashSet1) {
+            allPart.add(actorHashSetAll.get(i));
+        }
+        //设置位置
+        for (PartPicActor partPicActor : hashSet) {
+            int currenXY1 = partPicActor.getCurrenXY() + minus;
+            partPicActor.splitValue(currenXY1);
+            partPicActor.setPartPosition();
+            hashSet1.remove(currenXY1);
+            allPart.removeValue(partPicActor,true);
+        }
+
+        int index = 0;
+        for (Integer i : hashSet1) {
+            PartPicActor partPicActor = allPart.get(index);
+            partPicActor.splitValue(i);
+            index ++;
+            partPicActor.setPartPosition();
+        }
+
+
+    }
 
     private void changePartItem(PartPicActor tempTouchActor, PartPicActor partPicActor) {
         tempTouchActor.updateData(partPicActor.getPartDatum());
         tempTouchActor.setPartPosition();
-        partPicActor.setPartPosition();
+//        partPicActor.setPartPosition();
     }
 
 }

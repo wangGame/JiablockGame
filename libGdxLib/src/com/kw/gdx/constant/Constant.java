@@ -41,7 +41,7 @@ public class Constant {
     public static float GAMEWIDTH = 1080;
     public static float GAMEHIGHT = 1920;
 
-    public static Color viewColor = new Color(0.7f,0.7f,0.7f,1);
+    public static Color viewColor = new Color(1f,1f,1f,1);
     public static int batchType = 0;
     public static int viewportType = 0;
     public static boolean isSound = true;

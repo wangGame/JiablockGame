@@ -86,11 +86,8 @@ public class PartData {
     @Override
     public String toString() {
         return "PartData{" +
-                "perW=" + perW +
-                ", perH=" + perH +
-                ", posX=" + posX +
-                ", posY=" + posY +
-                ", offset=" + offset +
+                "currentY=" + currentY +
+                ", currentX=" + currentX +
                 '}';
     }
 
