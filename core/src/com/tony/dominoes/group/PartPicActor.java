@@ -1,5 +1,6 @@
 package com.tony.dominoes.group;
 
+import com.badlogic.gdx.graphics.g2d.NinePatch;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.Group;
@@ -62,10 +63,10 @@ public class PartPicActor extends Group {
             rightUpBorderImg    = new Image(Asset.getAsset().getTexture("line/line3.png"));
             leftDownBorderImg   = new Image(Asset.getAsset().getTexture("line/line7.png"));
             rightDownBorderImg  = new Image(Asset.getAsset().getTexture("line/line5.png"));
-            leftBorderImg       = new Image(Asset.getAsset().getTexture("line/line8.png"));
-            rightBorderImg      = new Image(Asset.getAsset().getTexture("line/line4.png"));
-            upBorderImg         = new Image(Asset.getAsset().getTexture("line/line2.png"));
-            downBorderImg       = new Image(Asset.getAsset().getTexture("line/line6.png"));
+            leftBorderImg       = new Image(new NinePatch(Asset.getAsset().getTexture("line/line8.png"),1,1,12,12));
+            rightBorderImg      = new Image(new NinePatch(Asset.getAsset().getTexture("line/line4.png"),1,1,12,12));
+            upBorderImg         = new Image(new NinePatch(Asset.getAsset().getTexture("line/line2.png"),10,10,1,1));
+            downBorderImg       = new Image(new NinePatch(Asset.getAsset().getTexture("line/line6.png"),10,10,1,1));
 
             addActor(leftUpBorderImg);
             addActor(rightUpBorderImg);
@@ -75,6 +76,8 @@ public class PartPicActor extends Group {
             addActor(rightBorderImg);
             addActor(upBorderImg);
             addActor(downBorderImg);
+
+
 
             leftUpBorderImg.setPosition(0,getHeight(),Align.topLeft);
             rightUpBorderImg.setPosition(getWidth(),getHeight(),Align.topRight);
@@ -165,6 +168,8 @@ public class PartPicActor extends Group {
         partContentGroup.resetDir();
     }
 
+    private float cirWidth = 50;
+    private float cirHight = 75;
     public void updateBorder(){
 
         // 边
@@ -180,38 +185,65 @@ public class PartPicActor extends Group {
         rightDownBorderImg.setVisible(!right && !down);
 
         if (!up){
-            upBorderImg.setWidth(getWidth());
-            upBorderImg.setX(getWidth()/2f,Align.center);
+            if (left && right){
+                upBorderImg.setWidth(getWidth());
+                upBorderImg.setX(getWidth()/2f,Align.center);
+            }else if (left){
+                upBorderImg.setWidth(getWidth() - cirWidth);
+                upBorderImg.setX(getWidth()/2f-cirWidth,Align.center);
+            }else if (right){
+                upBorderImg.setWidth(getWidth() - cirWidth);
+                upBorderImg.setX(getWidth()/2f+cirWidth,Align.center);
+            }else {
+                upBorderImg.setWidth(getWidth() - 2 * cirWidth);
+                upBorderImg.setX(getWidth()/2f,Align.center);
+            }
         }
         if (!down){
-            downBorderImg.setWidth(getWidth());
-            downBorderImg.setX(getWidth()/2f,Align.center);
+            if (left && right){
+                downBorderImg.setWidth(getWidth());
+                downBorderImg.setX(getWidth()/2f,Align.center);
+            }else if (left){
+                downBorderImg.setWidth(getWidth() - cirWidth);
+                downBorderImg.setX(getWidth()/2f-cirWidth,Align.center);
+            }else if (right){
+                downBorderImg.setWidth(getWidth() - cirWidth);
+                downBorderImg.setX(getWidth()/2f+cirWidth,Align.center);
+            }else {
+                downBorderImg.setWidth(getWidth() - 2 * cirWidth);
+                downBorderImg.setX(getWidth()/2f,Align.center);
+            }
         }
         if (!left){
-            leftBorderImg.setHeight(getHeight());
-            leftBorderImg.setY(getHeight()/2f,Align.center);
+            if (up && down){
+                leftBorderImg.setHeight(getHeight());
+                leftBorderImg.setY(getHeight()/2f,Align.center);
+            }else if (up){
+                leftBorderImg.setHeight(getHeight() + cirHight);
+                    leftBorderImg.setY(getHeight()/2f+cirHight + 30,Align.center);
+            }else if (down){
+                leftBorderImg.setHeight(getHeight() - cirHight);
+                leftBorderImg.setY(getHeight()/2f-cirHight + 30,Align.center);
+            }else {
+                leftBorderImg.setHeight(getHeight() - 2 * cirHight);
+                leftBorderImg.setY(getHeight()/2f,Align.center);
+            }
         }
         if (!right){
-            rightBorderImg.setHeight(getHeight());
-            rightBorderImg.setY(getHeight()/2f,Align.center);
+            if (up && down){
+                rightBorderImg.setHeight(getHeight());
+                rightBorderImg.setY(getHeight()/2f,Align.center);
+            }else if (up){
+                rightBorderImg.setHeight(getHeight() + cirHight);
+                rightBorderImg.setY(getHeight()/2f+cirHight + 16,Align.center);
+            }else if (down){
+                rightBorderImg.setHeight(getHeight() - cirHight);
+                rightBorderImg.setY(getHeight()/2f-cirHight + 16,Align.center);
+            }else {
+                rightBorderImg.setHeight(getHeight() - 2 * cirHight);
+                rightBorderImg.setY(getHeight()/2f,Align.center);
+            }
         }
-
-
-//        leftBorderImg.setVisible(!left);
-//        leftUpBorderImg.setVisible(!left);
-//        leftDownBorderImg.setVisible(!left);
-//
-//        rightBorderImg.setVisible(!right);
-//        rightUpBorderImg.setVisible(!right);
-//        rightDownBorderImg.setVisible(!right);
-//
-//        upBorderImg.setVisible(!up);
-//        leftUpBorderImg.setVisible(!up);
-//        rightUpBorderImg.setVisible(!up);
-//
-//        downBorderImg.setVisible(!down);
-//        leftDownBorderImg.setVisible(!down);
-//        rightDownBorderImg.setVisible(!down);
     }
 
     public boolean checkSuccess() {
