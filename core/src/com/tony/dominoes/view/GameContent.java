@@ -93,22 +93,26 @@ public class GameContent extends Group {
             @Override
             public void touchUp(InputEvent event, float x, float y, int pointer, int button) {
                 super.touchUp(event, x, y, pointer, button);
+
                 if (tempTouchActor!=null){
+                    PartPicActor targetPic = tempTouchActor;
+                    float minDis = Float.MAX_VALUE;
                     for (PartPicActor partPicActor : partPicActors) {
                         PartData partDatum = partPicActor.getPartDatum();
                         temV2.set(partDatum.getCurrentX() * partDatum.getPerW() + partDatum.getPerW()/2f,partDatum.getCurrentY() * partDatum.getPerH() + partDatum.getPerH()/2f);
                         temV3.set(tempTouchActor.getX(Align.center),tempTouchActor.getY(Align.center));
                         float dst = temV2.dst(temV3);
-                        if (dst<tempTouchActor.getPartDatum().getPerW()/2f) {
-                            changePart(collectAll,partPicActors,partPicActor);
-                            tempTouchActor = null;
-                            checkAllConnect();
-                            return;
+                        if (minDis>dst){
+                            targetPic = partPicActor;
+                            minDis = dst;
                         }
                     }
-                    for (PartPicActor partPicActor : collectAll) {
-                        partPicActor.setPartPosition();
-                    }
+
+
+                    changePart(collectAll,partPicActors,targetPic);
+                    tempTouchActor = null;
+                    checkAllConnect();
+                    return;
                 }
             }
         });
@@ -215,7 +219,7 @@ public class GameContent extends Group {
         int minus = currenXY - sourXY;
 
         for (PartPicActor partPicActor : hashSet) {
-            if (partPicActor.getCurrenXY()+minus>=16||partPicActor.getCurrenXY()<0) {
+            if (partPicActor.getCurrenXY()+minus>=gameData.getWidthSplit()*gameData.getHeightSplit()||partPicActor.getCurrenXY()<0) {
                 //失败
                 for (PartPicActor temp : hashSet) {
                     temp.setPartPosition();

@@ -61,6 +61,9 @@ public class PartPicActor extends Group {
     //right down
     private Image rightDownJImg;
     private PartContentGroup partContentGroup;
+
+    private float cirWidth = 75.05f;
+    private float cirHight = 75.05f;
     public PartPicActor(PartData partDatum){
         partContentGroup = new PartContentGroup(partDatum);
         partContentGroup.setStartModelTest(true);
@@ -87,14 +90,14 @@ public class PartPicActor extends Group {
             leftDownJImg    = new Image(Asset.getAsset().getTexture("line/line12.png"));
             rightDownJImg   = new Image(Asset.getAsset().getTexture("line/line11.png"));
 
-            addActor(leftUpBorderImg);
-            addActor(rightUpBorderImg);
-            addActor(leftDownBorderImg);
-            addActor(rightDownBorderImg);
-            addActor(leftBorderImg);
-            addActor(rightBorderImg);
-            addActor(upBorderImg);
-            addActor(downBorderImg);
+//            addActor(leftUpBorderImg);
+//            addActor(rightUpBorderImg);
+//            addActor(leftDownBorderImg);
+//            addActor(rightDownBorderImg);
+//            addActor(leftBorderImg);
+//            addActor(rightBorderImg);
+//            addActor(upBorderImg);
+//            addActor(downBorderImg);
 
 //            addActor(upRightJImg);
 //            addActor(upleftJImg);
@@ -115,7 +118,7 @@ public class PartPicActor extends Group {
             upRightJImg.setPosition(getWidth(),getHeight());
             upleftJImg.setPosition(0,getHeight());
             leftDownJImg.setPosition(0,0);
-            rightDownJImg.setPosition(getWidth(),0);
+            rightDownJImg.setPosition(getWidth(),23,Align.top);
         }
     }
 
@@ -196,8 +199,6 @@ public class PartPicActor extends Group {
         partContentGroup.resetDir();
     }
 
-    private float cirWidth = 75.05f;
-    private float cirHight = 75.05f;
     public void updateBorder(){
 
         // 边
