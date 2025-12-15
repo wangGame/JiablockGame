@@ -4,9 +4,11 @@ import com.badlogic.gdx.Input;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Pixmap;
 import com.badlogic.gdx.math.Vector2;
+import com.badlogic.gdx.scenes.scene2d.Action;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.Group;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
+import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Align;
 import com.badlogic.gdx.utils.Array;
@@ -63,6 +65,11 @@ public class GameContent extends Group {
                         for (PartPicActor partPicActor : collectAll) {
                             partPicActor.setTouchTempV2(x,y);
                         }
+                        hit.setOrigin(Align.center);
+                        hit.addAction(Actions.sequence(
+                                Actions.scaleTo(3,3,2),
+                                Actions.scaleTo(0.5f,0.5f,2)));
+
                         break;
                     }
                 }

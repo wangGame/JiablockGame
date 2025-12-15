@@ -15,8 +15,8 @@ public class GameData {
 
     public GameData(){
         this.partData = new Array<>();
-        this.widthSplit = 8;
-        this.heightSplit = 8;
+        this.widthSplit = 4;
+        this.heightSplit = 4;
         this.offset = 4;
     }
 

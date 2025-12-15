@@ -22,15 +22,15 @@ public class ThreeActor extends Actor {
     public ModelBatch modelBatch;
     private ModelInstance shipInstance;
 
-    public ThreeActor(){
-        environment = new Environment();
-        environment.set(new ColorAttribute(ColorAttribute.AmbientLight, 0.9f, 0.9f, 0.9f, 1f));//环境光
-        modelBatch = new ModelBatch();
-        shipInstance = ModelUtils.createInstance();
-        shipInstance.transform.setToTranslation(120,120,-400);
-        shipInstance.transform.scale(700, 700, 700f);
-        shipInstance.calculateTransforms();
-    }
+//    public ThreeActor(){
+//        environment = new Environment();
+//        environment.set(new ColorAttribute(ColorAttribute.AmbientLight, 0.9f, 0.9f, 0.9f, 1f));//环境光
+//        modelBatch = new ModelBatch();
+//        shipInstance = ModelUtils.createInstance();
+//        shipInstance.transform.setToTranslation(120,120,-400);
+//        shipInstance.transform.scale(700, 700, 700f);
+//        shipInstance.calculateTransforms();
+//    }
 
     @Override
     public void draw(Batch batch, float parentAlpha) {

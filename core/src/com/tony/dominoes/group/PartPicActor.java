@@ -87,10 +87,7 @@ public class PartPicActor extends Group {
 
             upRightJImg     = new Image(Asset.getAsset().getTexture("line/line10.png"));
             upleftJImg      = new Image(Asset.getAsset().getTexture("line/line9.png"));
-            leftDownJImg    = new Image(Asset.getAsset().getTexture("line/line12.png"));
-            rightDownJImg   = new Image(Asset.getAsset().getTexture("line/line11.png"));
-
-//            addActor(leftUpBorderImg);
+            leftDownJImg    = new Image(Asset.getAsset().getTexture(//            addActor(leftUpBorderImg);
 //            addActor(rightUpBorderImg);
 //            addActor(leftDownBorderImg);
 //            addActor(rightDownBorderImg);
@@ -98,6 +95,9 @@ public class PartPicActor extends Group {
 //            addActor(rightBorderImg);
 //            addActor(upBorderImg);
 //            addActor(downBorderImg);
+                    "line/line12.png"));
+            rightDownJImg   = new Image(Asset.getAsset().getTexture("line/line11.png"));
+
 
 //            addActor(upRightJImg);
 //            addActor(upleftJImg);
