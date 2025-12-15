@@ -45,7 +45,7 @@ public class GameContent extends Group {
         }
 
         picGroup.setOrigin(Align.center);
-        picGroup.setScale(1.3f);
+
         picGroup.addListener(new ClickListener(){
             private Vector2 temV2 = new Vector2();
             private Vector2 temV3 = new Vector2();
@@ -65,10 +65,6 @@ public class GameContent extends Group {
                         for (PartPicActor partPicActor : collectAll) {
                             partPicActor.setTouchTempV2(x,y);
                         }
-                        hit.setOrigin(Align.center);
-                        hit.addAction(Actions.sequence(
-                                Actions.scaleTo(3,3,2),
-                                Actions.scaleTo(0.5f,0.5f,2)));
 
                         break;
                     }

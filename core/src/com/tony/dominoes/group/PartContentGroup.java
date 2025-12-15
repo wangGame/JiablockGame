@@ -48,7 +48,7 @@ public class PartContentGroup extends ModelGroup{
                 offsetY,
                 partDatum.getPerW()-offsetWidth*2,
                 partDatum.getPerH()-offsetHight*2,
-                30, 16);
+                9, 16);
     }
     public void fillRoundRect(float x, float y, float width, float height, float radius, int segments) {
         float r = radius;

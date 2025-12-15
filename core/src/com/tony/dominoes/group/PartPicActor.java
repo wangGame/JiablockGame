@@ -62,8 +62,8 @@ public class PartPicActor extends Group {
     private Image rightDownJImg;
     private PartContentGroup partContentGroup;
 
-    private float cirWidth = 75.05f;
-    private float cirHight = 75.05f;
+    private float cirWidth = 20.05f;
+    private float cirHight = 20.05f;
     public PartPicActor(PartData partDatum){
         partContentGroup = new PartContentGroup(partDatum);
         partContentGroup.setStartModelTest(true);
@@ -79,25 +79,25 @@ public class PartPicActor extends Group {
             rightUpBorderImg    = new Image(Asset.getAsset().getTexture("line/line3.png"));
             leftDownBorderImg   = new Image(Asset.getAsset().getTexture("line/line7.png"));
             rightDownBorderImg  = new Image(Asset.getAsset().getTexture("line/line5.png"));
-            leftBorderImg       = new Image(new NinePatch(Asset.getAsset().getTexture("line/line8.png"),1,1,12,12));
-            rightBorderImg      = new Image(new NinePatch(Asset.getAsset().getTexture("line/line4.png"),1,1,12,12));
-            upBorderImg         = new Image(new NinePatch(Asset.getAsset().getTexture("line/line2.png"),10,10,1,1));
-            downBorderImg       = new Image(new NinePatch(Asset.getAsset().getTexture("line/line6.png"),10,10,1,1));
+            leftBorderImg       = new Image(new NinePatch(Asset.getAsset().getTexture("line/line8.png"),1,1,3,3));
+            rightBorderImg      = new Image(new NinePatch(Asset.getAsset().getTexture("line/line4.png"),1,1,3,3));
+            upBorderImg         = new Image(new NinePatch(Asset.getAsset().getTexture("line/line2.png"),3,3,1,1));
+            downBorderImg       = new Image(new NinePatch(Asset.getAsset().getTexture("line/line6.png"),3,3,1,1));
 
 
             upRightJImg     = new Image(Asset.getAsset().getTexture("line/line10.png"));
             upleftJImg      = new Image(Asset.getAsset().getTexture("line/line9.png"));
-            leftDownJImg    = new Image(Asset.getAsset().getTexture(//            addActor(leftUpBorderImg);
-//            addActor(rightUpBorderImg);
-//            addActor(leftDownBorderImg);
-//            addActor(rightDownBorderImg);
-//            addActor(leftBorderImg);
-//            addActor(rightBorderImg);
-//            addActor(upBorderImg);
-//            addActor(downBorderImg);
-                    "line/line12.png"));
+            leftDownJImg    = new Image(Asset.getAsset().getTexture("line/line12.png"));
             rightDownJImg   = new Image(Asset.getAsset().getTexture("line/line11.png"));
 
+            addActor(leftUpBorderImg);
+            addActor(rightUpBorderImg);
+            addActor(leftDownBorderImg);
+            addActor(rightDownBorderImg);
+            addActor(leftBorderImg);
+            addActor(rightBorderImg);
+            addActor(upBorderImg);
+            addActor(downBorderImg);
 
 //            addActor(upRightJImg);
 //            addActor(upleftJImg);
